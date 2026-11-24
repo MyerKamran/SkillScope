@@ -1,0 +1,2478 @@
+skill_key_a,skill_name_a,skill_key_b,skill_name_b,co_posting_count,jaccard_index,conditional_prob,cooccurrence_strength
+30,Excel,83,Financial Accounting & Audit (GAAP),662,0.1155,0.3802,0.2479
+30,Excel,85,Supply Chain & Procurement,553,0.0851,0.2303,0.1577
+61,CI/CD & Git,64,Agile & Scrum,479,0.1957,0.5512,0.3734
+1,Python,2,SQL,455,0.2125,0.3879,0.3002
+2,SQL,64,Agile & Scrum,415,0.1354,0.2916,0.2135
+30,Excel,78,ERP Systems (SAP / NetSuite / Workday),370,0.0695,0.3561,0.2128
+55,AWS,56,Microsoft Azure,360,0.2727,0.4615,0.3671
+1,Python,55,AWS,353,0.2052,0.3922,0.2987
+5,Java,64,Agile & Scrum,352,0.1431,0.4668,0.305
+2,SQL,42,Microsoft SQL Server,343,0.2374,0.9397,0.5885
+5,Java,61,CI/CD & Git,326,0.2513,0.4324,0.3419
+78,ERP Systems (SAP / NetSuite / Workday),85,Supply Chain & Procurement,320,0.1026,0.308,0.2053
+1,Python,64,Agile & Scrum,319,0.1095,0.272,0.1907
+55,AWS,64,Agile & Scrum,306,0.1154,0.34,0.2277
+55,AWS,61,CI/CD & Git,303,0.2067,0.3487,0.2777
+1,Python,61,CI/CD & Git,301,0.1729,0.3464,0.2596
+2,SQL,56,Microsoft Azure,297,0.1558,0.3808,0.2683
+2,SQL,31,ETL & Data Pipelines,293,0.1824,0.6155,0.399
+3,JavaScript,54,HTML & CSS,292,0.3758,0.6033,0.4896
+2,SQL,55,AWS,292,0.1438,0.3244,0.2341
+64,Agile & Scrum,65,Product Management,290,0.1152,0.3872,0.2512
+1,Python,5,Java,290,0.1772,0.3846,0.2809
+56,Microsoft Azure,64,Agile & Scrum,280,0.1095,0.359,0.2342
+2,SQL,61,CI/CD & Git,277,0.1375,0.3188,0.2281
+64,Agile & Scrum,82,Project Management & SDLC (PMP),265,0.0985,0.2951,0.1968
+3,JavaScript,64,Agile & Scrum,265,0.1114,0.453,0.2822
+2,SQL,43,Oracle Database,260,0.1709,0.7263,0.4486
+30,Excel,68,Financial & Business Analysis,258,0.0512,0.3981,0.2247
+2,SQL,5,Java,250,0.1297,0.3316,0.2307
+64,Agile & Scrum,73,ServiceNow & ITIL / ITSM,246,0.0847,0.2253,0.155
+53,REST & GraphQL APIs,61,CI/CD & Git,244,0.2257,0.5351,0.3804
+53,REST & GraphQL APIs,64,Agile & Scrum,244,0.1075,0.5351,0.3213
+2,SQL,30,Excel,243,0.0417,0.1708,0.1062
+3,JavaScript,5,Java,243,0.2217,0.4154,0.3185
+78,ERP Systems (SAP / NetSuite / Workday),83,Financial Accounting & Audit (GAAP),243,0.0958,0.2339,0.1648
+5,Java,55,AWS,238,0.1681,0.3156,0.2419
+30,Excel,82,Project Management & SDLC (PMP),231,0.0434,0.2572,0.1503
+55,AWS,57,Google Cloud Platform (GCP),230,0.2095,0.5374,0.3734
+3,JavaScript,61,CI/CD & Git,229,0.1869,0.3915,0.2892
+56,Microsoft Azure,61,CI/CD & Git,224,0.1572,0.2872,0.2222
+5,Java,53,REST & GraphQL APIs,221,0.2235,0.4846,0.3541
+1,Python,56,Microsoft Azure,219,0.1263,0.2808,0.2035
+1,Python,62,Linux,218,0.1393,0.3574,0.2483
+30,Excel,64,Agile & Scrum,215,0.0331,0.1045,0.0688
+30,Excel,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),213,0.0375,0.1715,0.1045
+2,SQL,3,JavaScript,209,0.1162,0.3573,0.2367
+2,SQL,28,Tableau,203,0.1259,0.5179,0.3219
+56,Microsoft Azure,57,Google Cloud Platform (GCP),201,0.1996,0.4696,0.3346
+3,JavaScript,46,React,201,0.2926,0.6634,0.478
+30,Excel,79,CRM Platforms (Salesforce / HubSpot),200,0.0366,0.1969,0.1167
+58,Docker,61,CI/CD & Git,200,0.2045,0.6472,0.4259
+7,C#,52,.NET Core,197,0.432,0.608,0.52
+1,Python,16,Machine Learning,197,0.1384,0.4407,0.2896
+1,Python,15,Bash / Shell,194,0.1493,0.6062,0.3778
+63,Cybersecurity & IAM,71,Networking & Infrastructure,192,0.126,0.2291,0.1776
+58,Docker,59,Kubernetes,192,0.4374,0.6214,0.5294
+56,Microsoft Azure,71,Networking & Infrastructure,191,0.1338,0.2449,0.1894
+1,Python,31,ETL & Data Pipelines,189,0.1295,0.3971,0.2633
+25,Statistics & A/B Testing,30,Excel,188,0.0361,0.2537,0.1449
+68,Financial & Business Analysis,83,Financial Accounting & Audit (GAAP),187,0.0849,0.2886,0.1868
+2,SQL,27,Power BI,184,0.1123,0.4612,0.2867
+82,Project Management & SDLC (PMP),85,Supply Chain & Procurement,182,0.0584,0.2027,0.1305
+2,SQL,62,Linux,180,0.0971,0.2951,0.1961
+30,Excel,86,Talent Acquisition & HRIS,180,0.0339,0.2169,0.1254
+61,CI/CD & Git,62,Linux,179,0.1377,0.2934,0.2156
+1,Python,6,C++,178,0.1333,0.5235,0.3284
+62,Linux,64,Agile & Scrum,178,0.0715,0.2918,0.1816
+59,Kubernetes,61,CI/CD & Git,177,0.1746,0.5497,0.3621
+62,Linux,71,Networking & Infrastructure,175,0.1375,0.2869,0.2122
+64,Agile & Scrum,69,Test Automation (Selenium / Cypress),175,0.0796,0.5556,0.3176
+55,AWS,63,Cybersecurity & IAM,174,0.1085,0.1982,0.1533
+2,SQL,25,Statistics & A/B Testing,174,0.0874,0.2348,0.1611
+55,AWS,62,Linux,173,0.1294,0.2836,0.2065
+64,Agile & Scrum,85,Supply Chain & Procurement,173,0.0404,0.0841,0.0622
+55,AWS,58,Docker,173,0.167,0.5599,0.3634
+2,SQL,53,REST & GraphQL APIs,172,0.1008,0.3772,0.239
+27,Power BI,30,Excel,172,0.0353,0.4311,0.2332
+2,SQL,52,.NET Core,170,0.1075,0.5167,0.3121
+54,HTML & CSS,64,Agile & Scrum,170,0.0717,0.3512,0.2115
+71,Networking & Infrastructure,73,ServiceNow & ITIL / ITSM,170,0.0966,0.2029,0.1497
+55,AWS,60,Terraform & IaC,166,0.1678,0.651,0.4094
+3,JavaScript,53,REST & GraphQL APIs,166,0.1897,0.364,0.2769
+2,SQL,7,C#,166,0.105,0.5123,0.3087
+28,Tableau,30,Excel,166,0.034,0.4235,0.2287
+2,SQL,32,Data Warehousing,165,0.1091,0.6496,0.3794
+1,Python,3,JavaScript,165,0.1036,0.2821,0.1928
+55,AWS,59,Kubernetes,164,0.155,0.5093,0.3322
+53,REST & GraphQL APIs,55,AWS,162,0.1357,0.3553,0.2455
+30,Excel,76,CAD & Industrial Automation,159,0.03,0.1978,0.1139
+15,Bash / Shell,62,Linux,159,0.2062,0.4969,0.3516
+60,Terraform & IaC,61,CI/CD & Git,158,0.1636,0.6196,0.3916
+1,Python,25,Statistics & A/B Testing,157,0.0894,0.2119,0.1506
+2,SQL,66,Data Governance & Quality,157,0.0848,0.2679,0.1763
+31,ETL & Data Pipelines,55,AWS,156,0.1279,0.3277,0.2278
+5,Java,56,Microsoft Azure,154,0.1116,0.2042,0.1579
+30,Excel,73,ServiceNow & ITIL / ITSM,153,0.0274,0.1401,0.0837
+52,.NET Core,64,Agile & Scrum,152,0.068,0.462,0.265
+73,ServiceNow & ITIL / ITSM,85,Supply Chain & Procurement,149,0.0446,0.1364,0.0905
+46,React,61,CI/CD & Git,149,0.1457,0.4917,0.3187
+63,Cybersecurity & IAM,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),148,0.0751,0.1686,0.1218
+1,Python,57,Google Cloud Platform (GCP),148,0.1019,0.3458,0.2238
+55,AWS,71,Networking & Infrastructure,147,0.0924,0.1754,0.1339
+56,Microsoft Azure,63,Cybersecurity & IAM,147,0.0973,0.1885,0.1429
+27,Power BI,28,Tableau,146,0.2264,0.3724,0.2994
+1,Python,63,Cybersecurity & IAM,146,0.0766,0.1663,0.1215
+3,JavaScript,47,Angular,146,0.226,0.7053,0.4657
+61,CI/CD & Git,69,Test Automation (Selenium / Cypress),146,0.1407,0.4635,0.3021
+46,React,64,Agile & Scrum,146,0.0659,0.4818,0.2739
+62,Linux,63,Cybersecurity & IAM,145,0.108,0.2377,0.1728
+1,Python,60,Terraform & IaC,144,0.1121,0.5647,0.3384
+1,Python,58,Docker,144,0.1076,0.466,0.2868
+5,Java,69,Test Automation (Selenium / Cypress),143,0.1544,0.454,0.3042
+44,MongoDB,55,AWS,141,0.1421,0.6052,0.3736
+58,Docker,64,Agile & Scrum,141,0.0633,0.4563,0.2598
+64,Agile & Scrum,71,Networking & Infrastructure,140,0.0508,0.1671,0.1089
+43,Oracle Database,64,Agile & Scrum,140,0.0615,0.3911,0.2263
+3,JavaScript,55,AWS,138,0.1024,0.2359,0.1692
+7,C#,64,Agile & Scrum,137,0.061,0.4228,0.2419
+1,Python,59,Kubernetes,137,0.1009,0.4255,0.2632
+5,Java,58,Docker,137,0.1479,0.4434,0.2957
+31,ETL & Data Pipelines,32,Data Warehousing,136,0.229,0.5354,0.3822
+5,Java,51,Spring Boot,135,0.1776,0.9574,0.5675
+52,.NET Core,56,Microsoft Azure,134,0.1374,0.4073,0.2724
+5,Java,59,Kubernetes,133,0.141,0.413,0.277
+31,ETL & Data Pipelines,56,Microsoft Azure,133,0.1184,0.2794,0.1989
+56,Microsoft Azure,59,Kubernetes,133,0.1373,0.413,0.2751
+56,Microsoft Azure,62,Linux,133,0.1058,0.218,0.1619
+63,Cybersecurity & IAM,64,Agile & Scrum,132,0.0471,0.1503,0.0987
+83,Financial Accounting & Audit (GAAP),85,Supply Chain & Procurement,132,0.0329,0.0758,0.0544
+2,SQL,44,MongoDB,132,0.0866,0.5665,0.3266
+2,SQL,54,HTML & CSS,131,0.0738,0.2707,0.1722
+31,ETL & Data Pipelines,64,Agile & Scrum,131,0.0545,0.2752,0.1649
+5,Java,54,HTML & CSS,130,0.1173,0.2686,0.193
+5,Java,62,Linux,129,0.1045,0.2115,0.158
+1,Python,33,Apache Spark,129,0.1057,0.7288,0.4172
+56,Microsoft Azure,58,Docker,128,0.1332,0.4142,0.2737
+59,Kubernetes,64,Agile & Scrum,128,0.0568,0.3975,0.2272
+7,C#,56,Microsoft Azure,128,0.1311,0.3951,0.2631
+54,HTML & CSS,61,CI/CD & Git,128,0.1045,0.2645,0.1845
+73,ServiceNow & ITIL / ITSM,82,Project Management & SDLC (PMP),126,0.0676,0.1403,0.104
+2,SQL,16,Machine Learning,126,0.0722,0.2819,0.1771
+1,Python,71,Networking & Infrastructure,125,0.0663,0.1492,0.1077
+15,Bash / Shell,71,Networking & Infrastructure,124,0.1199,0.3875,0.2537
+1,Python,66,Data Governance & Quality,124,0.0758,0.2116,0.1437
+1,Python,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),122,0.0911,0.4236,0.2574
+31,ETL & Data Pipelines,66,Data Governance & Quality,122,0.1298,0.2563,0.193
+42,Microsoft SQL Server,56,Microsoft Azure,122,0.1193,0.3342,0.2268
+42,Microsoft SQL Server,64,Agile & Scrum,121,0.0526,0.3315,0.192
+64,Agile & Scrum,78,ERP Systems (SAP / NetSuite / Workday),121,0.0407,0.1165,0.0786
+52,.NET Core,61,CI/CD & Git,120,0.1113,0.3647,0.238
+5,Java,44,MongoDB,120,0.1384,0.515,0.3267
+47,Angular,64,Agile & Scrum,120,0.0559,0.5797,0.3178
+46,React,53,REST & GraphQL APIs,120,0.1878,0.396,0.2919
+56,Microsoft Azure,73,ServiceNow & ITIL / ITSM,120,0.0685,0.1538,0.1112
+15,Bash / Shell,55,AWS,118,0.1071,0.3688,0.2379
+1,Python,44,MongoDB,118,0.0916,0.5064,0.299
+3,JavaScript,56,Microsoft Azure,117,0.0938,0.2,0.1469
+1,Python,53,REST & GraphQL APIs,115,0.076,0.2522,0.1641
+1,Python,28,Tableau,115,0.0793,0.2934,0.1863
+1,Python,7,C#,113,0.0816,0.3488,0.2152
+16,Machine Learning,25,Statistics & A/B Testing,112,0.1041,0.2506,0.1773
+5,Java,43,Oracle Database,111,0.1109,0.3101,0.2105
+6,C++,62,Linux,110,0.131,0.3235,0.2272
+46,React,54,HTML & CSS,110,0.1625,0.363,0.2628
+3,JavaScript,7,C#,110,0.1377,0.3395,0.2386
+44,MongoDB,64,Agile & Scrum,110,0.0504,0.4721,0.2613
+80,Six Sigma & Lean Operations,85,Supply Chain & Procurement,110,0.0401,0.245,0.1426
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),85,Supply Chain & Procurement,108,0.0306,0.087,0.0588
+57,Google Cloud Platform (GCP),64,Agile & Scrum,108,0.0454,0.2523,0.1489
+47,Angular,61,CI/CD & Git,108,0.1116,0.5217,0.3167
+42,Microsoft SQL Server,52,.NET Core,108,0.1843,0.3283,0.2563
+5,Java,46,React,107,0.1126,0.3531,0.2329
+5,Java,6,C++,107,0.1084,0.3147,0.2116
+5,Java,47,Angular,107,0.1253,0.5169,0.3211
+3,JavaScript,52,.NET Core,107,0.1326,0.3252,0.2289
+53,REST & GraphQL APIs,56,Microsoft Azure,107,0.0948,0.2346,0.1647
+3,JavaScript,4,TypeScript,106,0.1701,0.7361,0.4531
+64,Agile & Scrum,79,CRM Platforms (Salesforce / HubSpot),106,0.0357,0.1043,0.07
+2,SQL,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),106,0.066,0.3681,0.217
+58,Docker,62,Linux,106,0.1304,0.343,0.2367
+56,Microsoft Azure,60,Terraform & IaC,105,0.1129,0.4118,0.2623
+53,REST & GraphQL APIs,58,Docker,105,0.1591,0.3398,0.2494
+2,SQL,15,Bash / Shell,104,0.0635,0.325,0.1942
+2,SQL,69,Test Automation (Selenium / Cypress),104,0.0636,0.3302,0.1969
+64,Agile & Scrum,66,Data Governance & Quality,104,0.0409,0.1775,0.1092
+59,Kubernetes,60,Terraform & IaC,104,0.2199,0.4078,0.3139
+47,Angular,54,HTML & CSS,104,0.1772,0.5024,0.3398
+3,JavaScript,69,Test Automation (Selenium / Cypress),104,0.1307,0.3302,0.2304
+44,MongoDB,61,CI/CD & Git,103,0.1031,0.4421,0.2726
+1,Python,30,Excel,103,0.018,0.0878,0.0529
+15,Bash / Shell,56,Microsoft Azure,103,0.1033,0.3219,0.2126
+2,SQL,57,Google Cloud Platform (GCP),103,0.0589,0.2407,0.1498
+1,Python,69,Test Automation (Selenium / Cypress),103,0.0744,0.327,0.2007
+7,C#,42,Microsoft SQL Server,102,0.1738,0.3148,0.2443
+3,JavaScript,49,Node.js,102,0.1601,0.6623,0.4112
+33,Apache Spark,55,AWS,102,0.1046,0.5763,0.3404
+7,C#,61,CI/CD & Git,102,0.0935,0.3148,0.2042
+15,Bash / Shell,63,Cybersecurity & IAM,101,0.0921,0.3156,0.2038
+5,Java,7,C#,101,0.1034,0.3117,0.2076
+42,Microsoft SQL Server,43,Oracle Database,101,0.1624,0.2821,0.2223
+53,REST & GraphQL APIs,54,HTML & CSS,101,0.1204,0.2215,0.1709
+15,Bash / Shell,61,CI/CD & Git,100,0.0918,0.3125,0.2022
+30,Excel,66,Data Governance & Quality,100,0.0195,0.1706,0.0951
+1,Python,43,Oracle Database,99,0.0691,0.2765,0.1728
+57,Google Cloud Platform (GCP),61,CI/CD & Git,99,0.0826,0.2313,0.157
+2,SQL,33,Apache Spark,99,0.066,0.5593,0.3126
+53,REST & GraphQL APIs,59,Kubernetes,99,0.1458,0.3075,0.2266
+68,Financial & Business Analysis,78,ERP Systems (SAP / NetSuite / Workday),98,0.0617,0.1512,0.1065
+31,ETL & Data Pipelines,42,Microsoft SQL Server,98,0.1319,0.2685,0.2002
+5,Java,52,.NET Core,98,0.0995,0.2979,0.1987
+64,Agile & Scrum,68,Financial & Business Analysis,98,0.0376,0.1512,0.0944
+2,SQL,41,MySQL,97,0.066,0.6783,0.3722
+16,Machine Learning,55,AWS,97,0.0776,0.217,0.1473
+2,SQL,73,ServiceNow & ITIL / ITSM,96,0.0397,0.0879,0.0638
+61,CI/CD & Git,71,Networking & Infrastructure,95,0.0589,0.1134,0.0861
+2,SQL,58,Docker,95,0.058,0.3074,0.1827
+73,ServiceNow & ITIL / ITSM,78,ERP Systems (SAP / NetSuite / Workday),95,0.0467,0.0914,0.069
+57,Google Cloud Platform (GCP),59,Kubernetes,94,0.1433,0.2919,0.2176
+60,Terraform & IaC,64,Agile & Scrum,94,0.0424,0.3686,0.2055
+2,SQL,78,ERP Systems (SAP / NetSuite / Workday),94,0.0397,0.0905,0.0651
+76,CAD & Industrial Automation,85,Supply Chain & Procurement,94,0.0302,0.1169,0.0736
+55,AWS,73,ServiceNow & ITIL / ITSM,93,0.049,0.1033,0.0762
+56,Microsoft Azure,66,Data Governance & Quality,93,0.0731,0.1587,0.1159
+31,ETL & Data Pipelines,33,Apache Spark,93,0.1661,0.5254,0.3457
+31,ETL & Data Pipelines,61,CI/CD & Git,93,0.0743,0.1954,0.1348
+51,Spring Boot,53,REST & GraphQL APIs,92,0.1822,0.6525,0.4173
+6,C++,64,Agile & Scrum,92,0.0399,0.2706,0.1552
+78,ERP Systems (SAP / NetSuite / Workday),79,CRM Platforms (Salesforce / HubSpot),92,0.0469,0.0906,0.0687
+58,Docker,60,Terraform & IaC,91,0.1924,0.3569,0.2746
+46,React,55,AWS,91,0.0818,0.3003,0.1911
+43,Oracle Database,62,Linux,91,0.1038,0.2542,0.179
+51,Spring Boot,61,CI/CD & Git,90,0.0978,0.6383,0.3681
+46,React,49,Node.js,90,0.2452,0.5844,0.4148
+32,Data Warehousing,66,Data Governance & Quality,89,0.1185,0.3504,0.2345
+34,Apache Kafka,55,AWS,89,0.0923,0.5817,0.337
+2,SQL,59,Kubernetes,89,0.0537,0.2764,0.1651
+28,Tableau,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),89,0.1506,0.309,0.2298
+52,.NET Core,54,HTML & CSS,88,0.1214,0.2675,0.1944
+6,C++,61,CI/CD & Git,88,0.0785,0.2588,0.1687
+1,Python,32,Data Warehousing,88,0.0657,0.3465,0.2061
+2,SQL,85,Supply Chain & Procurement,88,0.0236,0.0618,0.0427
+15,Bash / Shell,64,Agile & Scrum,88,0.0384,0.275,0.1567
+61,CI/CD & Git,72,Observability & Monitoring,88,0.0899,0.4444,0.2672
+47,Angular,53,REST & GraphQL APIs,87,0.151,0.4203,0.2857
+61,CI/CD & Git,63,Cybersecurity & IAM,87,0.0524,0.1001,0.0763
+42,Microsoft SQL Server,61,CI/CD & Git,87,0.0759,0.2384,0.1571
+43,Oracle Database,61,CI/CD & Git,87,0.0763,0.243,0.1597
+63,Cybersecurity & IAM,73,ServiceNow & ITIL / ITSM,87,0.0462,0.0991,0.0726
+30,Excel,80,Six Sigma & Lean Operations,87,0.0174,0.1938,0.1056
+49,Node.js,64,Agile & Scrum,86,0.0405,0.5584,0.2994
+44,MongoDB,53,REST & GraphQL APIs,86,0.1426,0.3691,0.2559
+79,CRM Platforms (Salesforce / HubSpot),84,Digital Marketing & SEO (GA4),85,0.0594,0.17,0.1147
+1,Python,72,Observability & Monitoring,85,0.0661,0.4293,0.2477
+25,Statistics & A/B Testing,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),85,0.09,0.2951,0.1926
+2,SQL,65,Product Management,85,0.0407,0.1135,0.0771
+2,SQL,82,Project Management & SDLC (PMP),85,0.038,0.0947,0.0663
+59,Kubernetes,62,Linux,84,0.0991,0.2609,0.18
+62,Linux,73,ServiceNow & ITIL / ITSM,84,0.0519,0.1377,0.0948
+5,Java,31,ETL & Data Pipelines,84,0.0733,0.1765,0.1249
+43,Oracle Database,55,AWS,84,0.0716,0.2346,0.1531
+30,Excel,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),84,0.0173,0.2917,0.1545
+66,Data Governance & Quality,85,Supply Chain & Procurement,84,0.0289,0.1433,0.0861
+46,React,47,Angular,84,0.1972,0.4058,0.3015
+55,AWS,69,Test Automation (Selenium / Cypress),84,0.0743,0.2667,0.1705
+4,TypeScript,46,React,83,0.228,0.5764,0.4022
+16,Machine Learning,64,Agile & Scrum,83,0.0343,0.1857,0.11
+1,Python,27,Power BI,83,0.0557,0.208,0.1319
+31,ETL & Data Pipelines,43,Oracle Database,82,0.109,0.2291,0.169
+2,SQL,71,Networking & Infrastructure,82,0.0376,0.0979,0.0677
+64,Agile & Scrum,70,UI/UX Design & Figma,82,0.0365,0.3015,0.169
+57,Google Cloud Platform (GCP),58,Docker,80,0.1218,0.2589,0.1903
+55,AWS,72,Observability & Monitoring,80,0.0786,0.404,0.2413
+2,SQL,40,PostgreSQL,80,0.0535,0.5229,0.2882
+55,AWS,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),80,0.0388,0.0889,0.0638
+57,Google Cloud Platform (GCP),63,Cybersecurity & IAM,80,0.0653,0.1869,0.1261
+1,Python,42,Microsoft SQL Server,80,0.0549,0.2192,0.137
+49,Node.js,61,CI/CD & Git,79,0.0837,0.513,0.2983
+34,Apache Kafka,64,Agile & Scrum,79,0.0371,0.5163,0.2767
+5,Java,34,Apache Kafka,79,0.0954,0.5163,0.3059
+51,Spring Boot,64,Agile & Scrum,79,0.0373,0.5603,0.2988
+25,Statistics & A/B Testing,28,Tableau,79,0.075,0.2015,0.1382
+85,Supply Chain & Procurement,86,Talent Acquisition & HRIS,79,0.0251,0.0952,0.0601
+2,SQL,68,Financial & Business Analysis,79,0.0397,0.1219,0.0808
+2,SQL,47,Angular,79,0.0509,0.3816,0.2163
+2,SQL,37,Snowflake,79,0.0536,0.6077,0.3306
+2,SQL,46,React,79,0.048,0.2607,0.1543
+60,Terraform & IaC,62,Linux,78,0.0991,0.3059,0.2025
+49,Node.js,53,REST & GraphQL APIs,77,0.1445,0.5,0.3222
+55,AWS,66,Data Governance & Quality,76,0.0539,0.1297,0.0918
+68,Financial & Business Analysis,85,Supply Chain & Procurement,76,0.0256,0.1173,0.0714
+5,Java,72,Observability & Monitoring,76,0.0868,0.3838,0.2353
+25,Statistics & A/B Testing,84,Digital Marketing & SEO (GA4),75,0.0643,0.15,0.1072
+34,Apache Kafka,61,CI/CD & Git,75,0.0792,0.4902,0.2847
+53,REST & GraphQL APIs,69,Test Automation (Selenium / Cypress),75,0.1078,0.2381,0.1729
+66,Data Governance & Quality,78,ERP Systems (SAP / NetSuite / Workday),75,0.0484,0.128,0.0882
+7,C#,54,HTML & CSS,75,0.1023,0.2315,0.1669
+44,MongoDB,56,Microsoft Azure,75,0.08,0.3219,0.2009
+15,Bash / Shell,60,Terraform & IaC,74,0.1477,0.2902,0.219
+54,HTML & CSS,84,Digital Marketing & SEO (GA4),74,0.0813,0.1529,0.1171
+40,PostgreSQL,55,AWS,74,0.0756,0.4837,0.2796
+64,Agile & Scrum,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),74,0.0229,0.0596,0.0413
+3,JavaScript,58,Docker,74,0.0902,0.2395,0.1649
+30,Excel,63,Cybersecurity & IAM,74,0.0136,0.0843,0.0489
+43,Oracle Database,56,Microsoft Azure,73,0.0685,0.2039,0.1362
+64,Agile & Scrum,72,Observability & Monitoring,73,0.0334,0.3687,0.2011
+2,SQL,63,Cybersecurity & IAM,73,0.0328,0.0831,0.058
+1,Python,46,React,73,0.052,0.2409,0.1465
+25,Statistics & A/B Testing,64,Agile & Scrum,73,0.0268,0.0985,0.0626
+7,C#,55,AWS,72,0.0625,0.2222,0.1424
+27,Power BI,64,Agile & Scrum,72,0.0302,0.1805,0.1053
+5,Java,49,Node.js,72,0.0861,0.4675,0.2768
+1,Python,40,PostgreSQL,72,0.0574,0.4706,0.264
+4,TypeScript,61,CI/CD & Git,71,0.0754,0.4931,0.2842
+16,Machine Learning,31,ETL & Data Pipelines,71,0.0833,0.1588,0.1211
+5,Java,60,Terraform & IaC,71,0.0757,0.2784,0.1771
+30,Excel,84,Digital Marketing & SEO (GA4),71,0.014,0.142,0.078
+57,Google Cloud Platform (GCP),71,Networking & Infrastructure,71,0.0594,0.1659,0.1127
+5,Java,57,Google Cloud Platform (GCP),71,0.0639,0.1659,0.1149
+52,.NET Core,53,REST & GraphQL APIs,70,0.0979,0.2128,0.1553
+44,MongoDB,58,Docker,70,0.1483,0.3004,0.2244
+57,Google Cloud Platform (GCP),60,Terraform & IaC,70,0.1142,0.2745,0.1944
+27,Power BI,78,ERP Systems (SAP / NetSuite / Workday),70,0.0512,0.1754,0.1133
+4,TypeScript,64,Agile & Scrum,70,0.0328,0.4861,0.2595
+16,Machine Learning,61,CI/CD & Git,69,0.0553,0.1544,0.1048
+5,Java,63,Cybersecurity & IAM,69,0.0441,0.0915,0.0678
+52,.NET Core,55,AWS,68,0.0586,0.2067,0.1326
+49,Node.js,55,AWS,68,0.069,0.4416,0.2553
+30,Excel,65,Product Management,68,0.0128,0.0908,0.0518
+56,Microsoft Azure,69,Test Automation (Selenium / Cypress),68,0.0662,0.2159,0.141
+5,Java,33,Apache Spark,68,0.0788,0.3842,0.2315
+3,JavaScript,44,MongoDB,68,0.0907,0.2918,0.1913
+60,Terraform & IaC,71,Networking & Infrastructure,68,0.0663,0.2667,0.1665
+1,Python,73,ServiceNow & ITIL / ITSM,67,0.0305,0.0614,0.0459
+2,SQL,34,Apache Kafka,67,0.0444,0.4379,0.2412
+1,Python,34,Apache Kafka,67,0.0532,0.4379,0.2456
+47,Angular,52,.NET Core,67,0.1429,0.3237,0.2333
+28,Tableau,31,ETL & Data Pipelines,67,0.0836,0.1709,0.1273
+61,CI/CD & Git,82,Project Management & SDLC (PMP),67,0.0394,0.0771,0.0583
+61,CI/CD & Git,65,Product Management,67,0.0432,0.0895,0.0663
+5,Java,16,Machine Learning,67,0.0591,0.1499,0.1045
+40,PostgreSQL,61,CI/CD & Git,67,0.0702,0.4379,0.254
+42,Microsoft SQL Server,55,AWS,67,0.0559,0.1836,0.1197
+32,Data Warehousing,55,AWS,67,0.0616,0.2638,0.1627
+57,Google Cloud Platform (GCP),62,Linux,66,0.0679,0.1542,0.1111
+34,Apache Kafka,53,REST & GraphQL APIs,66,0.1215,0.4314,0.2765
+56,Microsoft Azure,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),66,0.0337,0.0846,0.0592
+15,Bash / Shell,59,Kubernetes,66,0.1146,0.2062,0.1604
+5,Java,71,Networking & Infrastructure,66,0.0433,0.0875,0.0654
+65,Product Management,70,UI/UX Design & Figma,66,0.0691,0.2426,0.1559
+6,C++,7,C#,66,0.1104,0.2037,0.157
+54,HTML & CSS,56,Microsoft Azure,65,0.0542,0.1343,0.0943
+4,TypeScript,54,HTML & CSS,65,0.1155,0.4514,0.2834
+3,JavaScript,42,Microsoft SQL Server,65,0.0734,0.1781,0.1258
+71,Networking & Infrastructure,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),65,0.0323,0.0776,0.0549
+27,Power BI,32,Data Warehousing,65,0.1105,0.2559,0.1832
+3,JavaScript,62,Linux,65,0.0575,0.1111,0.0843
+32,Data Warehousing,56,Microsoft Azure,64,0.066,0.252,0.159
+32,Data Warehousing,64,Agile & Scrum,64,0.0285,0.252,0.1402
+15,Bash / Shell,58,Docker,64,0.1133,0.2071,0.1602
+66,Data Governance & Quality,73,ServiceNow & ITIL / ITSM,64,0.0397,0.1092,0.0744
+2,SQL,60,Terraform & IaC,64,0.0397,0.251,0.1453
+27,Power BI,31,ETL & Data Pipelines,64,0.0789,0.1604,0.1197
+5,Java,65,Product Management,64,0.0445,0.0854,0.065
+28,Tableau,64,Agile & Scrum,63,0.0264,0.1607,0.0936
+47,Angular,55,AWS,63,0.0603,0.3043,0.1823
+73,ServiceNow & ITIL / ITSM,86,Talent Acquisition & HRIS,63,0.0339,0.0759,0.0549
+27,Power BI,56,Microsoft Azure,63,0.0565,0.1579,0.1072
+16,Machine Learning,17,Deep Learning,63,0.1335,0.7159,0.4247
+73,ServiceNow & ITIL / ITSM,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),63,0.0277,0.0577,0.0427
+65,Product Management,85,Supply Chain & Procurement,63,0.0204,0.0841,0.0523
+73,ServiceNow & ITIL / ITSM,79,CRM Platforms (Salesforce / HubSpot),63,0.0308,0.062,0.0464
+5,Java,41,MySQL,62,0.0743,0.4336,0.2539
+63,Cybersecurity & IAM,85,Supply Chain & Procurement,62,0.0193,0.0706,0.0449
+53,REST & GraphQL APIs,62,Linux,62,0.0618,0.136,0.0989
+62,Linux,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),62,0.0346,0.1016,0.0681
+46,React,56,Microsoft Azure,62,0.0607,0.2046,0.1327
+1,Python,41,MySQL,62,0.0494,0.4336,0.2415
+31,ETL & Data Pipelines,57,Google Cloud Platform (GCP),62,0.0736,0.1449,0.1092
+16,Machine Learning,18,Natural Language Processing,61,0.1242,0.581,0.3526
+1,Python,77,Ruby & Rails,61,0.0513,0.7922,0.4218
+62,Linux,72,Observability & Monitoring,61,0.0817,0.3081,0.1949
+58,Docker,71,Networking & Infrastructure,61,0.0562,0.1974,0.1268
+41,MySQL,43,Oracle Database,61,0.1386,0.4266,0.2826
+16,Machine Learning,33,Apache Spark,61,0.1083,0.3446,0.2265
+60,Terraform & IaC,63,Cybersecurity & IAM,61,0.0569,0.2392,0.1481
+53,REST & GraphQL APIs,60,Terraform & IaC,60,0.0922,0.2353,0.1637
+40,PostgreSQL,64,Agile & Scrum,60,0.0279,0.3922,0.21
+27,Power BI,66,Data Governance & Quality,60,0.0649,0.1504,0.1076
+64,Agile & Scrum,86,Talent Acquisition & HRIS,60,0.0212,0.0723,0.0468
+5,Java,15,Bash / Shell,60,0.0592,0.1875,0.1233
+27,Power BI,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),60,0.0957,0.2083,0.152
+44,MongoDB,59,Kubernetes,59,0.119,0.2532,0.1861
+25,Statistics & A/B Testing,85,Supply Chain & Procurement,59,0.0191,0.0796,0.0494
+27,Power BI,42,Microsoft SQL Server,59,0.0837,0.1616,0.1227
+54,HTML & CSS,70,UI/UX Design & Figma,59,0.0846,0.2169,0.1508
+42,Microsoft SQL Server,54,HTML & CSS,59,0.0747,0.1616,0.1182
+2,SQL,38,Databricks,59,0.0404,0.6146,0.3275
+78,ERP Systems (SAP / NetSuite / Workday),82,Project Management & SDLC (PMP),59,0.0314,0.0657,0.0486
+58,Docker,63,Cybersecurity & IAM,58,0.0514,0.1877,0.1195
+3,JavaScript,43,Oracle Database,58,0.0655,0.162,0.1138
+1,Python,37,Snowflake,58,0.0466,0.4462,0.2464
+59,Kubernetes,71,Networking & Infrastructure,58,0.0526,0.1801,0.1164
+52,.NET Core,71,Networking & Infrastructure,58,0.0523,0.1763,0.1143
+60,Terraform & IaC,72,Observability & Monitoring,58,0.1468,0.2929,0.2199
+1,Python,65,Product Management,58,0.0311,0.0774,0.0543
+27,Power BI,85,Supply Chain & Procurement,58,0.0212,0.1454,0.0833
+31,ETL & Data Pipelines,38,Databricks,57,0.1107,0.5938,0.3522
+54,HTML & CSS,69,Test Automation (Selenium / Cypress),57,0.0768,0.181,0.1289
+1,Python,52,.NET Core,57,0.0394,0.1733,0.1063
+7,C#,47,Angular,57,0.1203,0.2754,0.1978
+7,C#,53,REST & GraphQL APIs,57,0.0788,0.1759,0.1274
+25,Statistics & A/B Testing,27,Power BI,57,0.0526,0.1429,0.0977
+43,Oracle Database,53,REST & GraphQL APIs,57,0.0753,0.1592,0.1173
+1,Python,18,Natural Language Processing,57,0.0467,0.5429,0.2948
+64,Agile & Scrum,80,Six Sigma & Lean Operations,56,0.0228,0.1247,0.0738
+59,Kubernetes,63,Cybersecurity & IAM,56,0.049,0.1739,0.1114
+6,C++,75,Embedded Systems & Firmware,56,0.1207,0.3111,0.2159
+1,Python,38,Databricks,56,0.0462,0.5833,0.3147
+5,Java,42,Microsoft SQL Server,56,0.0527,0.1534,0.1031
+56,Microsoft Azure,85,Supply Chain & Procurement,56,0.0179,0.0718,0.0449
+39,BigQuery,55,AWS,56,0.0601,0.6364,0.3482
+2,SQL,39,BigQuery,56,0.0385,0.6364,0.3374
+68,Financial & Business Analysis,82,Project Management & SDLC (PMP),55,0.0369,0.0849,0.0609
+32,Data Warehousing,42,Microsoft SQL Server,55,0.0975,0.2165,0.157
+65,Product Management,68,Financial & Business Analysis,55,0.041,0.0849,0.0629
+63,Cybersecurity & IAM,65,Product Management,55,0.035,0.0734,0.0542
+56,Microsoft Azure,65,Product Management,55,0.0373,0.0734,0.0554
+25,Statistics & A/B Testing,66,Data Governance & Quality,55,0.0432,0.0939,0.0685
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),83,Financial Accounting & Audit (GAAP),55,0.0188,0.0443,0.0315
+1,Python,9,Go,55,0.046,0.7143,0.3802
+28,Tableau,66,Data Governance & Quality,55,0.0596,0.1403,0.0999
+34,Apache Kafka,59,Kubernetes,55,0.131,0.3595,0.2452
+31,ETL & Data Pipelines,44,MongoDB,55,0.0841,0.2361,0.1601
+54,HTML & CSS,55,AWS,54,0.0406,0.1116,0.0761
+1,Python,49,Node.js,54,0.0424,0.3506,0.1965
+6,C++,55,AWS,54,0.0455,0.1588,0.1022
+63,Cybersecurity & IAM,66,Data Governance & Quality,54,0.0383,0.0922,0.0652
+46,React,52,.NET Core,54,0.0934,0.1782,0.1358
+33,Apache Spark,56,Microsoft Azure,54,0.0598,0.3051,0.1824
+56,Microsoft Azure,82,Project Management & SDLC (PMP),54,0.0333,0.0692,0.0512
+42,Microsoft SQL Server,62,Linux,54,0.0586,0.1479,0.1033
+27,Power BI,68,Financial & Business Analysis,54,0.0544,0.1353,0.0949
+3,JavaScript,59,Kubernetes,54,0.0633,0.1677,0.1155
+16,Machine Learning,22,TensorFlow,53,0.1162,0.8548,0.4855
+59,Kubernetes,72,Observability & Monitoring,53,0.1135,0.2677,0.1906
+1,Python,54,HTML & CSS,53,0.033,0.1095,0.0713
+1,Python,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),53,0.0224,0.0452,0.0338
+2,SQL,83,Financial Accounting & Audit (GAAP),53,0.017,0.0372,0.0271
+15,Bash / Shell,57,Google Cloud Platform (GCP),53,0.0763,0.1656,0.1209
+58,Docker,72,Observability & Monitoring,53,0.1167,0.2677,0.1922
+4,TypeScript,53,REST & GraphQL APIs,53,0.0969,0.3681,0.2325
+33,Apache Spark,61,CI/CD & Git,53,0.0534,0.2994,0.1764
+16,Machine Learning,56,Microsoft Azure,53,0.0451,0.1186,0.0819
+46,React,69,Test Automation (Selenium / Cypress),53,0.0938,0.1749,0.1344
+79,CRM Platforms (Salesforce / HubSpot),85,Supply Chain & Procurement,53,0.0158,0.0522,0.034
+33,Apache Spark,57,Google Cloud Platform (GCP),53,0.096,0.2994,0.1977
+45,Redis,55,AWS,53,0.0571,0.6543,0.3557
+2,SQL,51,Spring Boot,52,0.0344,0.3688,0.2016
+41,MySQL,55,AWS,52,0.0525,0.3636,0.2081
+41,MySQL,64,Agile & Scrum,52,0.0242,0.3636,0.1939
+3,JavaScript,70,UI/UX Design & Figma,52,0.0646,0.1912,0.1279
+7,C#,58,Docker,52,0.0895,0.1683,0.1289
+55,AWS,65,Product Management,51,0.0319,0.0681,0.05
+6,C++,16,Machine Learning,51,0.0693,0.15,0.1096
+57,Google Cloud Platform (GCP),81,Regulatory Compliance (HIPAA / SOC 2 / SOX),51,0.0315,0.1192,0.0753
+2,SQL,72,Observability & Monitoring,51,0.0325,0.2576,0.145
+1,Python,39,BigQuery,51,0.0421,0.5795,0.3108
+38,Databricks,56,Microsoft Azure,51,0.0618,0.5312,0.2965
+33,Apache Spark,64,Agile & Scrum,51,0.0234,0.2881,0.1557
+2,SQL,79,CRM Platforms (Salesforce / HubSpot),51,0.0214,0.0502,0.0358
+28,Tableau,32,Data Warehousing,51,0.0857,0.2008,0.1433
+33,Apache Spark,34,Apache Kafka,51,0.1828,0.3333,0.2581
+3,JavaScript,51,Spring Boot,51,0.0756,0.3617,0.2186
+65,Product Management,73,ServiceNow & ITIL / ITSM,50,0.0279,0.0668,0.0473
+31,ETL & Data Pipelines,39,BigQuery,50,0.0973,0.5682,0.3327
+65,Product Management,66,Data Governance & Quality,50,0.0389,0.0853,0.0621
+53,REST & GraphQL APIs,57,Google Cloud Platform (GCP),50,0.06,0.1168,0.0884
+68,Financial & Business Analysis,73,ServiceNow & ITIL / ITSM,50,0.0296,0.0772,0.0534
+63,Cybersecurity & IAM,72,Observability & Monitoring,50,0.0487,0.2525,0.1506
+49,Node.js,54,HTML & CSS,50,0.085,0.3247,0.2049
+2,SQL,49,Node.js,50,0.0327,0.3247,0.1787
+7,C#,46,React,50,0.0867,0.165,0.1258
+57,Google Cloud Platform (GCP),66,Data Governance & Quality,50,0.0519,0.1168,0.0843
+76,CAD & Industrial Automation,82,Project Management & SDLC (PMP),49,0.0296,0.0609,0.0453
+71,Networking & Infrastructure,85,Supply Chain & Procurement,49,0.0154,0.0585,0.0369
+5,Java,40,PostgreSQL,49,0.0571,0.3203,0.1887
+31,ETL & Data Pipelines,37,Snowflake,49,0.088,0.3769,0.2324
+1,Python,22,TensorFlow,48,0.0404,0.7742,0.4073
+1,Python,11,Scala,48,0.0404,0.7742,0.4073
+76,CAD & Industrial Automation,80,Six Sigma & Lean Operations,48,0.0398,0.1069,0.0734
+28,Tableau,85,Supply Chain & Procurement,48,0.0175,0.1224,0.07
+61,CI/CD & Git,66,Data Governance & Quality,48,0.0341,0.0819,0.058
+4,TypeScript,55,AWS,48,0.0482,0.3333,0.1908
+16,Machine Learning,28,Tableau,48,0.0607,0.1224,0.0916
+34,Apache Kafka,56,Microsoft Azure,48,0.0542,0.3137,0.184
+34,Apache Kafka,58,Docker,48,0.1159,0.3137,0.2148
+58,Docker,69,Test Automation (Selenium / Cypress),48,0.0833,0.1553,0.1193
+65,Product Management,79,CRM Platforms (Salesforce / HubSpot),48,0.028,0.0641,0.046
+4,TypeScript,47,Angular,48,0.1584,0.3333,0.2459
+40,PostgreSQL,44,MongoDB,47,0.1386,0.3072,0.2229
+27,Power BI,83,Financial Accounting & Audit (GAAP),47,0.0225,0.1178,0.0701
+65,Product Management,82,Project Management & SDLC (PMP),47,0.0294,0.0628,0.0461
+5,Java,9,Go,47,0.0599,0.6104,0.3352
+41,MySQL,61,CI/CD & Git,47,0.0487,0.3287,0.1887
+46,React,58,Docker,47,0.0832,0.1551,0.1192
+28,Tableau,68,Financial & Business Analysis,46,0.0463,0.1173,0.0818
+43,Oracle Database,44,MongoDB,46,0.0844,0.1974,0.1409
+1,Python,17,Deep Learning,46,0.0379,0.5227,0.2803
+3,JavaScript,41,MySQL,46,0.0674,0.3217,0.1946
+51,Spring Boot,55,AWS,46,0.0462,0.3262,0.1862
+7,C#,15,Bash / Shell,46,0.0769,0.1437,0.1103
+30,Excel,31,ETL & Data Pipelines,46,0.0091,0.0966,0.0528
+25,Statistics & A/B Testing,55,AWS,46,0.0288,0.0621,0.0455
+41,MySQL,42,Microsoft SQL Server,46,0.0996,0.3217,0.2106
+15,Bash / Shell,73,ServiceNow & ITIL / ITSM,46,0.0337,0.1437,0.0887
+1,Python,24,Pandas & NumPy,46,0.0391,0.92,0.4795
+42,Microsoft SQL Server,53,REST & GraphQL APIs,46,0.0594,0.126,0.0927
+6,C++,58,Docker,46,0.0763,0.1489,0.1126
+3,JavaScript,57,Google Cloud Platform (GCP),45,0.0465,0.1051,0.0758
+3,JavaScript,31,ETL & Data Pipelines,45,0.0443,0.0945,0.0694
+73,ServiceNow & ITIL / ITSM,80,Six Sigma & Lean Operations,45,0.0301,0.1002,0.0652
+1,Python,4,TypeScript,45,0.0354,0.3125,0.1739
+44,MongoDB,69,Test Automation (Selenium / Cypress),45,0.0895,0.1931,0.1413
+21,PyTorch,22,TensorFlow,45,0.6818,0.9184,0.8001
+7,C#,59,Kubernetes,45,0.0749,0.1398,0.1073
+33,Apache Spark,66,Data Governance & Quality,45,0.0627,0.2542,0.1585
+41,MySQL,44,MongoDB,45,0.136,0.3147,0.2253
+6,C++,56,Microsoft Azure,45,0.0419,0.1324,0.0871
+65,Product Management,71,Networking & Infrastructure,45,0.0292,0.0601,0.0446
+61,CI/CD & Git,73,ServiceNow & ITIL / ITSM,45,0.0235,0.0518,0.0376
+1,Python,50,FastAPI & Flask,45,0.0383,0.9574,0.4979
+54,HTML & CSS,79,CRM Platforms (Salesforce / HubSpot),44,0.0302,0.0909,0.0606
+44,MongoDB,57,Google Cloud Platform (GCP),44,0.0713,0.1888,0.1301
+34,Apache Kafka,44,MongoDB,44,0.1287,0.2876,0.2081
+2,SQL,4,TypeScript,44,0.0289,0.3056,0.1672
+33,Apache Spark,38,Databricks,44,0.1921,0.4583,0.3252
+80,Six Sigma & Lean Operations,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),44,0.0267,0.098,0.0624
+51,Spring Boot,58,Docker,44,0.1084,0.3121,0.2102
+76,CAD & Industrial Automation,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),44,0.022,0.0547,0.0384
+59,Kubernetes,69,Test Automation (Selenium / Cypress),43,0.0724,0.1365,0.1044
+31,ETL & Data Pipelines,34,Apache Kafka,43,0.0734,0.281,0.1772
+55,AWS,82,Project Management & SDLC (PMP),43,0.0245,0.0479,0.0362
+16,Machine Learning,65,Product Management,43,0.0373,0.0962,0.0667
+31,ETL & Data Pipelines,62,Linux,43,0.0412,0.0903,0.0658
+1,Python,75,Embedded Systems & Firmware,43,0.0328,0.2389,0.1359
+30,Excel,32,Data Warehousing,43,0.0088,0.1693,0.0891
+52,.NET Core,58,Docker,43,0.0723,0.1392,0.1057
+4,TypeScript,5,Java,43,0.0503,0.2986,0.1745
+44,MongoDB,46,React,43,0.0872,0.1845,0.1359
+11,Scala,33,Apache Spark,43,0.2194,0.6935,0.4565
+16,Machine Learning,30,Excel,43,0.0085,0.0962,0.0524
+37,Snowflake,55,AWS,43,0.0436,0.3308,0.1872
+1,Python,85,Supply Chain & Procurement,42,0.0119,0.0358,0.0238
+3,JavaScript,73,ServiceNow & ITIL / ITSM,42,0.0257,0.0718,0.0487
+78,ERP Systems (SAP / NetSuite / Workday),86,Talent Acquisition & HRIS,42,0.023,0.0506,0.0368
+16,Machine Learning,66,Data Governance & Quality,42,0.0424,0.094,0.0682
+63,Cybersecurity & IAM,83,Financial Accounting & Audit (GAAP),42,0.0163,0.0478,0.0321
+41,MySQL,62,Linux,42,0.0591,0.2937,0.1764
+40,PostgreSQL,43,Oracle Database,42,0.0896,0.2745,0.182
+71,Networking & Infrastructure,72,Observability & Monitoring,42,0.0423,0.2121,0.1272
+55,AWS,77,Ruby & Rails,42,0.0449,0.5455,0.2952
+38,Databricks,55,AWS,42,0.044,0.4375,0.2408
+7,C#,71,Networking & Infrastructure,42,0.0375,0.1296,0.0836
+56,Microsoft Azure,78,ERP Systems (SAP / NetSuite / Workday),42,0.0236,0.0538,0.0387
+25,Statistics & A/B Testing,31,ETL & Data Pipelines,42,0.0357,0.0882,0.062
+62,Linux,69,Test Automation (Selenium / Cypress),42,0.0476,0.1333,0.0904
+31,ETL & Data Pipelines,53,REST & GraphQL APIs,41,0.046,0.0899,0.068
+28,Tableau,55,AWS,41,0.0328,0.1046,0.0687
+25,Statistics & A/B Testing,83,Financial Accounting & Audit (GAAP),41,0.0168,0.0553,0.0361
+2,SQL,6,C++,41,0.0238,0.1206,0.0722
+80,Six Sigma & Lean Operations,82,Project Management & SDLC (PMP),41,0.0314,0.0913,0.0614
+5,Java,82,Project Management & SDLC (PMP),41,0.0255,0.0544,0.0399
+32,Data Warehousing,43,Oracle Database,41,0.0718,0.1614,0.1166
+47,Angular,56,Microsoft Azure,41,0.0433,0.1981,0.1207
+32,Data Warehousing,33,Apache Spark,41,0.1051,0.2316,0.1684
+3,JavaScript,15,Bash / Shell,41,0.0475,0.1281,0.0878
+56,Microsoft Azure,72,Observability & Monitoring,41,0.0438,0.2071,0.1254
+51,Spring Boot,69,Test Automation (Selenium / Cypress),41,0.0988,0.2908,0.1948
+15,Bash / Shell,43,Oracle Database,40,0.0627,0.125,0.0938
+1,Python,47,Angular,40,0.0299,0.1932,0.1115
+28,Tableau,42,Microsoft SQL Server,40,0.0558,0.1096,0.0827
+47,Angular,51,Spring Boot,40,0.1299,0.2837,0.2068
+3,JavaScript,48,Vue.js,40,0.067,0.7692,0.4181
+83,Financial Accounting & Audit (GAAP),86,Talent Acquisition & HRIS,40,0.0158,0.0482,0.032
+33,Apache Spark,44,MongoDB,40,0.1081,0.226,0.167
+7,C#,69,Test Automation (Selenium / Cypress),40,0.0668,0.127,0.0969
+32,Data Warehousing,37,Snowflake,40,0.1163,0.3077,0.212
+1,Python,35,Apache Airflow,40,0.0334,0.6349,0.3342
+16,Machine Learning,21,PyTorch,40,0.0877,0.8163,0.452
+43,Oracle Database,78,ERP Systems (SAP / NetSuite / Workday),40,0.0295,0.1117,0.0706
+6,C++,59,Kubernetes,40,0.0643,0.1242,0.0943
+43,Oracle Database,73,ServiceNow & ITIL / ITSM,40,0.0284,0.1117,0.0701
+64,Agile & Scrum,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),40,0.0173,0.1389,0.0781
+16,Machine Learning,57,Google Cloud Platform (GCP),40,0.0479,0.0935,0.0707
+44,MongoDB,45,Redis,40,0.146,0.4938,0.3199
+7,C#,62,Linux,40,0.0447,0.1235,0.0841
+53,REST & GraphQL APIs,72,Observability & Monitoring,39,0.0634,0.197,0.1302
+3,JavaScript,40,PostgreSQL,39,0.0558,0.2549,0.1553
+3,JavaScript,60,Terraform & IaC,39,0.0487,0.1529,0.1008
+40,PostgreSQL,41,MySQL,39,0.1518,0.2727,0.2122
+28,Tableau,83,Financial Accounting & Audit (GAAP),39,0.0186,0.0995,0.0591
+37,Snowflake,64,Agile & Scrum,39,0.0181,0.3,0.1591
+30,Excel,54,HTML & CSS,39,0.0077,0.0806,0.0441
+40,PostgreSQL,62,Linux,39,0.0539,0.2549,0.1544
+51,Spring Boot,59,Kubernetes,39,0.092,0.2766,0.1843
+15,Bash / Shell,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),39,0.0256,0.1219,0.0737
+16,Machine Learning,19,Generative AI & LLMs,39,0.0728,0.3047,0.1887
+3,JavaScript,12,PHP,39,0.0625,0.5,0.2812
+42,Microsoft SQL Server,66,Data Governance & Quality,39,0.0428,0.1068,0.0748
+65,Product Management,69,Test Automation (Selenium / Cypress),39,0.038,0.1238,0.0809
+46,React,48,Vue.js,38,0.1199,0.7308,0.4253
+5,Java,73,ServiceNow & ITIL / ITSM,38,0.021,0.0504,0.0357
+46,React,59,Kubernetes,38,0.0647,0.1254,0.0951
+47,Angular,69,Test Automation (Selenium / Cypress),38,0.0785,0.1836,0.131
+3,JavaScript,79,CRM Platforms (Salesforce / HubSpot),38,0.0243,0.065,0.0446
+3,JavaScript,6,C++,38,0.0428,0.1118,0.0773
+16,Machine Learning,58,Docker,38,0.0529,0.123,0.088
+52,.NET Core,59,Kubernetes,38,0.062,0.118,0.09
+44,MongoDB,60,Terraform & IaC,38,0.0844,0.1631,0.1238
+55,AWS,85,Supply Chain & Procurement,38,0.0116,0.0422,0.0269
+3,JavaScript,63,Cybersecurity & IAM,38,0.0267,0.065,0.0458
+63,Cybersecurity & IAM,79,CRM Platforms (Salesforce / HubSpot),38,0.0205,0.0433,0.0319
+53,REST & GraphQL APIs,63,Cybersecurity & IAM,38,0.0293,0.0833,0.0563
+9,Go,61,CI/CD & Git,38,0.0419,0.4935,0.2677
+6,C++,52,.NET Core,37,0.0585,0.1125,0.0855
+15,Bash / Shell,42,Microsoft SQL Server,37,0.0571,0.1156,0.0864
+66,Data Governance & Quality,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),37,0.0207,0.0631,0.0419
+1,Python,26,MLOps,37,0.0312,0.74,0.3856
+45,Redis,64,Agile & Scrum,37,0.0176,0.4568,0.2372
+44,MongoDB,51,Spring Boot,37,0.1098,0.2624,0.1861
+40,PostgreSQL,59,Kubernetes,37,0.0845,0.2418,0.1632
+6,C++,15,Bash / Shell,37,0.0594,0.1156,0.0875
+5,Java,45,Redis,37,0.0464,0.4568,0.2516
+6,C++,71,Networking & Infrastructure,37,0.0324,0.1088,0.0706
+1,Python,21,PyTorch,37,0.0312,0.7551,0.3932
+39,BigQuery,57,Google Cloud Platform (GCP),37,0.0772,0.4205,0.2488
+45,Redis,61,CI/CD & Git,37,0.0405,0.4568,0.2487
+32,Data Warehousing,61,CI/CD & Git,37,0.0341,0.1457,0.0899
+31,ETL & Data Pipelines,35,Apache Airflow,36,0.0716,0.5714,0.3215
+68,Financial & Business Analysis,79,CRM Platforms (Salesforce / HubSpot),36,0.0221,0.0556,0.0388
+11,Scala,55,AWS,36,0.0389,0.5806,0.3098
+64,Agile & Scrum,83,Financial Accounting & Audit (GAAP),36,0.0096,0.0207,0.0151
+57,Google Cloud Platform (GCP),65,Product Management,36,0.0316,0.0841,0.0578
+66,Data Governance & Quality,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),36,0.043,0.125,0.084
+66,Data Governance & Quality,83,Financial Accounting & Audit (GAAP),36,0.0157,0.0614,0.0386
+40,PostgreSQL,46,React,36,0.0857,0.2353,0.1605
+42,Microsoft SQL Server,47,Angular,36,0.0672,0.1739,0.1205
+52,.NET Core,65,Product Management,36,0.0345,0.1094,0.072
+43,Oracle Database,69,Test Automation (Selenium / Cypress),36,0.0565,0.1143,0.0854
+9,Go,55,AWS,36,0.0383,0.4675,0.2529
+62,Linux,77,Ruby & Rails,36,0.0553,0.4675,0.2614
+40,PostgreSQL,58,Docker,36,0.0845,0.2353,0.1599
+5,Java,11,Scala,36,0.0462,0.5806,0.3134
+15,Bash / Shell,52,.NET Core,36,0.0587,0.1125,0.0856
+53,REST & GraphQL APIs,82,Project Management & SDLC (PMP),36,0.0273,0.0789,0.0531
+16,Machine Learning,32,Data Warehousing,36,0.0541,0.1417,0.0979
+28,Tableau,78,ERP Systems (SAP / NetSuite / Workday),36,0.0258,0.0918,0.0588
+16,Machine Learning,26,MLOps,36,0.0781,0.72,0.399
+40,PostgreSQL,53,REST & GraphQL APIs,35,0.061,0.2288,0.1449
+16,Machine Learning,20,Computer Vision,35,0.0732,0.5303,0.3018
+63,Cybersecurity & IAM,82,Project Management & SDLC (PMP),35,0.0201,0.0399,0.03
+15,Bash / Shell,77,Ruby & Rails,35,0.0967,0.4545,0.2756
+34,Apache Kafka,57,Google Cloud Platform (GCP),35,0.0641,0.2288,0.1464
+2,SQL,11,Scala,35,0.0241,0.5645,0.2943
+51,Spring Boot,54,HTML & CSS,35,0.0593,0.2482,0.1538
+34,Apache Kafka,51,Spring Boot,35,0.1351,0.2482,0.1917
+78,ERP Systems (SAP / NetSuite / Workday),81,Regulatory Compliance (HIPAA / SOC 2 / SOX),35,0.0156,0.0337,0.0246
+69,Test Automation (Selenium / Cypress),72,Observability & Monitoring,35,0.0732,0.1768,0.125
+6,C++,57,Google Cloud Platform (GCP),35,0.0477,0.1029,0.0753
+3,JavaScript,65,Product Management,35,0.0269,0.0598,0.0434
+16,Machine Learning,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),35,0.05,0.1215,0.0858
+47,Angular,49,Node.js,35,0.1074,0.2273,0.1673
+66,Data Governance & Quality,79,CRM Platforms (Salesforce / HubSpot),35,0.0223,0.0597,0.041
+71,Networking & Infrastructure,79,CRM Platforms (Salesforce / HubSpot),35,0.0192,0.0418,0.0305
+62,Linux,75,Embedded Systems & Firmware,35,0.0464,0.1944,0.1204
+15,Bash / Shell,72,Observability & Monitoring,34,0.0702,0.1717,0.121
+40,PostgreSQL,42,Microsoft SQL Server,34,0.0702,0.2222,0.1462
+4,TypeScript,7,C#,34,0.0783,0.2361,0.1572
+30,Excel,71,Networking & Infrastructure,34,0.0062,0.0406,0.0234
+43,Oracle Database,51,Spring Boot,34,0.0731,0.2411,0.1571
+57,Google Cloud Platform (GCP),73,ServiceNow & ITIL / ITSM,34,0.0229,0.0794,0.0512
+4,TypeScript,49,Node.js,34,0.1288,0.2361,0.1824
+1,Python,19,Generative AI & LLMs,34,0.0268,0.2656,0.1462
+30,Excel,42,Microsoft SQL Server,34,0.0068,0.0932,0.05
+44,MongoDB,49,Node.js,34,0.0963,0.2208,0.1585
+7,C#,63,Cybersecurity & IAM,34,0.0291,0.1049,0.067
+30,Excel,55,AWS,34,0.0062,0.0378,0.022
+60,Terraform & IaC,73,ServiceNow & ITIL / ITSM,34,0.0259,0.1333,0.0796
+46,React,62,Linux,34,0.0387,0.1122,0.0754
+12,PHP,54,HTML & CSS,34,0.0644,0.4359,0.2501
+27,Power BI,43,Oracle Database,34,0.047,0.095,0.071
+79,CRM Platforms (Salesforce / HubSpot),82,Project Management & SDLC (PMP),33,0.0175,0.0367,0.0271
+32,Data Warehousing,39,BigQuery,33,0.1068,0.375,0.2409
+2,SQL,29,Looker,33,0.0229,0.6346,0.3288
+43,Oracle Database,57,Google Cloud Platform (GCP),33,0.0438,0.0922,0.068
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),86,Talent Acquisition & HRIS,33,0.0162,0.0398,0.028
+1,Python,68,Financial & Business Analysis,33,0.0185,0.0509,0.0347
+2,SQL,84,Digital Marketing & SEO (GA4),33,0.0175,0.066,0.0417
+25,Statistics & A/B Testing,56,Microsoft Azure,33,0.0222,0.0445,0.0334
+41,MySQL,54,HTML & CSS,33,0.0556,0.2308,0.1432
+33,Apache Spark,39,BigQuery,33,0.1422,0.375,0.2586
+42,Microsoft SQL Server,71,Networking & Infrastructure,33,0.0282,0.0904,0.0593
+37,Snowflake,56,Microsoft Azure,33,0.0376,0.2538,0.1457
+1,Python,45,Redis,33,0.027,0.4074,0.2172
+64,Agile & Scrum,67,Stakeholder Communication,33,0.0153,0.2409,0.1281
+46,React,51,Spring Boot,33,0.0803,0.234,0.1572
+47,Angular,58,Docker,33,0.0683,0.1594,0.1139
+16,Machine Learning,44,MongoDB,33,0.051,0.1416,0.0963
+7,C#,31,ETL & Data Pipelines,33,0.043,0.1019,0.0724
+9,Go,59,Kubernetes,33,0.0902,0.4286,0.2594
+27,Power BI,55,AWS,33,0.0261,0.0827,0.0544
+48,Vue.js,61,CI/CD & Git,32,0.036,0.6154,0.3257
+17,Deep Learning,25,Statistics & A/B Testing,32,0.0402,0.3636,0.2019
+41,MySQL,53,REST & GraphQL APIs,32,0.0564,0.2238,0.1401
+33,Apache Spark,59,Kubernetes,32,0.0685,0.1808,0.1247
+5,Java,32,Data Warehousing,32,0.0328,0.126,0.0794
+32,Data Warehousing,57,Google Cloud Platform (GCP),32,0.0492,0.126,0.0876
+32,Data Warehousing,38,Databricks,32,0.1006,0.3333,0.217
+78,ERP Systems (SAP / NetSuite / Workday),80,Six Sigma & Lean Operations,32,0.022,0.0713,0.0466
+9,Go,64,Agile & Scrum,32,0.0152,0.4156,0.2154
+2,SQL,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),32,0.0122,0.0258,0.019
+25,Statistics & A/B Testing,68,Financial & Business Analysis,32,0.0236,0.0494,0.0365
+31,ETL & Data Pipelines,65,Product Management,32,0.0268,0.0672,0.047
+65,Product Management,78,ERP Systems (SAP / NetSuite / Workday),32,0.0182,0.0427,0.0305
+59,Kubernetes,77,Ruby & Rails,32,0.0872,0.4156,0.2514
+3,JavaScript,82,Project Management & SDLC (PMP),32,0.0221,0.0547,0.0384
+54,HTML & CSS,58,Docker,32,0.042,0.1036,0.0728
+52,.NET Core,62,Linux,32,0.0353,0.0973,0.0663
+27,Power BI,73,ServiceNow & ITIL / ITSM,32,0.0219,0.0802,0.0511
+1,Python,82,Project Management & SDLC (PMP),32,0.0157,0.0356,0.0257
+25,Statistics & A/B Testing,65,Product Management,32,0.0219,0.0432,0.0326
+72,Observability & Monitoring,73,ServiceNow & ITIL / ITSM,32,0.0254,0.1616,0.0935
+42,Microsoft SQL Server,44,MongoDB,32,0.0565,0.1373,0.0969
+1,Python,20,Computer Vision,31,0.0257,0.4697,0.2477
+1,Python,23,Scikit-Learn,31,0.0263,0.8611,0.4437
+61,CI/CD & Git,70,UI/UX Design & Figma,31,0.0279,0.114,0.0709
+49,Node.js,56,Microsoft Azure,31,0.0343,0.2013,0.1178
+61,CI/CD & Git,77,Ruby & Rails,31,0.0339,0.4026,0.2182
+26,MLOps,55,AWS,31,0.0337,0.62,0.3269
+49,Node.js,59,Kubernetes,31,0.0697,0.2013,0.1355
+64,Agile & Scrum,84,Digital Marketing & SEO (GA4),31,0.0123,0.062,0.0371
+57,Google Cloud Platform (GCP),85,Supply Chain & Procurement,31,0.0111,0.0724,0.0418
+44,MongoDB,47,Angular,31,0.0758,0.1498,0.1128
+16,Machine Learning,62,Linux,31,0.0302,0.0694,0.0498
+31,ETL & Data Pipelines,59,Kubernetes,31,0.0404,0.0963,0.0683
+31,ETL & Data Pipelines,40,PostgreSQL,31,0.0518,0.2026,0.1272
+31,ETL & Data Pipelines,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),30,0.0409,0.1042,0.0725
+7,C#,43,Oracle Database,30,0.046,0.0926,0.0693
+34,Apache Kafka,69,Test Automation (Selenium / Cypress),30,0.0685,0.1961,0.1323
+44,MongoDB,62,Linux,30,0.0369,0.1288,0.0828
+64,Agile & Scrum,76,CAD & Industrial Automation,30,0.0106,0.0373,0.024
+67,Stakeholder Communication,85,Supply Chain & Procurement,30,0.012,0.219,0.1155
+16,Machine Learning,59,Kubernetes,30,0.0406,0.0932,0.0669
+43,Oracle Database,54,HTML & CSS,30,0.0369,0.0838,0.0604
+43,Oracle Database,66,Data Governance & Quality,30,0.0328,0.0838,0.0583
+16,Machine Learning,53,REST & GraphQL APIs,30,0.0344,0.0671,0.0507
+43,Oracle Database,52,.NET Core,30,0.0457,0.0912,0.0684
+53,REST & GraphQL APIs,65,Product Management,30,0.0255,0.0658,0.0457
+52,.NET Core,63,Cybersecurity & IAM,30,0.0255,0.0912,0.0583
+52,.NET Core,82,Project Management & SDLC (PMP),30,0.0251,0.0912,0.0581
+1,Python,12,PHP,30,0.0246,0.3846,0.2046
+56,Microsoft Azure,77,Ruby & Rails,30,0.0363,0.3896,0.2129
+15,Bash / Shell,53,REST & GraphQL APIs,30,0.0402,0.0938,0.067
+30,Excel,43,Oracle Database,30,0.006,0.0838,0.0449
+31,ETL & Data Pipelines,52,.NET Core,30,0.0387,0.0912,0.0649
+18,Natural Language Processing,57,Google Cloud Platform (GCP),30,0.0596,0.2857,0.1727
+41,MySQL,56,Microsoft Azure,30,0.0336,0.2098,0.1217
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),82,Project Management & SDLC (PMP),30,0.0142,0.0334,0.0238
+52,.NET Core,57,Google Cloud Platform (GCP),30,0.0413,0.0912,0.0662
+66,Data Governance & Quality,71,Networking & Infrastructure,30,0.0215,0.0512,0.0364
+2,SQL,24,Pandas & NumPy,30,0.0208,0.6,0.3104
+16,Machine Learning,23,Scikit-Learn,30,0.0662,0.8333,0.4498
+48,Vue.js,54,HTML & CSS,29,0.0572,0.5577,0.3074
+46,React,70,UI/UX Design & Figma,29,0.0531,0.1066,0.0799
+40,PostgreSQL,45,Redis,29,0.1415,0.358,0.2497
+65,Product Management,84,Digital Marketing & SEO (GA4),29,0.0238,0.058,0.0409
+4,TypeScript,58,Docker,29,0.0684,0.2014,0.1349
+47,Angular,48,Vue.js,29,0.1261,0.5577,0.3419
+42,Microsoft SQL Server,58,Docker,29,0.045,0.0939,0.0694
+48,Vue.js,64,Agile & Scrum,29,0.0139,0.5577,0.2858
+18,Natural Language Processing,22,TensorFlow,29,0.2101,0.4677,0.3389
+11,Scala,31,ETL & Data Pipelines,29,0.057,0.4677,0.2624
+6,C++,63,Cybersecurity & IAM,29,0.0244,0.0853,0.0548
+54,HTML & CSS,73,ServiceNow & ITIL / ITSM,29,0.0187,0.0599,0.0393
+25,Statistics & A/B Testing,42,Microsoft SQL Server,29,0.0269,0.0795,0.0532
+35,Apache Airflow,55,AWS,29,0.031,0.4603,0.2457
+45,Redis,56,Microsoft Azure,29,0.0349,0.358,0.1964
+3,JavaScript,84,Digital Marketing & SEO (GA4),29,0.0275,0.058,0.0427
+58,Docker,77,Ruby & Rails,29,0.0812,0.3766,0.2289
+42,Microsoft SQL Server,57,Google Cloud Platform (GCP),29,0.038,0.0795,0.0587
+18,Natural Language Processing,25,Statistics & A/B Testing,29,0.0355,0.2762,0.1558
+22,TensorFlow,25,Statistics & A/B Testing,29,0.0375,0.4677,0.2526
+34,Apache Kafka,46,React,29,0.0679,0.1895,0.1287
+42,Microsoft SQL Server,82,Project Management & SDLC (PMP),29,0.0235,0.0795,0.0515
+3,JavaScript,34,Apache Kafka,29,0.0409,0.1895,0.1152
+2,SQL,45,Redis,28,0.019,0.3457,0.1823
+34,Apache Kafka,60,Terraform & IaC,28,0.0737,0.183,0.1283
+54,HTML & CSS,65,Product Management,28,0.0232,0.0579,0.0405
+19,Generative AI & LLMs,55,AWS,28,0.028,0.2188,0.1234
+17,Deep Learning,22,TensorFlow,28,0.2295,0.4516,0.3406
+31,ETL & Data Pipelines,85,Supply Chain & Procurement,28,0.0098,0.0588,0.0343
+2,SQL,36,dbt,28,0.0195,0.6667,0.3431
+31,ETL & Data Pipelines,41,MySQL,28,0.0474,0.1958,0.1216
+34,Apache Kafka,72,Observability & Monitoring,28,0.0867,0.183,0.1348
+71,Networking & Infrastructure,78,ERP Systems (SAP / NetSuite / Workday),28,0.0151,0.0334,0.0243
+31,ETL & Data Pipelines,58,Docker,28,0.037,0.0906,0.0638
+4,TypeScript,56,Microsoft Azure,28,0.0312,0.1944,0.1128
+49,Node.js,58,Docker,28,0.0644,0.1818,0.1231
+79,CRM Platforms (Salesforce / HubSpot),83,Financial Accounting & Audit (GAAP),28,0.0103,0.0276,0.0189
+35,Apache Airflow,61,CI/CD & Git,28,0.031,0.4444,0.2377
+43,Oracle Database,59,Kubernetes,28,0.0429,0.087,0.065
+4,TypeScript,52,.NET Core,28,0.0629,0.1944,0.1287
+7,C#,57,Google Cloud Platform (GCP),28,0.0387,0.0864,0.0625
+16,Machine Learning,24,Pandas & NumPy,28,0.0597,0.56,0.3099
+16,Machine Learning,27,Power BI,28,0.0342,0.0702,0.0522
+38,Databricks,66,Data Governance & Quality,28,0.0428,0.2917,0.1672
+61,CI/CD & Git,79,CRM Platforms (Salesforce / HubSpot),28,0.0151,0.0322,0.0236
+32,Data Warehousing,44,MongoDB,28,0.061,0.1202,0.0906
+39,BigQuery,64,Agile & Scrum,28,0.0132,0.3182,0.1657
+5,Java,25,Statistics & A/B Testing,28,0.0191,0.0378,0.0284
+28,Tableau,33,Apache Spark,28,0.0518,0.1582,0.105
+6,C++,9,Go,28,0.072,0.3636,0.2178
+61,CI/CD & Git,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),27,0.013,0.0311,0.022
+76,CAD & Industrial Automation,78,ERP Systems (SAP / NetSuite / Workday),27,0.0149,0.0336,0.0242
+61,CI/CD & Git,85,Supply Chain & Procurement,27,0.0083,0.0311,0.0197
+42,Microsoft SQL Server,60,Terraform & IaC,27,0.0455,0.1059,0.0757
+5,Java,14,Kotlin,27,0.0356,0.871,0.4533
+25,Statistics & A/B Testing,32,Data Warehousing,27,0.0279,0.1063,0.0671
+25,Statistics & A/B Testing,33,Apache Spark,27,0.0303,0.1525,0.0914
+28,Tableau,43,Oracle Database,27,0.0373,0.0754,0.0564
+12,PHP,61,CI/CD & Git,27,0.0293,0.3462,0.1878
+2,SQL,35,Apache Airflow,27,0.0185,0.4286,0.2235
+52,.NET Core,69,Test Automation (Selenium / Cypress),27,0.0438,0.0857,0.0647
+15,Bash / Shell,31,ETL & Data Pipelines,27,0.0351,0.0844,0.0597
+5,Java,12,PHP,27,0.0335,0.3462,0.1898
+71,Networking & Infrastructure,82,Project Management & SDLC (PMP),27,0.0158,0.0322,0.024
+62,Linux,82,Project Management & SDLC (PMP),27,0.0182,0.0443,0.0312
+31,ETL & Data Pipelines,82,Project Management & SDLC (PMP),27,0.02,0.0567,0.0384
+1,Python,36,dbt,27,0.0227,0.6429,0.3328
+57,Google Cloud Platform (GCP),69,Test Automation (Selenium / Cypress),27,0.0377,0.0857,0.0617
+37,Snowflake,66,Data Governance & Quality,27,0.0392,0.2077,0.1234
+2,SQL,18,Natural Language Processing,27,0.018,0.2571,0.1376
+33,Apache Spark,35,Apache Airflow,27,0.1268,0.4286,0.2777
+66,Data Governance & Quality,68,Financial & Business Analysis,27,0.0224,0.0461,0.0342
+46,React,57,Google Cloud Platform (GCP),27,0.0384,0.0891,0.0637
+17,Deep Learning,18,Natural Language Processing,27,0.1627,0.3068,0.2347
+25,Statistics & A/B Testing,78,ERP Systems (SAP / NetSuite / Workday),27,0.0154,0.0364,0.0259
+28,Tableau,29,Looker,26,0.0622,0.5,0.2811
+66,Data Governance & Quality,82,Project Management & SDLC (PMP),26,0.0178,0.0444,0.0311
+33,Apache Spark,53,REST & GraphQL APIs,26,0.0428,0.1469,0.0949
+5,Java,77,Ruby & Rails,26,0.0323,0.3377,0.185
+12,PHP,64,Agile & Scrum,26,0.0123,0.3333,0.1728
+34,Apache Kafka,62,Linux,26,0.0353,0.1699,0.1026
+42,Microsoft SQL Server,46,React,26,0.0405,0.0858,0.0632
+43,Oracle Database,58,Docker,26,0.0406,0.0841,0.0624
+42,Microsoft SQL Server,59,Kubernetes,26,0.0393,0.0807,0.06
+16,Machine Learning,85,Supply Chain & Procurement,26,0.0092,0.0582,0.0337
+51,Spring Boot,56,Microsoft Azure,26,0.0291,0.1844,0.1067
+17,Deep Learning,21,PyTorch,26,0.2342,0.5306,0.3824
+38,Databricks,64,Agile & Scrum,26,0.0122,0.2708,0.1415
+25,Statistics & A/B Testing,61,CI/CD & Git,26,0.0164,0.0351,0.0258
+7,C#,44,MongoDB,26,0.049,0.1116,0.0803
+5,Java,66,Data Governance & Quality,26,0.0198,0.0444,0.0321
+28,Tableau,37,Snowflake,26,0.0524,0.2,0.1262
+42,Microsoft SQL Server,73,ServiceNow & ITIL / ITSM,26,0.0182,0.0712,0.0447
+45,Redis,53,REST & GraphQL APIs,26,0.0509,0.321,0.1859
+30,Excel,56,Microsoft Azure,26,0.0048,0.0333,0.0191
+54,HTML & CSS,62,Linux,25,0.0234,0.0517,0.0375
+28,Tableau,56,Microsoft Azure,25,0.0218,0.0638,0.0428
+9,Go,58,Docker,25,0.0693,0.3247,0.197
+42,Microsoft SQL Server,69,Test Automation (Selenium / Cypress),25,0.0382,0.0794,0.0588
+11,Scala,64,Agile & Scrum,25,0.0119,0.4032,0.2076
+25,Statistics & A/B Testing,57,Google Cloud Platform (GCP),25,0.0219,0.0584,0.0401
+16,Machine Learning,68,Financial & Business Analysis,25,0.0234,0.0559,0.0396
+28,Tableau,65,Product Management,25,0.0224,0.0638,0.0431
+47,Angular,59,Kubernetes,25,0.0496,0.1208,0.0852
+40,PostgreSQL,60,Terraform & IaC,25,0.0653,0.1634,0.1143
+3,JavaScript,71,Networking & Infrastructure,25,0.0179,0.0427,0.0303
+27,Power BI,61,CI/CD & Git,25,0.0201,0.0627,0.0414
+15,Bash / Shell,44,MongoDB,25,0.0473,0.1073,0.0773
+3,JavaScript,77,Ruby & Rails,25,0.0392,0.3247,0.182
+44,MongoDB,54,HTML & CSS,25,0.0361,0.1073,0.0717
+21,PyTorch,25,Statistics & A/B Testing,25,0.0327,0.5102,0.2714
+25,Statistics & A/B Testing,80,Six Sigma & Lean Operations,25,0.0215,0.0557,0.0386
+7,C#,77,Ruby & Rails,25,0.0665,0.3247,0.1956
+16,Machine Learning,39,BigQuery,25,0.049,0.2841,0.1666
+32,Data Warehousing,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),25,0.0484,0.0984,0.0734
+32,Data Warehousing,78,ERP Systems (SAP / NetSuite / Workday),25,0.0197,0.0984,0.0591
+37,Snowflake,38,Databricks,25,0.1244,0.2604,0.1924
+67,Stakeholder Communication,73,ServiceNow & ITIL / ITSM,25,0.0208,0.1825,0.1016
+60,Terraform & IaC,69,Test Automation (Selenium / Cypress),25,0.0459,0.098,0.072
+44,MongoDB,52,.NET Core,25,0.0466,0.1073,0.0769
+43,Oracle Database,47,Angular,25,0.0463,0.1208,0.0835
+22,TensorFlow,23,Scikit-Learn,25,0.3425,0.6944,0.5185
+49,Node.js,62,Linux,24,0.0324,0.1558,0.0941
+28,Tableau,84,Digital Marketing & SEO (GA4),24,0.0276,0.0612,0.0444
+44,MongoDB,72,Observability & Monitoring,24,0.059,0.1212,0.0901
+45,Redis,72,Observability & Monitoring,24,0.0941,0.2963,0.1952
+49,Node.js,69,Test Automation (Selenium / Cypress),24,0.0539,0.1558,0.1049
+25,Statistics & A/B Testing,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),24,0.0123,0.0324,0.0223
+28,Tableau,82,Project Management & SDLC (PMP),24,0.019,0.0612,0.0401
+57,Google Cloud Platform (GCP),77,Ruby & Rails,24,0.0499,0.3117,0.1808
+3,JavaScript,45,Redis,24,0.0374,0.2963,0.1668
+5,Java,28,Tableau,24,0.0214,0.0612,0.0413
+33,Apache Spark,43,Oracle Database,24,0.047,0.1356,0.0913
+42,Microsoft SQL Server,85,Supply Chain & Procurement,24,0.0088,0.0658,0.0373
+1,Python,70,UI/UX Design & Figma,24,0.0169,0.0882,0.0526
+2,SQL,50,FastAPI & Flask,24,0.0166,0.5106,0.2636
+17,Deep Learning,20,Computer Vision,24,0.1846,0.3636,0.2741
+42,Microsoft SQL Server,78,ERP Systems (SAP / NetSuite / Workday),24,0.0174,0.0658,0.0416
+7,C#,82,Project Management & SDLC (PMP),24,0.02,0.0741,0.0471
+1,Python,51,Spring Boot,24,0.0186,0.1702,0.0944
+68,Financial & Business Analysis,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),24,0.0263,0.0833,0.0548
+63,Cybersecurity & IAM,77,Ruby & Rails,24,0.0258,0.3117,0.1687
+11,Scala,34,Apache Kafka,24,0.1257,0.3871,0.2564
+64,Agile & Scrum,77,Ruby & Rails,24,0.0114,0.3117,0.1615
+34,Apache Kafka,45,Redis,24,0.1143,0.2963,0.2053
+57,Google Cloud Platform (GCP),82,Project Management & SDLC (PMP),24,0.0184,0.0561,0.0373
+16,Machine Learning,34,Apache Kafka,24,0.0417,0.1569,0.0993
+31,ETL & Data Pipelines,60,Terraform & IaC,24,0.0339,0.0941,0.064
+30,Excel,70,UI/UX Design & Figma,23,0.0047,0.0846,0.0446
+30,Excel,61,CI/CD & Git,23,0.0042,0.0265,0.0153
+40,PostgreSQL,56,Microsoft Azure,23,0.0253,0.1503,0.0878
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),83,Financial Accounting & Audit (GAAP),23,0.0115,0.0799,0.0457
+22,TensorFlow,26,MLOps,23,0.2584,0.46,0.3592
+25,Statistics & A/B Testing,73,ServiceNow & ITIL / ITSM,23,0.0127,0.031,0.0219
+43,Oracle Database,60,Terraform & IaC,23,0.039,0.0902,0.0646
+8,R,25,Statistics & A/B Testing,23,0.0281,0.23,0.1291
+46,React,65,Product Management,23,0.0224,0.0759,0.0491
+47,Angular,62,Linux,23,0.029,0.1111,0.07
+43,Oracle Database,71,Networking & Infrastructure,23,0.0196,0.0642,0.0419
+59,Kubernetes,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),23,0.0149,0.0714,0.0432
+59,Kubernetes,65,Product Management,23,0.0219,0.0714,0.0467
+1,Python,86,Talent Acquisition & HRIS,23,0.0116,0.0277,0.0197
+25,Statistics & A/B Testing,82,Project Management & SDLC (PMP),23,0.0142,0.031,0.0226
+50,FastAPI & Flask,64,Agile & Scrum,23,0.011,0.4894,0.2502
+82,Project Management & SDLC (PMP),83,Financial Accounting & Audit (GAAP),23,0.0088,0.0256,0.0172
+71,Networking & Infrastructure,77,Ruby & Rails,23,0.0258,0.2987,0.1622
+40,PostgreSQL,57,Google Cloud Platform (GCP),23,0.0412,0.1503,0.0958
+34,Apache Kafka,66,Data Governance & Quality,23,0.0321,0.1503,0.0912
+64,Agile & Scrum,75,Embedded Systems & Firmware,23,0.0104,0.1278,0.0691
+84,Digital Marketing & SEO (GA4),85,Supply Chain & Procurement,23,0.008,0.046,0.027
+71,Networking & Infrastructure,84,Digital Marketing & SEO (GA4),23,0.0175,0.046,0.0317
+25,Statistics & A/B Testing,62,Linux,23,0.0173,0.0377,0.0275
+6,C++,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),23,0.038,0.0799,0.0589
+37,Snowflake,43,Oracle Database,23,0.0495,0.1769,0.1132
+25,Statistics & A/B Testing,63,Cybersecurity & IAM,23,0.0144,0.031,0.0227
+41,MySQL,46,React,23,0.0544,0.1608,0.1076
+9,Go,53,REST & GraphQL APIs,23,0.0451,0.2987,0.1719
+45,Redis,58,Docker,23,0.0627,0.284,0.1733
+24,Pandas & NumPy,64,Agile & Scrum,23,0.011,0.46,0.2355
+54,HTML & CSS,59,Kubernetes,23,0.0294,0.0714,0.0504
+1,Python,84,Digital Marketing & SEO (GA4),22,0.0133,0.044,0.0287
+32,Data Warehousing,68,Financial & Business Analysis,22,0.025,0.0866,0.0558
+22,TensorFlow,55,AWS,22,0.0234,0.3548,0.1891
+43,Oracle Database,85,Supply Chain & Procurement,22,0.008,0.0615,0.0347
+9,Go,56,Microsoft Azure,22,0.0263,0.2857,0.156
+54,HTML & CSS,82,Project Management & SDLC (PMP),22,0.0162,0.0455,0.0308
+59,Kubernetes,85,Supply Chain & Procurement,22,0.0081,0.0683,0.0382
+33,Apache Spark,37,Snowflake,22,0.0772,0.1692,0.1232
+44,MongoDB,66,Data Governance & Quality,22,0.0276,0.0944,0.061
+6,C++,20,Computer Vision,22,0.0573,0.3333,0.1953
+34,Apache Kafka,40,PostgreSQL,22,0.0775,0.1438,0.1106
+45,Redis,59,Kubernetes,22,0.0577,0.2716,0.1647
+31,ETL & Data Pipelines,73,ServiceNow & ITIL / ITSM,22,0.0142,0.0462,0.0302
+41,MySQL,69,Test Automation (Selenium / Cypress),22,0.0505,0.1538,0.1022
+5,Java,27,Power BI,22,0.0195,0.0551,0.0373
+3,JavaScript,72,Observability & Monitoring,22,0.0289,0.1111,0.07
+1,Python,29,Looker,22,0.0183,0.4231,0.2207
+4,TypeScript,69,Test Automation (Selenium / Cypress),22,0.0503,0.1528,0.1016
+5,Java,39,BigQuery,22,0.0268,0.25,0.1384
+28,Tableau,79,CRM Platforms (Salesforce / HubSpot),22,0.0159,0.0561,0.036
+60,Terraform & IaC,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),22,0.0149,0.0863,0.0506
+49,Node.js,52,.NET Core,22,0.0477,0.1429,0.0953
+11,Scala,61,CI/CD & Git,22,0.0242,0.3548,0.1895
+28,Tableau,57,Google Cloud Platform (GCP),21,0.0263,0.0536,0.0399
+22,TensorFlow,33,Apache Spark,21,0.0963,0.3387,0.2175
+48,Vue.js,53,REST & GraphQL APIs,21,0.0431,0.4038,0.2235
+9,Go,57,Google Cloud Platform (GCP),21,0.0434,0.2727,0.1581
+53,REST & GraphQL APIs,70,UI/UX Design & Figma,21,0.0297,0.0772,0.0535
+62,Linux,66,Data Governance & Quality,21,0.0179,0.0358,0.0269
+15,Bash / Shell,40,PostgreSQL,21,0.0465,0.1373,0.0919
+58,Docker,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),21,0.0137,0.068,0.0408
+5,Java,18,Natural Language Processing,21,0.0251,0.2,0.1125
+39,BigQuery,44,MongoDB,21,0.07,0.2386,0.1543
+46,React,82,Project Management & SDLC (PMP),21,0.0178,0.0693,0.0436
+66,Data Governance & Quality,86,Talent Acquisition & HRIS,21,0.0151,0.0358,0.0254
+63,Cybersecurity & IAM,75,Embedded Systems & Firmware,21,0.0203,0.1167,0.0685
+60,Terraform & IaC,77,Ruby & Rails,21,0.0675,0.2727,0.1701
+3,JavaScript,16,Machine Learning,21,0.0208,0.047,0.0339
+46,React,60,Terraform & IaC,21,0.0391,0.0824,0.0607
+63,Cybersecurity & IAM,69,Test Automation (Selenium / Cypress),21,0.0179,0.0667,0.0423
+41,MySQL,57,Google Cloud Platform (GCP),21,0.0382,0.1469,0.0925
+42,Microsoft SQL Server,63,Cybersecurity & IAM,21,0.0172,0.0575,0.0374
+33,Apache Spark,42,Microsoft SQL Server,21,0.0403,0.1186,0.0795
+39,BigQuery,59,Kubernetes,21,0.054,0.2386,0.1463
+4,TypeScript,59,Kubernetes,21,0.0472,0.1458,0.0965
+4,TypeScript,44,MongoDB,21,0.059,0.1458,0.1024
+31,ETL & Data Pipelines,78,ERP Systems (SAP / NetSuite / Workday),21,0.0141,0.0441,0.0291
+3,JavaScript,30,Excel,21,0.004,0.0359,0.02
+52,.NET Core,73,ServiceNow & ITIL / ITSM,21,0.015,0.0638,0.0394
+69,Test Automation (Selenium / Cypress),82,Project Management & SDLC (PMP),21,0.0176,0.0667,0.0421
+18,Natural Language Processing,64,Agile & Scrum,21,0.0098,0.2,0.1049
+6,C++,77,Ruby & Rails,21,0.053,0.2727,0.1629
+6,C++,69,Test Automation (Selenium / Cypress),21,0.0331,0.0667,0.0499
+2,SQL,17,Deep Learning,21,0.0141,0.2386,0.1264
+18,Natural Language Processing,19,Generative AI & LLMs,21,0.0991,0.2,0.1495
+6,C++,54,HTML & CSS,21,0.0262,0.0618,0.044
+53,REST & GraphQL APIs,71,Networking & Infrastructure,21,0.0165,0.0461,0.0313
+40,PostgreSQL,69,Test Automation (Selenium / Cypress),21,0.047,0.1373,0.0921
+54,HTML & CSS,85,Supply Chain & Procurement,20,0.007,0.0413,0.0242
+27,Power BI,37,Snowflake,20,0.0393,0.1538,0.0966
+2,SQL,22,TensorFlow,20,0.0137,0.3226,0.1681
+8,R,30,Excel,20,0.0042,0.2,0.1021
+34,Apache Kafka,42,Microsoft SQL Server,20,0.0402,0.1307,0.0854
+43,Oracle Database,72,Observability & Monitoring,20,0.0373,0.101,0.0692
+51,Spring Boot,62,Linux,20,0.0274,0.1418,0.0846
+46,React,63,Cybersecurity & IAM,20,0.0172,0.066,0.0416
+2,SQL,19,Generative AI & LLMs,20,0.0131,0.1562,0.0847
+31,ETL & Data Pipelines,36,dbt,20,0.0402,0.4762,0.2582
+62,Linux,85,Supply Chain & Procurement,20,0.0067,0.0328,0.0197
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),78,ERP Systems (SAP / NetSuite / Workday),20,0.0153,0.0694,0.0424
+2,SQL,26,MLOps,20,0.0138,0.4,0.2069
+16,Machine Learning,82,Project Management & SDLC (PMP),20,0.0151,0.0447,0.0299
+6,C++,31,ETL & Data Pipelines,20,0.0251,0.0588,0.042
+55,AWS,78,ERP Systems (SAP / NetSuite / Workday),20,0.0104,0.0222,0.0163
+55,AWS,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),20,0.0171,0.0694,0.0433
+43,Oracle Database,46,React,20,0.0312,0.066,0.0486
+44,MongoDB,63,Cybersecurity & IAM,20,0.0183,0.0858,0.0521
+39,BigQuery,56,Microsoft Azure,20,0.0236,0.2273,0.1254
+24,Pandas & NumPy,55,AWS,20,0.0215,0.4,0.2108
+12,PHP,46,React,20,0.0554,0.2564,0.1559
+2,SQL,77,Ruby & Rails,20,0.0135,0.2597,0.1366
+14,Kotlin,53,REST & GraphQL APIs,20,0.0428,0.6452,0.344
+34,Apache Kafka,43,Oracle Database,20,0.0407,0.1307,0.0857
+45,Redis,60,Terraform & IaC,20,0.0633,0.2469,0.1551
+23,Scikit-Learn,25,Statistics & A/B Testing,20,0.0264,0.5556,0.291
+53,REST & GraphQL APIs,79,CRM Platforms (Salesforce / HubSpot),20,0.0138,0.0439,0.0288
+26,MLOps,33,Apache Spark,20,0.0966,0.4,0.2483
+16,Machine Learning,63,Cybersecurity & IAM,20,0.0153,0.0447,0.03
+67,Stakeholder Communication,82,Project Management & SDLC (PMP),20,0.0197,0.146,0.0828
+2,SQL,12,PHP,20,0.0135,0.2564,0.135
+7,C#,72,Observability & Monitoring,20,0.0398,0.101,0.0704
+30,Excel,67,Stakeholder Communication,20,0.0042,0.146,0.0751
+4,TypeScript,40,PostgreSQL,20,0.0722,0.1389,0.1055
+31,ETL & Data Pipelines,54,HTML & CSS,20,0.0213,0.042,0.0316
+23,Scikit-Learn,24,Pandas & NumPy,20,0.303,0.5556,0.4293
+16,Machine Learning,46,React,20,0.0274,0.066,0.0467
+16,Machine Learning,42,Microsoft SQL Server,20,0.0253,0.0548,0.04
+50,FastAPI & Flask,61,CI/CD & Git,20,0.0223,0.4255,0.2239
+16,Machine Learning,38,Databricks,20,0.0382,0.2083,0.1233
+34,Apache Kafka,47,Angular,20,0.0588,0.1307,0.0948
+21,PyTorch,26,MLOps,20,0.2532,0.4082,0.3307
+54,HTML & CSS,71,Networking & Infrastructure,20,0.0154,0.0413,0.0283
+2,SQL,86,Talent Acquisition & HRIS,20,0.009,0.0241,0.0165
+21,PyTorch,23,Scikit-Learn,20,0.3077,0.5556,0.4316
+43,Oracle Database,63,Cybersecurity & IAM,20,0.0164,0.0559,0.0362
+18,Natural Language Processing,23,Scikit-Learn,19,0.1557,0.5278,0.3418
+5,Java,70,UI/UX Design & Figma,19,0.0189,0.0699,0.0444
+31,ETL & Data Pipelines,69,Test Automation (Selenium / Cypress),19,0.0246,0.0603,0.0425
+44,MongoDB,65,Product Management,19,0.0197,0.0815,0.0506
+9,Go,62,Linux,19,0.0284,0.2468,0.1376
+37,Snowflake,57,Google Cloud Platform (GCP),19,0.0353,0.1462,0.0907
+37,Snowflake,61,CI/CD & Git,19,0.0194,0.1462,0.0828
+45,Redis,46,React,19,0.0521,0.2346,0.1433
+3,JavaScript,50,FastAPI & Flask,19,0.031,0.4043,0.2176
+33,Apache Spark,58,Docker,19,0.0407,0.1073,0.074
+25,Statistics & A/B Testing,43,Oracle Database,19,0.0176,0.0531,0.0353
+6,C++,43,Oracle Database,19,0.028,0.0559,0.0419
+11,Scala,57,Google Cloud Platform (GCP),19,0.0403,0.3065,0.1734
+33,Apache Spark,69,Test Automation (Selenium / Cypress),19,0.0402,0.1073,0.0738
+31,ETL & Data Pipelines,63,Cybersecurity & IAM,19,0.0142,0.0399,0.0271
+6,C++,25,Statistics & A/B Testing,19,0.0179,0.0559,0.0369
+6,C++,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),19,0.0122,0.0559,0.034
+40,PostgreSQL,63,Cybersecurity & IAM,19,0.0188,0.1242,0.0715
+57,Google Cloud Platform (GCP),72,Observability & Monitoring,19,0.0313,0.096,0.0636
+34,Apache Kafka,52,.NET Core,19,0.041,0.1242,0.0826
+3,JavaScript,9,Go,19,0.0295,0.2468,0.1382
+7,C#,27,Power BI,19,0.027,0.0586,0.0428
+35,Apache Airflow,66,Data Governance & Quality,19,0.0302,0.3016,0.1659
+3,JavaScript,78,ERP Systems (SAP / NetSuite / Workday),19,0.0118,0.0325,0.0222
+49,Node.js,82,Project Management & SDLC (PMP),19,0.0184,0.1234,0.0709
+1,Python,8,R,19,0.0152,0.19,0.1026
+50,FastAPI & Flask,55,AWS,19,0.0205,0.4043,0.2124
+32,Data Warehousing,35,Apache Airflow,19,0.0638,0.3016,0.1827
+56,Microsoft Azure,70,UI/UX Design & Figma,19,0.0184,0.0699,0.0441
+58,Docker,65,Product Management,19,0.0183,0.0615,0.0399
+58,Docker,73,ServiceNow & ITIL / ITSM,19,0.0137,0.0615,0.0376
+40,PostgreSQL,49,Node.js,19,0.066,0.1242,0.0951
+27,Power BI,79,CRM Platforms (Salesforce / HubSpot),19,0.0136,0.0476,0.0306
+3,JavaScript,85,Supply Chain & Procurement,19,0.0064,0.0325,0.0194
+61,CI/CD & Git,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),19,0.0167,0.066,0.0413
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),85,Supply Chain & Procurement,19,0.0071,0.066,0.0365
+25,Statistics & A/B Testing,70,UI/UX Design & Figma,19,0.0191,0.0699,0.0445
+17,Deep Learning,55,AWS,19,0.0196,0.2159,0.1178
+30,Excel,57,Google Cloud Platform (GCP),19,0.0038,0.0444,0.0241
+61,CI/CD & Git,75,Embedded Systems & Firmware,19,0.0184,0.1056,0.062
+38,Databricks,61,CI/CD & Git,19,0.0201,0.1979,0.109
+3,JavaScript,33,Apache Spark,19,0.0256,0.1073,0.0665
+70,UI/UX Design & Figma,85,Supply Chain & Procurement,19,0.0072,0.0699,0.0385
+6,C++,18,Natural Language Processing,19,0.0446,0.181,0.1128
+5,Java,48,Vue.js,19,0.0241,0.3654,0.1948
+37,Snowflake,44,MongoDB,18,0.0522,0.1385,0.0953
+36,dbt,37,Snowflake,18,0.1169,0.4286,0.2727
+43,Oracle Database,83,Financial Accounting & Audit (GAAP),18,0.0086,0.0503,0.0295
+28,Tableau,39,BigQuery,18,0.039,0.2045,0.1218
+43,Oracle Database,82,Project Management & SDLC (PMP),18,0.0145,0.0503,0.0324
+53,REST & GraphQL APIs,73,ServiceNow & ITIL / ITSM,18,0.0118,0.0395,0.0256
+17,Deep Learning,26,MLOps,18,0.15,0.36,0.255
+77,Ruby & Rails,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),18,0.0138,0.2338,0.1238
+18,Natural Language Processing,55,AWS,18,0.0182,0.1714,0.0948
+15,Bash / Shell,69,Test Automation (Selenium / Cypress),18,0.0292,0.0571,0.0432
+59,Kubernetes,66,Data Governance & Quality,18,0.0202,0.0559,0.0381
+32,Data Warehousing,73,ServiceNow & ITIL / ITSM,18,0.0136,0.0709,0.0422
+21,PyTorch,55,AWS,18,0.0193,0.3673,0.1933
+7,C#,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),18,0.0116,0.0556,0.0336
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),75,Embedded Systems & Firmware,18,0.04,0.1,0.07
+35,Apache Airflow,39,BigQuery,18,0.1353,0.2857,0.2105
+16,Machine Learning,41,MySQL,18,0.0315,0.1259,0.0787
+51,Spring Boot,72,Observability & Monitoring,18,0.0561,0.1277,0.0919
+40,PostgreSQL,51,Spring Boot,18,0.0652,0.1277,0.0964
+20,Computer Vision,22,TensorFlow,18,0.1636,0.2903,0.227
+52,.NET Core,77,Ruby & Rails,18,0.0464,0.2338,0.1401
+52,.NET Core,78,ERP Systems (SAP / NetSuite / Workday),18,0.0133,0.0547,0.034
+7,C#,70,UI/UX Design & Figma,18,0.0311,0.0662,0.0487
+68,Financial & Business Analysis,80,Six Sigma & Lean Operations,18,0.0167,0.0401,0.0284
+61,CI/CD & Git,68,Financial & Business Analysis,18,0.012,0.0278,0.0199
+52,.NET Core,85,Supply Chain & Procurement,18,0.0066,0.0547,0.0307
+33,Apache Spark,41,MySQL,18,0.0596,0.1259,0.0927
+63,Cybersecurity & IAM,78,ERP Systems (SAP / NetSuite / Workday),18,0.0095,0.0205,0.015
+41,MySQL,60,Terraform & IaC,18,0.0474,0.1259,0.0866
+33,Apache Spark,62,Linux,18,0.0234,0.1017,0.0626
+35,Apache Airflow,57,Google Cloud Platform (GCP),18,0.0381,0.2857,0.1619
+24,Pandas & NumPy,61,CI/CD & Git,18,0.02,0.36,0.19
+9,Go,60,Terraform & IaC,18,0.0573,0.2338,0.1455
+33,Apache Spark,60,Terraform & IaC,18,0.0435,0.1017,0.0726
+3,JavaScript,25,Statistics & A/B Testing,18,0.0138,0.0308,0.0223
+11,Scala,56,Microsoft Azure,18,0.0218,0.2903,0.1561
+56,Microsoft Azure,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),18,0.0171,0.0625,0.0398
+63,Cybersecurity & IAM,68,Financial & Business Analysis,18,0.0119,0.0278,0.0199
+71,Networking & Infrastructure,75,Embedded Systems & Firmware,18,0.018,0.1,0.059
+34,Apache Kafka,54,HTML & CSS,18,0.0291,0.1176,0.0734
+12,PHP,55,AWS,18,0.0187,0.2308,0.1248
+18,Natural Language Processing,21,PyTorch,18,0.1324,0.3673,0.2498
+43,Oracle Database,68,Financial & Business Analysis,17,0.0172,0.0475,0.0323
+7,C#,65,Product Management,17,0.0161,0.0525,0.0343
+15,Bash / Shell,66,Data Governance & Quality,17,0.0191,0.0531,0.0361
+4,TypeScript,42,Microsoft SQL Server,17,0.0346,0.1181,0.0763
+68,Financial & Business Analysis,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),17,0.0091,0.0262,0.0177
+17,Deep Learning,19,Generative AI & LLMs,17,0.0854,0.1932,0.1393
+16,Machine Learning,35,Apache Airflow,17,0.0345,0.2698,0.1522
+25,Statistics & A/B Testing,54,HTML & CSS,17,0.0141,0.0351,0.0246
+32,Data Warehousing,62,Linux,17,0.0201,0.0669,0.0435
+7,C#,78,ERP Systems (SAP / NetSuite / Workday),17,0.0126,0.0525,0.0325
+27,Power BI,38,Databricks,17,0.0356,0.1771,0.1063
+7,C#,85,Supply Chain & Procurement,17,0.0063,0.0525,0.0294
+60,Terraform & IaC,82,Project Management & SDLC (PMP),17,0.015,0.0667,0.0408
+28,Tableau,73,ServiceNow & ITIL / ITSM,17,0.0116,0.0434,0.0275
+34,Apache Kafka,39,BigQuery,17,0.0759,0.1932,0.1345
+61,CI/CD & Git,78,ERP Systems (SAP / NetSuite / Workday),17,0.009,0.0196,0.0143
+36,dbt,55,AWS,17,0.0184,0.4048,0.2116
+12,PHP,41,MySQL,17,0.0833,0.2179,0.1506
+39,BigQuery,66,Data Governance & Quality,17,0.0259,0.1932,0.1095
+1,Python,48,Vue.js,17,0.0141,0.3269,0.1705
+42,Microsoft SQL Server,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),17,0.0267,0.059,0.0429
+42,Microsoft SQL Server,68,Financial & Business Analysis,17,0.0171,0.0466,0.0318
+37,Snowflake,39,BigQuery,17,0.0846,0.1932,0.1389
+70,UI/UX Design & Figma,84,Digital Marketing & SEO (GA4),17,0.0225,0.0625,0.0425
+5,Java,85,Supply Chain & Procurement,17,0.0054,0.0225,0.014
+7,C#,16,Machine Learning,17,0.0225,0.0525,0.0375
+19,Generative AI & LLMs,56,Microsoft Azure,17,0.0191,0.1328,0.0759
+5,Java,35,Apache Airflow,17,0.0213,0.2698,0.1455
+5,Java,37,Snowflake,17,0.0196,0.1308,0.0752
+23,Scikit-Learn,26,MLOps,17,0.2464,0.4722,0.3593
+18,Natural Language Processing,33,Apache Spark,17,0.0642,0.1619,0.113
+40,PostgreSQL,72,Observability & Monitoring,17,0.0509,0.1111,0.081
+46,React,50,FastAPI & Flask,17,0.0511,0.3617,0.2064
+3,JavaScript,27,Power BI,17,0.0176,0.0426,0.0301
+27,Power BI,33,Apache Spark,17,0.0304,0.096,0.0632
+22,TensorFlow,57,Google Cloud Platform (GCP),17,0.0359,0.2742,0.1551
+26,MLOps,31,ETL & Data Pipelines,17,0.0334,0.34,0.1867
+17,Deep Learning,33,Apache Spark,17,0.0685,0.1932,0.1309
+2,SQL,23,Scikit-Learn,17,0.0118,0.4722,0.242
+19,Generative AI & LLMs,64,Agile & Scrum,17,0.0078,0.1328,0.0703
+82,Project Management & SDLC (PMP),86,Talent Acquisition & HRIS,16,0.0093,0.0193,0.0143
+46,React,77,Ruby & Rails,16,0.044,0.2078,0.1259
+66,Data Governance & Quality,69,Test Automation (Selenium / Cypress),16,0.0181,0.0508,0.0344
+47,Angular,82,Project Management & SDLC (PMP),16,0.0147,0.0773,0.046
+41,MySQL,47,Angular,16,0.0479,0.1119,0.0799
+61,CI/CD & Git,86,Talent Acquisition & HRIS,16,0.0095,0.0193,0.0144
+66,Data Governance & Quality,67,Stakeholder Communication,16,0.0226,0.1168,0.0697
+2,SQL,21,PyTorch,16,0.011,0.3265,0.1688
+23,Scikit-Learn,55,AWS,16,0.0174,0.4444,0.2309
+46,React,72,Observability & Monitoring,16,0.033,0.0808,0.0569
+33,Apache Spark,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),16,0.0356,0.0904,0.063
+59,Kubernetes,82,Project Management & SDLC (PMP),16,0.0133,0.0497,0.0315
+39,BigQuery,61,CI/CD & Git,16,0.017,0.1818,0.0994
+11,Scala,59,Kubernetes,16,0.0435,0.2581,0.1508
+35,Apache Airflow,56,Microsoft Azure,16,0.0193,0.254,0.1367
+11,Scala,32,Data Warehousing,16,0.0533,0.2581,0.1557
+63,Cybersecurity & IAM,86,Talent Acquisition & HRIS,16,0.0095,0.0193,0.0144
+28,Tableau,61,CI/CD & Git,16,0.0129,0.0408,0.0268
+45,Redis,62,Linux,16,0.0237,0.1975,0.1106
+41,MySQL,58,Docker,16,0.0367,0.1119,0.0743
+24,Pandas & NumPy,25,Statistics & A/B Testing,16,0.0206,0.32,0.1703
+59,Kubernetes,73,ServiceNow & ITIL / ITSM,16,0.0114,0.0497,0.0306
+9,Go,72,Observability & Monitoring,16,0.0618,0.2078,0.1348
+69,Test Automation (Selenium / Cypress),85,Supply Chain & Procurement,16,0.0059,0.0508,0.0284
+16,Machine Learning,52,.NET Core,16,0.0211,0.0486,0.0348
+7,C#,34,Apache Kafka,16,0.0347,0.1046,0.0696
+7,C#,49,Node.js,16,0.0346,0.1039,0.0693
+6,C++,53,REST & GraphQL APIs,16,0.0205,0.0471,0.0338
+73,ServiceNow & ITIL / ITSM,76,CAD & Industrial Automation,16,0.0085,0.0199,0.0142
+16,Machine Learning,69,Test Automation (Selenium / Cypress),16,0.0214,0.0508,0.0361
+43,Oracle Database,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),16,0.0254,0.0556,0.0405
+73,ServiceNow & ITIL / ITSM,83,Financial Accounting & Audit (GAAP),16,0.0057,0.0147,0.0102
+19,Generative AI & LLMs,57,Google Cloud Platform (GCP),16,0.0296,0.125,0.0773
+27,Power BI,65,Product Management,16,0.0141,0.0401,0.0271
+52,.NET Core,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),16,0.0103,0.0486,0.0295
+15,Bash / Shell,41,MySQL,16,0.0358,0.1119,0.0738
+4,TypeScript,57,Google Cloud Platform (GCP),16,0.0288,0.1111,0.0699
+20,Computer Vision,25,Statistics & A/B Testing,16,0.0202,0.2424,0.1313
+15,Bash / Shell,16,Machine Learning,16,0.0213,0.05,0.0357
+50,FastAPI & Flask,53,REST & GraphQL APIs,16,0.0329,0.3404,0.1866
+49,Node.js,65,Product Management,16,0.018,0.1039,0.061
+49,Node.js,57,Google Cloud Platform (GCP),16,0.0283,0.1039,0.0661
+18,Natural Language Processing,20,Computer Vision,16,0.1032,0.2424,0.1728
+41,MySQL,73,ServiceNow & ITIL / ITSM,15,0.0123,0.1049,0.0586
+37,Snowflake,42,Microsoft SQL Server,15,0.0312,0.1154,0.0733
+31,ETL & Data Pipelines,86,Talent Acquisition & HRIS,15,0.0116,0.0315,0.0216
+41,MySQL,59,Kubernetes,15,0.0333,0.1049,0.0691
+32,Data Warehousing,85,Supply Chain & Procurement,15,0.0057,0.0591,0.0324
+39,BigQuery,60,Terraform & IaC,15,0.0457,0.1705,0.1081
+42,Microsoft SQL Server,65,Product Management,15,0.0136,0.0411,0.0274
+39,BigQuery,43,Oracle Database,15,0.0348,0.1705,0.1026
+41,MySQL,52,.NET Core,15,0.0328,0.1049,0.0689
+40,PostgreSQL,47,Angular,15,0.0435,0.098,0.0708
+3,JavaScript,66,Data Governance & Quality,15,0.013,0.0256,0.0193
+41,MySQL,49,Node.js,15,0.0532,0.1049,0.079
+30,Excel,62,Linux,15,0.0029,0.0246,0.0137
+19,Generative AI & LLMs,25,Statistics & A/B Testing,15,0.0176,0.1172,0.0674
+16,Machine Learning,37,Snowflake,15,0.0267,0.1154,0.071
+25,Statistics & A/B Testing,86,Talent Acquisition & HRIS,15,0.0096,0.0202,0.0149
+5,Java,38,Databricks,15,0.018,0.1562,0.0871
+14,Kotlin,64,Agile & Scrum,15,0.0072,0.4839,0.2456
+5,Java,68,Financial & Business Analysis,15,0.0108,0.0231,0.017
+25,Statistics & A/B Testing,39,BigQuery,15,0.0184,0.1705,0.0944
+58,Docker,82,Project Management & SDLC (PMP),15,0.0126,0.0485,0.0306
+25,Statistics & A/B Testing,26,MLOps,15,0.0193,0.3,0.1597
+7,C#,60,Terraform & IaC,15,0.0266,0.0588,0.0427
+46,React,79,CRM Platforms (Salesforce / HubSpot),15,0.0115,0.0495,0.0305
+6,C++,17,Deep Learning,15,0.0363,0.1705,0.1034
+56,Microsoft Azure,68,Financial & Business Analysis,15,0.0106,0.0231,0.0169
+47,Angular,70,UI/UX Design & Figma,15,0.0323,0.0725,0.0524
+48,Vue.js,49,Node.js,15,0.0785,0.2885,0.1835
+48,Vue.js,55,AWS,15,0.016,0.2885,0.1522
+18,Natural Language Processing,26,MLOps,15,0.1071,0.3,0.2036
+49,Node.js,79,CRM Platforms (Salesforce / HubSpot),15,0.013,0.0974,0.0552
+52,.NET Core,60,Terraform & IaC,15,0.0264,0.0588,0.0426
+19,Generative AI & LLMs,65,Product Management,15,0.0174,0.1172,0.0673
+53,REST & GraphQL APIs,66,Data Governance & Quality,15,0.0146,0.0329,0.0238
+6,C++,41,MySQL,15,0.0321,0.1049,0.0685
+25,Statistics & A/B Testing,79,CRM Platforms (Salesforce / HubSpot),15,0.0086,0.0202,0.0144
+2,SQL,70,UI/UX Design & Figma,15,0.0089,0.0551,0.032
+27,Power BI,86,Talent Acquisition & HRIS,15,0.0124,0.0376,0.025
+28,Tableau,44,MongoDB,15,0.0246,0.0644,0.0445
+65,Product Management,67,Stakeholder Communication,15,0.0172,0.1095,0.0634
+9,Go,44,MongoDB,15,0.0508,0.1948,0.1228
+11,Scala,38,Databricks,15,0.1049,0.2419,0.1734
+27,Power BI,54,HTML & CSS,15,0.0173,0.0376,0.0274
+27,Power BI,52,.NET Core,15,0.021,0.0456,0.0333
+43,Oracle Database,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),14,0.0088,0.0391,0.024
+49,Node.js,51,Spring Boot,14,0.0498,0.0993,0.0746
+27,Power BI,57,Google Cloud Platform (GCP),14,0.0172,0.0351,0.0262
+17,Deep Learning,23,Scikit-Learn,14,0.1273,0.3889,0.2581
+16,Machine Learning,60,Terraform & IaC,14,0.0203,0.0549,0.0376
+32,Data Warehousing,34,Apache Kafka,14,0.0356,0.0915,0.0636
+35,Apache Airflow,36,dbt,14,0.1538,0.3333,0.2436
+16,Machine Learning,73,ServiceNow & ITIL / ITSM,14,0.0092,0.0313,0.0203
+47,Angular,63,Cybersecurity & IAM,14,0.0131,0.0676,0.0404
+65,Product Management,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),14,0.0071,0.0187,0.0129
+55,AWS,68,Financial & Business Analysis,14,0.0091,0.0216,0.0154
+49,Node.js,70,UI/UX Design & Figma,14,0.034,0.0909,0.0624
+2,SQL,48,Vue.js,14,0.0096,0.2692,0.1394
+5,Java,13,Swift,14,0.0183,0.56,0.2892
+5,Java,26,MLOps,14,0.0177,0.28,0.1489
+83,Financial Accounting & Audit (GAAP),84,Digital Marketing & SEO (GA4),14,0.0063,0.028,0.0171
+37,Snowflake,73,ServiceNow & ITIL / ITSM,14,0.0116,0.1077,0.0596
+37,Snowflake,79,CRM Platforms (Salesforce / HubSpot),14,0.0124,0.1077,0.06
+38,Databricks,39,BigQuery,14,0.0824,0.1591,0.1207
+54,HTML & CSS,63,Cybersecurity & IAM,14,0.0104,0.0289,0.0197
+20,Computer Vision,21,PyTorch,14,0.1386,0.2857,0.2122
+19,Generative AI & LLMs,73,ServiceNow & ITIL / ITSM,14,0.0116,0.1094,0.0605
+52,.NET Core,70,UI/UX Design & Figma,14,0.0239,0.0515,0.0377
+19,Generative AI & LLMs,21,PyTorch,14,0.0859,0.2857,0.1858
+56,Microsoft Azure,79,CRM Platforms (Salesforce / HubSpot),14,0.0079,0.0179,0.0129
+68,Financial & Business Analysis,86,Talent Acquisition & HRIS,14,0.0096,0.0216,0.0156
+1,Python,76,CAD & Industrial Automation,14,0.0071,0.0174,0.0123
+67,Stakeholder Communication,68,Financial & Business Analysis,14,0.0182,0.1022,0.0602
+29,Looker,30,Excel,14,0.003,0.2692,0.1361
+62,Linux,79,CRM Platforms (Salesforce / HubSpot),14,0.0087,0.023,0.0158
+16,Machine Learning,40,PostgreSQL,14,0.0239,0.0915,0.0577
+33,Apache Spark,36,dbt,14,0.0683,0.3333,0.2008
+4,TypeScript,60,Terraform & IaC,14,0.0364,0.0972,0.0668
+1,Python,78,ERP Systems (SAP / NetSuite / Workday),14,0.0064,0.0135,0.0099
+11,Scala,66,Data Governance & Quality,14,0.0221,0.2258,0.1239
+29,Looker,31,ETL & Data Pipelines,14,0.0272,0.2692,0.1482
+14,Kotlin,61,CI/CD & Git,14,0.0158,0.4516,0.2337
+39,BigQuery,41,MySQL,14,0.0645,0.1591,0.1118
+7,C#,41,MySQL,14,0.0309,0.0979,0.0644
+15,Bash / Shell,54,HTML & CSS,14,0.0177,0.0437,0.0307
+69,Test Automation (Selenium / Cypress),73,ServiceNow & ITIL / ITSM,14,0.0101,0.0444,0.0272
+4,TypeScript,70,UI/UX Design & Figma,14,0.0348,0.0972,0.066
+12,PHP,49,Node.js,14,0.0642,0.1795,0.1219
+6,C++,65,Product Management,13,0.0121,0.0382,0.0252
+16,Machine Learning,43,Oracle Database,13,0.0164,0.0363,0.0264
+8,R,85,Supply Chain & Procurement,13,0.0052,0.13,0.0676
+60,Terraform & IaC,66,Data Governance & Quality,13,0.0157,0.051,0.0333
+65,Product Management,86,Talent Acquisition & HRIS,13,0.0083,0.0174,0.0128
+12,PHP,62,Linux,13,0.0193,0.1667,0.093
+6,C++,60,Terraform & IaC,13,0.0223,0.051,0.0367
+34,Apache Kafka,35,Apache Airflow,13,0.064,0.2063,0.1352
+19,Generative AI & LLMs,22,TensorFlow,13,0.0734,0.2097,0.1416
+32,Data Warehousing,82,Project Management & SDLC (PMP),13,0.0114,0.0512,0.0313
+31,ETL & Data Pipelines,68,Financial & Business Analysis,13,0.0117,0.0273,0.0195
+54,HTML & CSS,78,ERP Systems (SAP / NetSuite / Workday),13,0.0086,0.0269,0.0177
+18,Natural Language Processing,31,ETL & Data Pipelines,13,0.0229,0.1238,0.0733
+39,BigQuery,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),13,0.0358,0.1477,0.0918
+40,PostgreSQL,50,FastAPI & Flask,13,0.0695,0.2766,0.1731
+58,Docker,66,Data Governance & Quality,13,0.0147,0.0421,0.0284
+55,AWS,79,CRM Platforms (Salesforce / HubSpot),13,0.0068,0.0144,0.0106
+32,Data Warehousing,65,Product Management,13,0.0131,0.0512,0.0322
+55,AWS,86,Talent Acquisition & HRIS,13,0.0076,0.0157,0.0116
+17,Deep Learning,24,Pandas & NumPy,13,0.104,0.26,0.182
+11,Scala,58,Docker,13,0.0363,0.2097,0.123
+6,C++,30,Excel,13,0.0026,0.0382,0.0204
+2,SQL,9,Go,13,0.0087,0.1688,0.0888
+11,Scala,44,MongoDB,13,0.0461,0.2097,0.1279
+9,Go,15,Bash / Shell,13,0.0339,0.1688,0.1013
+38,Databricks,57,Google Cloud Platform (GCP),13,0.0254,0.1354,0.0804
+35,Apache Airflow,64,Agile & Scrum,13,0.0062,0.2063,0.1063
+38,Databricks,43,Oracle Database,13,0.0295,0.1354,0.0824
+45,Redis,63,Cybersecurity & IAM,13,0.0137,0.1605,0.0871
+24,Pandas & NumPy,31,ETL & Data Pipelines,13,0.0253,0.26,0.1427
+6,C++,12,PHP,13,0.0321,0.1667,0.0994
+5,Java,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),13,0.0126,0.0451,0.0289
+29,Looker,66,Data Governance & Quality,13,0.0208,0.25,0.1354
+4,TypeScript,65,Product Management,13,0.0148,0.0903,0.0525
+5,Java,30,Excel,13,0.0024,0.0172,0.0098
+21,PyTorch,61,CI/CD & Git,13,0.0144,0.2653,0.1398
+3,JavaScript,68,Financial & Business Analysis,13,0.0107,0.0222,0.0164
+49,Node.js,60,Terraform & IaC,13,0.0328,0.0844,0.0586
+37,Snowflake,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),13,0.0321,0.1,0.066
+3,JavaScript,18,Natural Language Processing,13,0.0192,0.1238,0.0715
+26,MLOps,61,CI/CD & Git,13,0.0143,0.26,0.1372
+26,MLOps,56,Microsoft Azure,13,0.0159,0.26,0.138
+80,Six Sigma & Lean Operations,86,Talent Acquisition & HRIS,13,0.0103,0.029,0.0196
+19,Generative AI & LLMs,63,Cybersecurity & IAM,13,0.0131,0.1016,0.0573
+28,Tableau,38,Databricks,13,0.0274,0.1354,0.0814
+67,Stakeholder Communication,78,ERP Systems (SAP / NetSuite / Workday),12,0.0103,0.0876,0.049
+25,Statistics & A/B Testing,38,Databricks,12,0.0145,0.125,0.0698
+25,Statistics & A/B Testing,37,Snowflake,12,0.014,0.0923,0.0531
+36,dbt,56,Microsoft Azure,12,0.0148,0.2857,0.1503
+15,Bash / Shell,32,Data Warehousing,12,0.0214,0.0472,0.0343
+25,Statistics & A/B Testing,29,Looker,12,0.0154,0.2308,0.1231
+11,Scala,35,Apache Airflow,12,0.1062,0.1935,0.1499
+26,MLOps,39,BigQuery,12,0.0952,0.24,0.1676
+45,Redis,57,Google Cloud Platform (GCP),12,0.0241,0.1481,0.0861
+35,Apache Airflow,59,Kubernetes,12,0.0322,0.1905,0.1113
+9,Go,77,Ruby & Rails,12,0.0845,0.1558,0.1202
+5,Java,75,Embedded Systems & Firmware,12,0.013,0.0667,0.0398
+57,Google Cloud Platform (GCP),78,ERP Systems (SAP / NetSuite / Workday),12,0.0082,0.028,0.0181
+24,Pandas & NumPy,50,FastAPI & Flask,12,0.1412,0.2553,0.1982
+34,Apache Kafka,41,MySQL,12,0.0423,0.0839,0.0631
+35,Apache Airflow,60,Terraform & IaC,12,0.0392,0.1905,0.1148
+41,MySQL,63,Cybersecurity & IAM,12,0.0119,0.0839,0.0479
+62,Linux,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),12,0.0135,0.0417,0.0276
+79,CRM Platforms (Salesforce / HubSpot),86,Talent Acquisition & HRIS,12,0.0065,0.0145,0.0105
+29,Looker,84,Digital Marketing & SEO (GA4),12,0.0222,0.2308,0.1265
+13,Swift,64,Agile & Scrum,12,0.0058,0.48,0.2429
+25,Statistics & A/B Testing,58,Docker,12,0.0116,0.0388,0.0252
+41,MySQL,71,Networking & Infrastructure,12,0.0124,0.0839,0.0481
+11,Scala,53,REST & GraphQL APIs,12,0.0237,0.1935,0.1086
+6,C++,22,TensorFlow,12,0.0308,0.1935,0.1122
+42,Microsoft SQL Server,49,Node.js,12,0.0237,0.0779,0.0508
+12,PHP,58,Docker,12,0.032,0.1538,0.0929
+12,PHP,52,.NET Core,12,0.0304,0.1538,0.0921
+26,MLOps,38,Databricks,12,0.0896,0.24,0.1648
+63,Cybersecurity & IAM,70,UI/UX Design & Figma,12,0.0105,0.0441,0.0273
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),76,CAD & Industrial Automation,12,0.0111,0.0417,0.0264
+7,C#,40,PostgreSQL,12,0.0258,0.0784,0.0521
+57,Google Cloud Platform (GCP),74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),12,0.017,0.0417,0.0294
+4,TypeScript,16,Machine Learning,12,0.0207,0.0833,0.052
+31,ETL & Data Pipelines,46,React,12,0.0156,0.0396,0.0276
+52,.NET Core,79,CRM Platforms (Salesforce / HubSpot),12,0.009,0.0365,0.0227
+71,Networking & Infrastructure,76,CAD & Industrial Automation,12,0.0074,0.0149,0.0111
+47,Angular,72,Observability & Monitoring,12,0.0305,0.0606,0.0456
+72,Observability & Monitoring,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),12,0.0084,0.0606,0.0345
+47,Angular,73,ServiceNow & ITIL / ITSM,12,0.0093,0.058,0.0336
+18,Natural Language Processing,61,CI/CD & Git,12,0.0125,0.1143,0.0634
+30,Excel,69,Test Automation (Selenium / Cypress),12,0.0024,0.0381,0.0203
+31,ETL & Data Pipelines,79,CRM Platforms (Salesforce / HubSpot),12,0.0081,0.0252,0.0167
+55,AWS,70,UI/UX Design & Figma,12,0.0103,0.0441,0.0272
+17,Deep Learning,61,CI/CD & Git,12,0.0127,0.1364,0.0745
+22,TensorFlow,31,ETL & Data Pipelines,12,0.0228,0.1935,0.1082
+31,ETL & Data Pipelines,72,Observability & Monitoring,12,0.0181,0.0606,0.0394
+54,HTML & CSS,57,Google Cloud Platform (GCP),12,0.0133,0.028,0.0207
+50,FastAPI & Flask,58,Docker,12,0.0349,0.2553,0.1451
+22,TensorFlow,61,CI/CD & Git,12,0.0131,0.1935,0.1033
+47,Angular,65,Product Management,12,0.0127,0.058,0.0353
+36,dbt,61,CI/CD & Git,12,0.0133,0.2857,0.1495
+33,Apache Spark,65,Product Management,12,0.0131,0.0678,0.0405
+69,Test Automation (Selenium / Cypress),71,Networking & Infrastructure,12,0.0105,0.0381,0.0243
+37,Snowflake,62,Linux,12,0.0165,0.0923,0.0544
+2,SQL,8,R,12,0.0079,0.12,0.064
+42,Microsoft SQL Server,79,CRM Platforms (Salesforce / HubSpot),12,0.0088,0.0329,0.0208
+51,Spring Boot,82,Project Management & SDLC (PMP),12,0.0117,0.0851,0.0484
+16,Machine Learning,50,FastAPI & Flask,12,0.0249,0.2553,0.1401
+23,Scikit-Learn,33,Apache Spark,12,0.0597,0.3333,0.1965
+47,Angular,60,Terraform & IaC,12,0.0267,0.058,0.0423
+16,Machine Learning,71,Networking & Infrastructure,12,0.0094,0.0268,0.0181
+53,REST & GraphQL APIs,68,Financial & Business Analysis,12,0.011,0.0263,0.0187
+9,Go,46,React,11,0.0298,0.1429,0.0863
+5,Java,17,Deep Learning,11,0.0132,0.125,0.0691
+36,dbt,39,BigQuery,11,0.0924,0.2619,0.1772
+33,Apache Spark,72,Observability & Monitoring,11,0.0302,0.0621,0.0462
+38,Databricks,44,MongoDB,11,0.0346,0.1146,0.0746
+35,Apache Airflow,37,Snowflake,11,0.0604,0.1746,0.1175
+9,Go,40,PostgreSQL,11,0.0502,0.1429,0.0965
+71,Networking & Infrastructure,86,Talent Acquisition & HRIS,11,0.0066,0.0133,0.0099
+6,C++,72,Observability & Monitoring,11,0.0209,0.0556,0.0382
+6,C++,85,Supply Chain & Procurement,11,0.004,0.0324,0.0182
+39,BigQuery,42,Microsoft SQL Server,11,0.0249,0.125,0.0749
+35,Apache Airflow,38,Databricks,11,0.0743,0.1746,0.1245
+4,TypeScript,62,Linux,11,0.0148,0.0764,0.0456
+8,R,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),11,0.0292,0.11,0.0696
+7,C#,9,Go,11,0.0282,0.1429,0.0855
+4,TypeScript,51,Spring Boot,11,0.0401,0.078,0.0591
+69,Test Automation (Selenium / Cypress),75,Embedded Systems & Firmware,11,0.0227,0.0611,0.0419
+79,CRM Platforms (Salesforce / HubSpot),81,Regulatory Compliance (HIPAA / SOC 2 / SOX),11,0.0049,0.0108,0.0079
+68,Financial & Business Analysis,70,UI/UX Design & Figma,11,0.0121,0.0404,0.0263
+69,Test Automation (Selenium / Cypress),70,UI/UX Design & Figma,11,0.0191,0.0404,0.0298
+9,Go,49,Node.js,11,0.05,0.1429,0.0964
+42,Microsoft SQL Server,72,Observability & Monitoring,11,0.0199,0.0556,0.0377
+9,Go,71,Networking & Infrastructure,11,0.0122,0.1429,0.0775
+18,Natural Language Processing,62,Linux,11,0.0156,0.1048,0.0602
+19,Generative AI & LLMs,26,MLOps,11,0.0659,0.22,0.1429
+33,Apache Spark,63,Cybersecurity & IAM,11,0.0105,0.0621,0.0363
+2,SQL,67,Stakeholder Communication,11,0.0071,0.0803,0.0437
+40,PostgreSQL,77,Ruby & Rails,11,0.0502,0.1429,0.0965
+20,Computer Vision,55,AWS,11,0.0115,0.1667,0.0891
+51,Spring Boot,63,Cybersecurity & IAM,11,0.0109,0.078,0.0445
+20,Computer Vision,64,Agile & Scrum,11,0.0052,0.1667,0.0859
+51,Spring Boot,60,Terraform & IaC,11,0.0286,0.078,0.0533
+21,PyTorch,33,Apache Spark,11,0.0512,0.2245,0.1378
+22,TensorFlow,24,Pandas & NumPy,11,0.1089,0.22,0.1645
+41,MySQL,51,Spring Boot,11,0.0403,0.078,0.0592
+23,Scikit-Learn,61,CI/CD & Git,11,0.0123,0.3056,0.1589
+23,Scikit-Learn,64,Agile & Scrum,11,0.0053,0.3056,0.1554
+24,Pandas & NumPy,33,Apache Spark,11,0.0509,0.22,0.1355
+25,Statistics & A/B Testing,41,MySQL,11,0.0126,0.0769,0.0448
+25,Statistics & A/B Testing,44,MongoDB,11,0.0114,0.0472,0.0293
+45,Redis,49,Node.js,11,0.0491,0.1358,0.0925
+45,Redis,47,Angular,11,0.0397,0.1358,0.0878
+44,MongoDB,77,Ruby & Rails,11,0.0368,0.1429,0.0898
+25,Statistics & A/B Testing,71,Networking & Infrastructure,11,0.007,0.0148,0.0109
+25,Statistics & A/B Testing,76,CAD & Industrial Automation,11,0.0072,0.0148,0.011
+42,Microsoft SQL Server,45,Redis,11,0.0253,0.1358,0.0805
+26,MLOps,57,Google Cloud Platform (GCP),11,0.0236,0.22,0.1218
+44,MongoDB,50,FastAPI & Flask,11,0.0409,0.234,0.1375
+44,MongoDB,48,Vue.js,11,0.0401,0.2115,0.1258
+27,Power BI,29,Looker,11,0.025,0.2115,0.1183
+27,Power BI,76,CAD & Industrial Automation,11,0.0092,0.0276,0.0184
+27,Power BI,82,Project Management & SDLC (PMP),11,0.0086,0.0276,0.0181
+43,Oracle Database,45,Redis,11,0.0257,0.1358,0.0808
+53,REST & GraphQL APIs,85,Supply Chain & Procurement,11,0.0039,0.0241,0.014
+19,Generative AI & LLMs,31,ETL & Data Pipelines,11,0.0185,0.0859,0.0522
+36,dbt,64,Agile & Scrum,11,0.0053,0.2619,0.1336
+12,PHP,53,REST & GraphQL APIs,11,0.021,0.141,0.081
+13,Swift,61,CI/CD & Git,11,0.0125,0.44,0.2262
+13,Swift,14,Kotlin,11,0.2444,0.44,0.3422
+15,Bash / Shell,33,Apache Spark,11,0.0226,0.0621,0.0424
+15,Bash / Shell,34,Apache Kafka,11,0.0238,0.0719,0.0479
+1,Python,83,Financial Accounting & Audit (GAAP),11,0.0038,0.0094,0.0066
+33,Apache Spark,40,PostgreSQL,11,0.0345,0.0719,0.0532
+15,Bash / Shell,39,BigQuery,11,0.0277,0.125,0.0764
+40,PostgreSQL,54,HTML & CSS,11,0.0176,0.0719,0.0447
+32,Data Warehousing,53,REST & GraphQL APIs,11,0.0157,0.0433,0.0295
+4,TypeScript,41,MySQL,11,0.0399,0.0769,0.0584
+62,Linux,78,ERP Systems (SAP / NetSuite / Workday),11,0.0067,0.018,0.0124
+32,Data Warehousing,36,dbt,11,0.0386,0.2619,0.1503
+11,Scala,28,Tableau,11,0.0248,0.1774,0.1011
+17,Deep Learning,56,Microsoft Azure,11,0.0128,0.125,0.0689
+63,Cybersecurity & IAM,76,CAD & Industrial Automation,11,0.0066,0.0137,0.0101
+15,Bash / Shell,82,Project Management & SDLC (PMP),11,0.0091,0.0344,0.0217
+14,Kotlin,59,Kubernetes,11,0.0322,0.3548,0.1935
+56,Microsoft Azure,86,Talent Acquisition & HRIS,11,0.0069,0.0141,0.0105
+15,Bash / Shell,85,Supply Chain & Procurement,11,0.0041,0.0344,0.0192
+33,Apache Spark,45,Redis,11,0.0445,0.1358,0.0902
+61,CI/CD & Git,84,Digital Marketing & SEO (GA4),10,0.0074,0.02,0.0137
+42,Microsoft SQL Server,51,Spring Boot,10,0.0202,0.0709,0.0455
+3,JavaScript,28,Tableau,10,0.0103,0.0255,0.0179
+61,CI/CD & Git,83,Financial Accounting & Audit (GAAP),10,0.0038,0.0115,0.0077
+66,Data Governance & Quality,80,Six Sigma & Lean Operations,10,0.0098,0.0223,0.016
+63,Cybersecurity & IAM,84,Digital Marketing & SEO (GA4),10,0.0073,0.02,0.0137
+41,MySQL,66,Data Governance & Quality,10,0.0139,0.0699,0.0419
+65,Product Management,80,Six Sigma & Lean Operations,10,0.0084,0.0223,0.0153
+40,PostgreSQL,65,Product Management,10,0.0112,0.0654,0.0383
+1,Python,79,CRM Platforms (Salesforce / HubSpot),10,0.0046,0.0098,0.0072
+45,Redis,51,Spring Boot,10,0.0472,0.1235,0.0853
+72,Observability & Monitoring,77,Ruby & Rails,10,0.0377,0.1299,0.0838
+54,HTML & CSS,60,Terraform & IaC,10,0.0137,0.0392,0.0265
+73,ServiceNow & ITIL / ITSM,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),10,0.0073,0.0347,0.021
+2,SQL,20,Computer Vision,10,0.0068,0.1515,0.0791
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),79,CRM Platforms (Salesforce / HubSpot),10,0.0077,0.0347,0.0212
+2,SQL,75,Embedded Systems & Firmware,10,0.0063,0.0556,0.0309
+2,SQL,76,CAD & Industrial Automation,10,0.0045,0.0124,0.0085
+40,PostgreSQL,52,.NET Core,10,0.0212,0.0654,0.0433
+68,Financial & Business Analysis,84,Digital Marketing & SEO (GA4),10,0.0088,0.02,0.0144
+41,MySQL,48,Vue.js,10,0.0541,0.1923,0.1232
+3,JavaScript,13,Swift,10,0.0167,0.4,0.2083
+40,PostgreSQL,71,Networking & Infrastructure,10,0.0102,0.0654,0.0378
+58,Docker,85,Supply Chain & Procurement,10,0.0037,0.0324,0.018
+45,Redis,69,Test Automation (Selenium / Cypress),10,0.0259,0.1235,0.0747
+45,Redis,52,.NET Core,10,0.025,0.1235,0.0742
+37,Snowflake,65,Product Management,10,0.0115,0.0769,0.0442
+32,Data Warehousing,40,PostgreSQL,10,0.0252,0.0654,0.0453
+23,Scikit-Learn,31,ETL & Data Pipelines,10,0.0199,0.2778,0.1488
+4,TypeScript,63,Cybersecurity & IAM,10,0.0099,0.0694,0.0397
+16,Machine Learning,79,CRM Platforms (Salesforce / HubSpot),10,0.0069,0.0224,0.0146
+18,Natural Language Processing,24,Pandas & NumPy,10,0.069,0.2,0.1345
+29,Looker,32,Data Warehousing,10,0.0338,0.1923,0.113
+16,Machine Learning,49,Node.js,10,0.0169,0.0649,0.0409
+31,ETL & Data Pipelines,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),10,0.0059,0.021,0.0134
+4,TypeScript,9,Go,10,0.0474,0.1299,0.0886
+12,PHP,56,Microsoft Azure,10,0.0118,0.1282,0.07
+21,PyTorch,57,Google Cloud Platform (GCP),10,0.0214,0.2041,0.1127
+4,TypeScript,34,Apache Kafka,10,0.0348,0.0694,0.0521
+22,TensorFlow,58,Docker,10,0.0277,0.1613,0.0945
+21,PyTorch,58,Docker,10,0.0287,0.2041,0.1164
+32,Data Warehousing,41,MySQL,10,0.0258,0.0699,0.0479
+8,R,16,Machine Learning,10,0.0186,0.1,0.0593
+28,Tableau,41,MySQL,10,0.019,0.0699,0.0445
+16,Machine Learning,86,Talent Acquisition & HRIS,10,0.0079,0.0224,0.0151
+17,Deep Learning,64,Agile & Scrum,10,0.0047,0.1136,0.0592
+24,Pandas & NumPy,56,Microsoft Azure,10,0.0122,0.2,0.1061
+24,Pandas & NumPy,53,REST & GraphQL APIs,10,0.0202,0.2,0.1101
+15,Bash / Shell,47,Angular,10,0.0193,0.0483,0.0338
+34,Apache Kafka,63,Cybersecurity & IAM,10,0.0098,0.0654,0.0376
+32,Data Warehousing,63,Cybersecurity & IAM,10,0.0089,0.0394,0.0241
+5,Java,79,CRM Platforms (Salesforce / HubSpot),10,0.0057,0.0133,0.0095
+16,Machine Learning,70,UI/UX Design & Figma,10,0.0141,0.0368,0.0254
+34,Apache Kafka,49,Node.js,10,0.0337,0.0654,0.0495
+15,Bash / Shell,27,Power BI,10,0.0141,0.0312,0.0227
+28,Tableau,86,Talent Acquisition & HRIS,10,0.0083,0.0255,0.0169
+13,Swift,46,React,10,0.0314,0.4,0.2157
+11,Scala,39,BigQuery,10,0.0714,0.1613,0.1164
+4,TypeScript,48,Vue.js,10,0.0538,0.1923,0.123
+14,Kotlin,58,Docker,10,0.0303,0.3226,0.1764
+6,C++,21,PyTorch,10,0.0264,0.2041,0.1152
+28,Tableau,62,Linux,10,0.0101,0.0255,0.0178
+30,Excel,75,Embedded Systems & Firmware,10,0.0021,0.0556,0.0288
+15,Bash / Shell,49,Node.js,10,0.0216,0.0649,0.0432
+16,Machine Learning,54,HTML & CSS,10,0.0109,0.0224,0.0166
+30,Excel,37,Snowflake,10,0.0021,0.0769,0.0395
+20,Computer Vision,57,Google Cloud Platform (GCP),10,0.0207,0.1515,0.0861
+20,Computer Vision,61,CI/CD & Git,10,0.0108,0.1515,0.0812
+6,C++,46,React,10,0.0158,0.033,0.0244
+29,Looker,37,Snowflake,10,0.0581,0.1923,0.1252
+35,Apache Airflow,58,Docker,10,0.0276,0.1587,0.0932
+12,PHP,47,Angular,10,0.0364,0.1282,0.0823
+25,Statistics & A/B Testing,40,PostgreSQL,10,0.0113,0.0654,0.0383
+5,Java,22,TensorFlow,10,0.0124,0.1613,0.0868
+7,C#,28,Tableau,10,0.0142,0.0309,0.0225
+5,Java,19,Generative AI & LLMs,10,0.0115,0.0781,0.0448
+11,Scala,16,Machine Learning,10,0.02,0.1613,0.0907
+54,HTML & CSS,72,Observability & Monitoring,9,0.0134,0.0455,0.0294
+17,Deep Learning,31,ETL & Data Pipelines,9,0.0162,0.1023,0.0592
+54,HTML & CSS,77,Ruby & Rails,9,0.0163,0.1169,0.0666
+6,C++,82,Project Management & SDLC (PMP),9,0.0073,0.0265,0.0169
+72,Observability & Monitoring,82,Project Management & SDLC (PMP),9,0.0083,0.0455,0.0269
+66,Data Governance & Quality,84,Digital Marketing & SEO (GA4),9,0.0084,0.018,0.0132
+46,React,84,Digital Marketing & SEO (GA4),9,0.0113,0.0297,0.0205
+13,Swift,53,REST & GraphQL APIs,9,0.0191,0.36,0.1895
+57,Google Cloud Platform (GCP),70,UI/UX Design & Figma,9,0.013,0.0331,0.0231
+24,Pandas & NumPy,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),9,0.0274,0.18,0.1037
+45,Redis,77,Ruby & Rails,9,0.0604,0.1169,0.0886
+31,ETL & Data Pipelines,50,FastAPI & Flask,9,0.0175,0.1915,0.1045
+60,Terraform & IaC,85,Supply Chain & Procurement,9,0.0034,0.0353,0.0193
+55,AWS,76,CAD & Industrial Automation,9,0.0053,0.0112,0.0083
+26,MLOps,53,REST & GraphQL APIs,9,0.0181,0.18,0.0991
+26,MLOps,44,MongoDB,9,0.0328,0.18,0.1064
+17,Deep Learning,44,MongoDB,9,0.0288,0.1023,0.0656
+6,C++,44,MongoDB,9,0.016,0.0386,0.0273
+25,Statistics & A/B Testing,75,Embedded Systems & Firmware,9,0.0099,0.05,0.0299
+44,MongoDB,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),9,0.0176,0.0386,0.0281
+45,Redis,71,Networking & Infrastructure,9,0.0099,0.1111,0.0605
+27,Power BI,44,MongoDB,9,0.0144,0.0386,0.0265
+43,Oracle Database,65,Product Management,9,0.0082,0.0251,0.0167
+41,MySQL,72,Observability & Monitoring,9,0.0271,0.0629,0.045
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),81,Regulatory Compliance (HIPAA / SOC 2 / SOX),9,0.0059,0.0312,0.0186
+40,PostgreSQL,66,Data Governance & Quality,9,0.0123,0.0588,0.0356
+24,Pandas & NumPy,66,Data Governance & Quality,9,0.0144,0.18,0.0972
+45,Redis,65,Product Management,9,0.011,0.1111,0.061
+47,Angular,50,FastAPI & Flask,9,0.0367,0.1915,0.1141
+60,Terraform & IaC,65,Product Management,9,0.009,0.0353,0.0222
+3,JavaScript,14,Kotlin,9,0.0148,0.2903,0.1526
+6,C++,73,ServiceNow & ITIL / ITSM,9,0.0063,0.0265,0.0164
+38,Databricks,42,Microsoft SQL Server,9,0.0199,0.0938,0.0568
+49,Node.js,71,Networking & Infrastructure,9,0.0092,0.0584,0.0338
+49,Node.js,77,Ruby & Rails,9,0.0405,0.1169,0.0787
+28,Tableau,52,.NET Core,9,0.0126,0.0274,0.02
+19,Generative AI & LLMs,30,Excel,9,0.0019,0.0703,0.0361
+5,Java,24,Pandas & NumPy,9,0.0113,0.18,0.0957
+35,Apache Airflow,44,MongoDB,9,0.0314,0.1429,0.0871
+70,UI/UX Design & Figma,82,Project Management & SDLC (PMP),9,0.0078,0.0331,0.0204
+7,C#,12,PHP,9,0.0229,0.1154,0.0691
+50,FastAPI & Flask,62,Linux,9,0.0139,0.1915,0.1027
+21,PyTorch,24,Pandas & NumPy,9,0.1,0.1837,0.1418
+82,Project Management & SDLC (PMP),84,Digital Marketing & SEO (GA4),9,0.0065,0.018,0.0122
+51,Spring Boot,57,Google Cloud Platform (GCP),9,0.0161,0.0638,0.04
+36,dbt,59,Kubernetes,9,0.0254,0.2143,0.1198
+58,Docker,70,UI/UX Design & Figma,9,0.0157,0.0331,0.0244
+11,Scala,62,Linux,9,0.0136,0.1452,0.0794
+19,Generative AI & LLMs,61,CI/CD & Git,9,0.0091,0.0703,0.0397
+37,Snowflake,40,PostgreSQL,9,0.0328,0.0692,0.051
+19,Generative AI & LLMs,62,Linux,9,0.0123,0.0703,0.0413
+52,.NET Core,72,Observability & Monitoring,9,0.0174,0.0455,0.0314
+28,Tableau,67,Stakeholder Communication,9,0.0173,0.0657,0.0415
+36,dbt,66,Data Governance & Quality,9,0.0145,0.2143,0.1144
+36,dbt,57,Google Cloud Platform (GCP),9,0.0195,0.2143,0.1169
+5,Java,50,FastAPI & Flask,9,0.0114,0.1915,0.1014
+15,Bash / Shell,30,Excel,9,0.0018,0.0281,0.015
+34,Apache Kafka,65,Product Management,9,0.0101,0.0588,0.0345
+39,BigQuery,40,PostgreSQL,9,0.0388,0.1023,0.0705
+23,Scikit-Learn,39,BigQuery,9,0.0783,0.25,0.1641
+70,UI/UX Design & Figma,71,Networking & Infrastructure,9,0.0082,0.0331,0.0206
+28,Tableau,34,Apache Kafka,9,0.0168,0.0588,0.0378
+33,Apache Spark,82,Project Management & SDLC (PMP),9,0.0084,0.0508,0.0296
+6,C++,10,Rust,9,0.026,0.6,0.313
+39,BigQuery,53,REST & GraphQL APIs,9,0.0168,0.1023,0.0595
+22,TensorFlow,64,Agile & Scrum,9,0.0043,0.1452,0.0747
+34,Apache Kafka,37,Snowflake,9,0.0328,0.0692,0.051
+34,Apache Kafka,38,Databricks,9,0.0375,0.0938,0.0656
+48,Vue.js,70,UI/UX Design & Figma,9,0.0286,0.1731,0.1008
+18,Natural Language Processing,56,Microsoft Azure,9,0.0103,0.0857,0.048
+26,MLOps,64,Agile & Scrum,9,0.0043,0.18,0.0921
+12,PHP,73,ServiceNow & ITIL / ITSM,9,0.0078,0.1154,0.0616
+48,Vue.js,69,Test Automation (Selenium / Cypress),9,0.0251,0.1731,0.0991
+22,TensorFlow,39,BigQuery,9,0.0638,0.1452,0.1045
+9,Go,16,Machine Learning,9,0.0175,0.1169,0.0672
+57,Google Cloud Platform (GCP),86,Talent Acquisition & HRIS,9,0.0072,0.021,0.0141
+5,Java,78,ERP Systems (SAP / NetSuite / Workday),9,0.005,0.0119,0.0085
+69,Test Automation (Selenium / Cypress),78,ERP Systems (SAP / NetSuite / Workday),8,0.0059,0.0254,0.0157
+43,Oracle Database,49,Node.js,8,0.0159,0.0519,0.0339
+17,Deep Learning,28,Tableau,8,0.0169,0.0909,0.0539
+7,C#,48,Vue.js,8,0.0217,0.1538,0.0878
+27,Power BI,80,Six Sigma & Lean Operations,8,0.0095,0.0201,0.0148
+13,Swift,56,Microsoft Azure,8,0.01,0.32,0.165
+28,Tableau,40,PostgreSQL,8,0.0149,0.0523,0.0336
+27,Power BI,67,Stakeholder Communication,8,0.0152,0.0584,0.0368
+3,JavaScript,32,Data Warehousing,8,0.0096,0.0315,0.0206
+27,Power BI,39,BigQuery,8,0.0167,0.0909,0.0538
+27,Power BI,41,MySQL,8,0.015,0.0559,0.0355
+4,TypeScript,45,Redis,8,0.0369,0.0988,0.0678
+36,dbt,60,Terraform & IaC,8,0.0277,0.1905,0.1091
+26,MLOps,59,Kubernetes,8,0.022,0.16,0.091
+53,REST & GraphQL APIs,77,Ruby & Rails,8,0.0152,0.1039,0.0596
+8,R,66,Data Governance & Quality,8,0.0118,0.08,0.0459
+54,HTML & CSS,68,Financial & Business Analysis,8,0.0071,0.0165,0.0118
+54,HTML & CSS,66,Data Governance & Quality,8,0.0075,0.0165,0.012
+47,Angular,57,Google Cloud Platform (GCP),8,0.0128,0.0386,0.0257
+22,TensorFlow,56,Microsoft Azure,8,0.0096,0.129,0.0693
+48,Vue.js,56,Microsoft Azure,8,0.0097,0.1538,0.0818
+65,Product Management,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),8,0.0078,0.0278,0.0178
+65,Product Management,72,Observability & Monitoring,8,0.0085,0.0404,0.0245
+9,Go,63,Cybersecurity & IAM,8,0.0084,0.1039,0.0562
+26,MLOps,58,Docker,8,0.0228,0.16,0.0914
+21,PyTorch,39,BigQuery,8,0.062,0.1633,0.1126
+62,Linux,65,Product Management,8,0.0059,0.0131,0.0095
+50,FastAPI & Flask,54,HTML & CSS,8,0.0153,0.1702,0.0928
+19,Generative AI & LLMs,33,Apache Spark,8,0.0269,0.0625,0.0447
+11,Scala,15,Bash / Shell,8,0.0214,0.129,0.0752
+62,Linux,68,Financial & Business Analysis,8,0.0064,0.0131,0.0098
+20,Computer Vision,33,Apache Spark,8,0.034,0.1212,0.0776
+19,Generative AI & LLMs,70,UI/UX Design & Figma,8,0.0204,0.0625,0.0415
+18,Natural Language Processing,41,MySQL,8,0.0333,0.0762,0.0548
+46,React,85,Supply Chain & Procurement,8,0.003,0.0264,0.0147
+46,React,73,ServiceNow & ITIL / ITSM,8,0.0058,0.0264,0.0161
+67,Stakeholder Communication,71,Networking & Infrastructure,8,0.0083,0.0584,0.0333
+7,C#,68,Financial & Business Analysis,8,0.0083,0.0247,0.0165
+7,C#,73,ServiceNow & ITIL / ITSM,8,0.0057,0.0247,0.0152
+26,MLOps,35,Apache Airflow,8,0.0762,0.16,0.1181
+17,Deep Learning,57,Google Cloud Platform (GCP),8,0.0157,0.0909,0.0533
+17,Deep Learning,58,Docker,8,0.0206,0.0909,0.0557
+7,C#,75,Embedded Systems & Firmware,8,0.0161,0.0444,0.0303
+44,MongoDB,71,Networking & Infrastructure,8,0.0075,0.0343,0.0209
+44,MongoDB,82,Project Management & SDLC (PMP),8,0.0071,0.0343,0.0207
+68,Financial & Business Analysis,69,Test Automation (Selenium / Cypress),8,0.0084,0.0254,0.0169
+25,Statistics & A/B Testing,46,React,8,0.0077,0.0264,0.0171
+67,Stakeholder Communication,86,Talent Acquisition & HRIS,8,0.0083,0.0584,0.0334
+17,Deep Learning,62,Linux,8,0.0116,0.0909,0.0513
+25,Statistics & A/B Testing,34,Apache Kafka,8,0.009,0.0523,0.0307
+17,Deep Learning,63,Cybersecurity & IAM,8,0.0084,0.0909,0.0496
+24,Pandas & NumPy,44,MongoDB,8,0.0291,0.16,0.0945
+67,Stakeholder Communication,79,CRM Platforms (Salesforce / HubSpot),8,0.007,0.0584,0.0327
+17,Deep Learning,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),8,0.0217,0.0909,0.0563
+54,HTML & CSS,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),8,0.0047,0.0165,0.0106
+12,PHP,16,Machine Learning,8,0.0155,0.1026,0.059
+33,Apache Spark,49,Node.js,8,0.0248,0.0519,0.0384
+6,C++,49,Node.js,8,0.0165,0.0519,0.0342
+15,Bash / Shell,46,React,8,0.013,0.0264,0.0197
+59,Kubernetes,70,UI/UX Design & Figma,8,0.0137,0.0294,0.0215
+39,BigQuery,69,Test Automation (Selenium / Cypress),8,0.0203,0.0909,0.0556
+36,dbt,44,MongoDB,8,0.03,0.1905,0.1102
+37,Snowflake,78,ERP Systems (SAP / NetSuite / Workday),8,0.0069,0.0615,0.0342
+30,Excel,59,Kubernetes,8,0.0016,0.0248,0.0132
+72,Observability & Monitoring,85,Supply Chain & Procurement,8,0.0031,0.0404,0.0217
+4,TypeScript,50,FastAPI & Flask,8,0.0437,0.1702,0.107
+14,Kotlin,55,AWS,8,0.0087,0.2581,0.1334
+34,Apache Kafka,71,Networking & Infrastructure,8,0.0081,0.0523,0.0302
+15,Bash / Shell,25,Statistics & A/B Testing,8,0.0076,0.025,0.0163
+32,Data Warehousing,83,Financial Accounting & Audit (GAAP),8,0.004,0.0315,0.0178
+14,Kotlin,56,Microsoft Azure,8,0.01,0.2581,0.134
+4,TypeScript,72,Observability & Monitoring,8,0.024,0.0556,0.0398
+41,MySQL,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),8,0.0189,0.0559,0.0374
+33,Apache Spark,46,React,8,0.0169,0.0452,0.0311
+3,JavaScript,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),8,0.0044,0.0137,0.009
+6,C++,47,Angular,8,0.0148,0.0386,0.0267
+75,Embedded Systems & Firmware,76,CAD & Industrial Automation,8,0.0082,0.0444,0.0263
+39,BigQuery,63,Cybersecurity & IAM,8,0.0084,0.0909,0.0496
+40,PostgreSQL,73,ServiceNow & ITIL / ITSM,8,0.0065,0.0523,0.0294
+38,Databricks,73,ServiceNow & ITIL / ITSM,8,0.0068,0.0833,0.0451
+78,ERP Systems (SAP / NetSuite / Workday),84,Digital Marketing & SEO (GA4),8,0.0052,0.016,0.0106
+6,C++,33,Apache Spark,8,0.0157,0.0452,0.0305
+30,Excel,41,MySQL,8,0.0017,0.0559,0.0288
+6,C++,42,Microsoft SQL Server,8,0.0115,0.0235,0.0175
+1,Python,13,Swift,8,0.0067,0.32,0.1634
+32,Data Warehousing,59,Kubernetes,8,0.0141,0.0315,0.0228
+34,Apache Kafka,82,Project Management & SDLC (PMP),8,0.0077,0.0523,0.03
+1,Python,14,Kotlin,8,0.0067,0.2581,0.1324
+3,JavaScript,39,BigQuery,8,0.012,0.0909,0.0515
+4,TypeScript,15,Bash / Shell,8,0.0175,0.0556,0.0365
+14,Kotlin,63,Cybersecurity & IAM,8,0.0089,0.2581,0.1335
+37,Snowflake,82,Project Management & SDLC (PMP),8,0.0078,0.0615,0.0347
+16,Machine Learning,72,Observability & Monitoring,8,0.0126,0.0404,0.0265
+17,Deep Learning,66,Data Governance & Quality,7,0.0105,0.0795,0.045
+32,Data Warehousing,58,Docker,7,0.0126,0.0276,0.0201
+67,Stakeholder Communication,80,Six Sigma & Lean Operations,7,0.0121,0.0511,0.0316
+68,Financial & Business Analysis,71,Networking & Infrastructure,7,0.0047,0.0108,0.0078
+67,Stakeholder Communication,84,Digital Marketing & SEO (GA4),7,0.0111,0.0511,0.0311
+24,Pandas & NumPy,41,MySQL,7,0.0376,0.14,0.0888
+6,C++,27,Power BI,7,0.0096,0.0206,0.0151
+1,Python,10,Rust,7,0.0059,0.4667,0.2363
+31,ETL & Data Pipelines,84,Digital Marketing & SEO (GA4),7,0.0072,0.0147,0.011
+15,Bash / Shell,75,Embedded Systems & Firmware,7,0.0142,0.0389,0.0265
+31,ETL & Data Pipelines,71,Networking & Infrastructure,7,0.0054,0.0147,0.01
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),80,Six Sigma & Lean Operations,7,0.0096,0.0243,0.0169
+10,Rust,61,CI/CD & Git,7,0.008,0.4667,0.2373
+25,Statistics & A/B Testing,50,FastAPI & Flask,7,0.009,0.1489,0.0789
+31,ETL & Data Pipelines,51,Spring Boot,7,0.0115,0.0496,0.0306
+34,Apache Kafka,85,Supply Chain & Procurement,7,0.0027,0.0458,0.0242
+19,Generative AI & LLMs,20,Computer Vision,7,0.0374,0.1061,0.0717
+32,Data Warehousing,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),7,0.0047,0.0276,0.0161
+5,Java,36,dbt,7,0.0089,0.1667,0.0878
+76,CAD & Industrial Automation,86,Talent Acquisition & HRIS,7,0.0043,0.0087,0.0065
+18,Natural Language Processing,58,Docker,7,0.0172,0.0667,0.0419
+18,Natural Language Processing,65,Product Management,7,0.0083,0.0667,0.0375
+9,Go,10,Rust,7,0.0824,0.4667,0.2745
+48,Vue.js,52,.NET Core,7,0.0187,0.1346,0.0767
+48,Vue.js,57,Google Cloud Platform (GCP),7,0.0148,0.1346,0.0747
+18,Natural Language Processing,50,FastAPI & Flask,7,0.0483,0.1489,0.0986
+48,Vue.js,58,Docker,7,0.0198,0.1346,0.0772
+66,Data Governance & Quality,70,UI/UX Design & Figma,7,0.0082,0.0257,0.017
+33,Apache Spark,85,Supply Chain & Procurement,7,0.0027,0.0395,0.0211
+48,Vue.js,59,Kubernetes,7,0.0191,0.1346,0.0768
+38,Databricks,65,Product Management,7,0.0084,0.0729,0.0406
+48,Vue.js,62,Linux,7,0.0107,0.1346,0.0727
+18,Natural Language Processing,40,PostgreSQL,7,0.0279,0.0667,0.0473
+32,Data Warehousing,60,Terraform & IaC,7,0.0139,0.0276,0.0208
+38,Databricks,58,Docker,7,0.0176,0.0729,0.0453
+18,Natural Language Processing,39,BigQuery,7,0.0376,0.0795,0.0586
+9,Go,47,Angular,7,0.0253,0.0909,0.0581
+12,PHP,65,Product Management,7,0.0085,0.0897,0.0491
+15,Bash / Shell,45,Redis,7,0.0178,0.0864,0.0521
+25,Statistics & A/B Testing,52,.NET Core,7,0.0066,0.0213,0.0139
+24,Pandas & NumPy,26,MLOps,7,0.0753,0.14,0.1076
+21,PyTorch,64,Agile & Scrum,7,0.0033,0.1429,0.0731
+12,PHP,59,Kubernetes,7,0.0178,0.0897,0.0538
+75,Embedded Systems & Firmware,85,Supply Chain & Procurement,7,0.0027,0.0389,0.0208
+24,Pandas & NumPy,38,Databricks,7,0.0504,0.14,0.0952
+12,PHP,57,Google Cloud Platform (GCP),7,0.014,0.0897,0.0519
+65,Product Management,83,Financial Accounting & Audit (GAAP),7,0.0028,0.0093,0.0061
+38,Databricks,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),7,0.0186,0.0729,0.0457
+40,PostgreSQL,82,Project Management & SDLC (PMP),7,0.0067,0.0458,0.0262
+44,MongoDB,73,ServiceNow & ITIL / ITSM,7,0.0053,0.03,0.0177
+62,Linux,70,UI/UX Design & Figma,7,0.008,0.0257,0.0169
+28,Tableau,54,HTML & CSS,7,0.0081,0.0179,0.013
+16,Machine Learning,45,Redis,7,0.0134,0.0864,0.0499
+7,C#,19,Generative AI & LLMs,7,0.0157,0.0547,0.0352
+30,Excel,44,MongoDB,7,0.0014,0.03,0.0157
+7,C#,45,Redis,7,0.0176,0.0864,0.052
+51,Spring Boot,52,.NET Core,7,0.0151,0.0496,0.0324
+52,.NET Core,68,Financial & Business Analysis,7,0.0072,0.0213,0.0142
+19,Generative AI & LLMs,83,Financial Accounting & Audit (GAAP),7,0.0038,0.0547,0.0292
+16,Machine Learning,47,Angular,7,0.0108,0.0338,0.0223
+16,Machine Learning,83,Financial Accounting & Audit (GAAP),7,0.0032,0.0157,0.0094
+11,Scala,26,MLOps,7,0.0667,0.14,0.1033
+37,Snowflake,53,REST & GraphQL APIs,7,0.0121,0.0538,0.033
+16,Machine Learning,84,Digital Marketing & SEO (GA4),7,0.0074,0.0157,0.0116
+11,Scala,42,Microsoft SQL Server,7,0.0167,0.1129,0.0648
+20,Computer Vision,65,Product Management,7,0.0087,0.1061,0.0574
+11,Scala,69,Test Automation (Selenium / Cypress),7,0.0189,0.1129,0.0659
+6,C++,70,UI/UX Design & Figma,7,0.0116,0.0257,0.0187
+56,Microsoft Azure,75,Embedded Systems & Firmware,7,0.0073,0.0389,0.0231
+27,Power BI,63,Cybersecurity & IAM,7,0.0055,0.0175,0.0115
+29,Looker,57,Google Cloud Platform (GCP),7,0.0148,0.1346,0.0747
+13,Swift,58,Docker,7,0.0214,0.28,0.1507
+7,C#,66,Data Governance & Quality,7,0.0078,0.0216,0.0147
+11,Scala,37,Snowflake,7,0.0378,0.1129,0.0754
+19,Generative AI & LLMs,43,Oracle Database,7,0.0146,0.0547,0.0347
+26,MLOps,32,Data Warehousing,7,0.0236,0.14,0.0818
+25,Statistics & A/B Testing,53,REST & GraphQL APIs,7,0.0059,0.0154,0.0106
+15,Bash / Shell,28,Tableau,7,0.0099,0.0219,0.0159
+25,Statistics & A/B Testing,59,Kubernetes,7,0.0066,0.0217,0.0142
+50,FastAPI & Flask,56,Microsoft Azure,7,0.0085,0.1489,0.0787
+25,Statistics & A/B Testing,60,Terraform & IaC,7,0.0071,0.0275,0.0173
+31,ETL & Data Pipelines,49,Node.js,7,0.0112,0.0455,0.0283
+5,Java,23,Scikit-Learn,7,0.0089,0.1944,0.1017
+37,Snowflake,63,Cybersecurity & IAM,7,0.007,0.0538,0.0304
+4,TypeScript,6,C++,7,0.0147,0.0486,0.0316
+31,ETL & Data Pipelines,47,Angular,7,0.0104,0.0338,0.0221
+41,MySQL,45,Redis,7,0.0323,0.0864,0.0593
+14,Kotlin,69,Test Automation (Selenium / Cypress),7,0.0206,0.2258,0.1232
+16,Machine Learning,75,Embedded Systems & Firmware,7,0.0113,0.0389,0.0251
+19,Generative AI & LLMs,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),7,0.0051,0.0547,0.0299
+6,C++,35,Apache Airflow,7,0.0177,0.1111,0.0644
+13,Swift,69,Test Automation (Selenium / Cypress),7,0.021,0.28,0.1505
+30,Excel,72,Observability & Monitoring,7,0.0014,0.0354,0.0184
+5,Java,20,Computer Vision,7,0.0086,0.1061,0.0573
+36,dbt,69,Test Automation (Selenium / Cypress),6,0.0171,0.1429,0.08
+11,Scala,85,Supply Chain & Procurement,6,0.0024,0.0968,0.0496
+19,Generative AI & LLMs,82,Project Management & SDLC (PMP),6,0.0059,0.0469,0.0264
+84,Digital Marketing & SEO (GA4),86,Talent Acquisition & HRIS,6,0.0045,0.012,0.0083
+38,Databricks,60,Terraform & IaC,6,0.0174,0.0625,0.0399
+11,Scala,72,Observability & Monitoring,6,0.0236,0.0968,0.0602
+2,SQL,80,Six Sigma & Lean Operations,6,0.0032,0.0134,0.0083
+5,Java,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),6,0.003,0.008,0.0055
+63,Cybersecurity & IAM,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),6,0.0052,0.0208,0.013
+12,PHP,31,ETL & Data Pipelines,6,0.0109,0.0769,0.0439
+20,Computer Vision,31,ETL & Data Pipelines,6,0.0112,0.0909,0.0511
+22,TensorFlow,44,MongoDB,6,0.0208,0.0968,0.0588
+62,Linux,76,CAD & Industrial Automation,6,0.0043,0.0098,0.007
+37,Snowflake,41,MySQL,6,0.0225,0.0462,0.0343
+9,Go,69,Test Automation (Selenium / Cypress),6,0.0155,0.0779,0.0467
+11,Scala,43,Oracle Database,6,0.0145,0.0968,0.0556
+20,Computer Vision,58,Docker,6,0.0163,0.0909,0.0536
+49,Node.js,85,Supply Chain & Procurement,6,0.0024,0.039,0.0207
+21,PyTorch,31,ETL & Data Pipelines,6,0.0116,0.1224,0.067
+12,PHP,48,Vue.js,6,0.0484,0.1154,0.0819
+37,Snowflake,58,Docker,6,0.0139,0.0462,0.03
+49,Node.js,73,ServiceNow & ITIL / ITSM,6,0.0048,0.039,0.0219
+49,Node.js,72,Observability & Monitoring,6,0.0173,0.039,0.0282
+19,Generative AI & LLMs,46,React,6,0.0141,0.0469,0.0305
+12,PHP,42,Microsoft SQL Server,6,0.0137,0.0769,0.0453
+80,Six Sigma & Lean Operations,83,Financial Accounting & Audit (GAAP),6,0.0027,0.0134,0.0081
+21,PyTorch,56,Microsoft Azure,6,0.0073,0.1224,0.0649
+35,Apache Airflow,62,Linux,6,0.009,0.0952,0.0521
+20,Computer Vision,75,Embedded Systems & Firmware,6,0.025,0.0909,0.058
+20,Computer Vision,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),6,0.0172,0.0909,0.0541
+9,Go,73,ServiceNow & ITIL / ITSM,6,0.0052,0.0779,0.0415
+5,Java,10,Rust,6,0.0079,0.4,0.2039
+38,Databricks,53,REST & GraphQL APIs,6,0.011,0.0625,0.0367
+9,Go,54,HTML & CSS,6,0.0108,0.0779,0.0444
+22,TensorFlow,35,Apache Airflow,6,0.0504,0.0968,0.0736
+20,Computer Vision,63,Cybersecurity & IAM,6,0.0064,0.0909,0.0487
+9,Go,51,Spring Boot,6,0.0283,0.0779,0.0531
+20,Computer Vision,62,Linux,6,0.009,0.0909,0.0499
+12,PHP,69,Test Automation (Selenium / Cypress),6,0.0155,0.0769,0.0462
+9,Go,34,Apache Kafka,6,0.0268,0.0779,0.0524
+3,JavaScript,36,dbt,6,0.0097,0.1429,0.0763
+7,C#,32,Data Warehousing,6,0.0105,0.0236,0.0171
+9,Go,12,PHP,6,0.0403,0.0779,0.0591
+40,PostgreSQL,85,Supply Chain & Procurement,6,0.0024,0.0392,0.0208
+30,Excel,33,Apache Spark,6,0.0012,0.0339,0.0176
+24,Pandas & NumPy,39,BigQuery,6,0.0455,0.12,0.0827
+24,Pandas & NumPy,40,PostgreSQL,6,0.0305,0.12,0.0752
+3,JavaScript,24,Pandas & NumPy,6,0.0095,0.12,0.0648
+24,Pandas & NumPy,43,Oracle Database,6,0.0149,0.12,0.0675
+24,Pandas & NumPy,46,React,6,0.0173,0.12,0.0686
+17,Deep Learning,65,Product Management,6,0.0072,0.0682,0.0377
+13,Swift,59,Kubernetes,6,0.0176,0.24,0.1288
+24,Pandas & NumPy,58,Docker,6,0.017,0.12,0.0685
+55,AWS,67,Stakeholder Communication,6,0.0058,0.0438,0.0248
+24,Pandas & NumPy,69,Test Automation (Selenium / Cypress),6,0.0167,0.12,0.0684
+55,AWS,84,Digital Marketing & SEO (GA4),6,0.0043,0.012,0.0082
+31,ETL & Data Pipelines,67,Stakeholder Communication,6,0.0099,0.0438,0.0268
+5,Java,86,Talent Acquisition & HRIS,6,0.0038,0.008,0.0059
+44,MongoDB,68,Financial & Business Analysis,6,0.0069,0.0258,0.0163
+27,Power BI,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),6,0.0037,0.015,0.0094
+25,Statistics & A/B Testing,69,Test Automation (Selenium / Cypress),6,0.0057,0.019,0.0124
+25,Statistics & A/B Testing,72,Observability & Monitoring,6,0.0064,0.0303,0.0184
+6,C++,34,Apache Kafka,6,0.0123,0.0392,0.0258
+16,Machine Learning,29,Looker,6,0.0122,0.1154,0.0638
+3,JavaScript,75,Embedded Systems & Firmware,6,0.0079,0.0333,0.0206
+41,MySQL,50,FastAPI & Flask,6,0.0326,0.1277,0.0801
+30,Excel,52,.NET Core,6,0.0012,0.0182,0.0097
+4,TypeScript,43,Oracle Database,6,0.0121,0.0417,0.0269
+16,Machine Learning,36,dbt,6,0.0124,0.1429,0.0776
+27,Power BI,53,REST & GraphQL APIs,6,0.0071,0.015,0.0111
+6,C++,40,PostgreSQL,6,0.0123,0.0392,0.0258
+56,Microsoft Azure,83,Financial Accounting & Audit (GAAP),6,0.0024,0.0077,0.005
+7,C#,25,Statistics & A/B Testing,6,0.0057,0.0185,0.0121
+27,Power BI,46,React,6,0.0086,0.0198,0.0142
+15,Bash / Shell,68,Financial & Business Analysis,6,0.0062,0.0187,0.0125
+13,Swift,55,AWS,6,0.0065,0.24,0.1233
+27,Power BI,84,Digital Marketing & SEO (GA4),6,0.0067,0.015,0.0109
+28,Tableau,80,Six Sigma & Lean Operations,6,0.0072,0.0153,0.0112
+6,C++,23,Scikit-Learn,6,0.0162,0.1667,0.0914
+29,Looker,33,Apache Spark,6,0.0269,0.1154,0.0711
+15,Bash / Shell,51,Spring Boot,6,0.0132,0.0426,0.0279
+39,BigQuery,62,Linux,6,0.0087,0.0682,0.0384
+33,Apache Spark,73,ServiceNow & ITIL / ITSM,6,0.0048,0.0339,0.0193
+28,Tableau,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),6,0.0037,0.0153,0.0095
+18,Natural Language Processing,53,REST & GraphQL APIs,6,0.0108,0.0571,0.034
+6,C++,76,CAD & Industrial Automation,6,0.0053,0.0176,0.0115
+28,Tableau,63,Cybersecurity & IAM,6,0.0047,0.0153,0.01
+34,Apache Kafka,36,dbt,6,0.0317,0.1429,0.0873
+3,JavaScript,37,Snowflake,6,0.0085,0.0462,0.0273
+8,R,82,Project Management & SDLC (PMP),6,0.006,0.06,0.033
+47,Angular,71,Networking & Infrastructure,6,0.0058,0.029,0.0174
+12,PHP,77,Ruby & Rails,6,0.0403,0.0779,0.0591
+70,UI/UX Design & Figma,79,CRM Platforms (Salesforce / HubSpot),6,0.0047,0.0221,0.0134
+27,Power BI,40,PostgreSQL,6,0.011,0.0392,0.0251
+12,PHP,84,Digital Marketing & SEO (GA4),6,0.0105,0.0769,0.0437
+6,C++,26,MLOps,6,0.0156,0.12,0.0678
+67,Stakeholder Communication,70,UI/UX Design & Figma,6,0.0149,0.0438,0.0293
+32,Data Warehousing,79,CRM Platforms (Salesforce / HubSpot),6,0.0047,0.0236,0.0142
+18,Natural Language Processing,28,Tableau,6,0.0122,0.0571,0.0347
+46,React,71,Networking & Infrastructure,6,0.0053,0.0198,0.0125
+32,Data Warehousing,86,Talent Acquisition & HRIS,6,0.0056,0.0236,0.0146
+46,React,66,Data Governance & Quality,6,0.0068,0.0198,0.0133
+14,Kotlin,70,UI/UX Design & Figma,5,0.0168,0.1613,0.089
+14,Kotlin,51,Spring Boot,5,0.0299,0.1613,0.0956
+14,Kotlin,85,Supply Chain & Procurement,5,0.0021,0.1613,0.0817
+13,Swift,63,Cybersecurity & IAM,5,0.0056,0.2,0.1028
+2,SQL,14,Kotlin,5,0.0035,0.1613,0.0824
+1,Python,80,Six Sigma & Lean Operations,5,0.0031,0.0111,0.0071
+17,Deep Learning,37,Snowflake,5,0.0235,0.0568,0.0401
+17,Deep Learning,27,Power BI,5,0.0104,0.0568,0.0336
+14,Kotlin,46,React,5,0.0152,0.1613,0.0882
+52,.NET Core,83,Financial Accounting & Audit (GAAP),5,0.0024,0.0152,0.0088
+59,Kubernetes,86,Talent Acquisition & HRIS,5,0.0044,0.0155,0.0099
+13,Swift,65,Product Management,5,0.0065,0.2,0.1033
+55,AWS,83,Financial Accounting & Audit (GAAP),5,0.0019,0.0056,0.0037
+19,Generative AI & LLMs,59,Kubernetes,5,0.0112,0.0391,0.0251
+16,Machine Learning,51,Spring Boot,5,0.0086,0.0355,0.022
+19,Generative AI & LLMs,28,Tableau,5,0.0097,0.0391,0.0244
+19,Generative AI & LLMs,58,Docker,5,0.0116,0.0391,0.0253
+54,HTML & CSS,86,Talent Acquisition & HRIS,5,0.0038,0.0103,0.0071
+53,REST & GraphQL APIs,86,Talent Acquisition & HRIS,5,0.0039,0.011,0.0074
+18,Natural Language Processing,66,Data Governance & Quality,5,0.0073,0.0476,0.0275
+18,Natural Language Processing,54,HTML & CSS,5,0.0086,0.0476,0.0281
+12,PHP,79,CRM Platforms (Salesforce / HubSpot),5,0.0046,0.0641,0.0343
+18,Natural Language Processing,44,MongoDB,5,0.015,0.0476,0.0313
+12,PHP,71,Networking & Infrastructure,5,0.0055,0.0641,0.0348
+18,Natural Language Processing,43,Oracle Database,5,0.0109,0.0476,0.0293
+14,Kotlin,57,Google Cloud Platform (GCP),5,0.011,0.1613,0.0862
+53,REST & GraphQL APIs,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),5,0.003,0.011,0.007
+13,Swift,70,UI/UX Design & Figma,5,0.0171,0.2,0.1086
+18,Natural Language Processing,35,Apache Airflow,5,0.0307,0.0794,0.055
+53,REST & GraphQL APIs,78,ERP Systems (SAP / NetSuite / Workday),5,0.0034,0.011,0.0072
+18,Natural Language Processing,34,Apache Kafka,5,0.0198,0.0476,0.0337
+15,Bash / Shell,65,Product Management,5,0.0047,0.0156,0.0102
+17,Deep Learning,38,Databricks,5,0.0279,0.0568,0.0424
+18,Natural Language Processing,73,ServiceNow & ITIL / ITSM,5,0.0042,0.0476,0.0259
+18,Natural Language Processing,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.0129,0.0476,0.0303
+19,Generative AI & LLMs,23,Scikit-Learn,5,0.0314,0.1389,0.0852
+53,REST & GraphQL APIs,67,Stakeholder Communication,5,0.0085,0.0365,0.0225
+57,Google Cloud Platform (GCP),68,Financial & Business Analysis,5,0.0047,0.0117,0.0082
+57,Google Cloud Platform (GCP),67,Stakeholder Communication,5,0.0089,0.0365,0.0227
+15,Bash / Shell,86,Talent Acquisition & HRIS,5,0.0044,0.0156,0.01
+60,Terraform & IaC,86,Talent Acquisition & HRIS,5,0.0046,0.0196,0.0121
+14,Kotlin,65,Product Management,5,0.0065,0.1613,0.0839
+17,Deep Learning,53,REST & GraphQL APIs,5,0.0093,0.0568,0.033
+12,PHP,43,Oracle Database,5,0.0116,0.0641,0.0379
+55,AWS,75,Embedded Systems & Firmware,5,0.0047,0.0278,0.0162
+17,Deep Learning,39,BigQuery,5,0.0292,0.0568,0.043
+4,TypeScript,18,Natural Language Processing,5,0.0205,0.0476,0.0341
+23,Scikit-Learn,57,Google Cloud Platform (GCP),5,0.0109,0.1389,0.0749
+45,Redis,54,HTML & CSS,5,0.0089,0.0617,0.0353
+40,PostgreSQL,48,Vue.js,5,0.025,0.0962,0.0606
+26,MLOps,34,Apache Kafka,5,0.0253,0.1,0.0626
+32,Data Warehousing,46,React,5,0.0091,0.0197,0.0144
+7,C#,76,CAD & Industrial Automation,5,0.0045,0.0154,0.0099
+25,Statistics & A/B Testing,36,dbt,5,0.0064,0.119,0.0627
+52,.NET Core,66,Data Governance & Quality,5,0.0055,0.0152,0.0103
+24,Pandas & NumPy,62,Linux,5,0.0076,0.1,0.0538
+7,C#,79,CRM Platforms (Salesforce / HubSpot),5,0.0037,0.0154,0.0096
+67,Stakeholder Communication,83,Financial Accounting & Audit (GAAP),5,0.0027,0.0365,0.0196
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),86,Talent Acquisition & HRIS,5,0.0045,0.0174,0.0109
+3,JavaScript,19,Generative AI & LLMs,5,0.0071,0.0391,0.0231
+32,Data Warehousing,51,Spring Boot,5,0.0128,0.0355,0.0241
+32,Data Warehousing,52,.NET Core,5,0.0087,0.0197,0.0142
+32,Data Warehousing,72,Observability & Monitoring,5,0.0112,0.0253,0.0182
+26,MLOps,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.015,0.1,0.0575
+24,Pandas & NumPy,28,Tableau,5,0.0114,0.1,0.0557
+24,Pandas & NumPy,27,Power BI,5,0.0113,0.1,0.0556
+8,R,27,Power BI,5,0.0101,0.05,0.0301
+23,Scikit-Learn,59,Kubernetes,5,0.0142,0.1389,0.0765
+39,BigQuery,86,Talent Acquisition & HRIS,5,0.0055,0.0568,0.0311
+23,Scikit-Learn,58,Docker,5,0.0147,0.1389,0.0768
+15,Bash / Shell,21,PyTorch,5,0.0137,0.102,0.0579
+8,R,28,Tableau,5,0.0103,0.05,0.0301
+23,Scikit-Learn,53,REST & GraphQL APIs,5,0.0103,0.1389,0.0746
+8,R,55,AWS,5,0.005,0.05,0.0275
+41,MySQL,85,Supply Chain & Procurement,5,0.002,0.035,0.0185
+33,Apache Spark,51,Spring Boot,5,0.016,0.0355,0.0257
+26,MLOps,60,Terraform & IaC,5,0.0167,0.1,0.0583
+7,C#,51,Spring Boot,5,0.0109,0.0355,0.0232
+23,Scikit-Learn,43,Oracle Database,5,0.0129,0.1389,0.0759
+42,Microsoft SQL Server,83,Financial Accounting & Audit (GAAP),5,0.0024,0.0137,0.008
+72,Observability & Monitoring,78,ERP Systems (SAP / NetSuite / Workday),5,0.0041,0.0253,0.0147
+29,Looker,39,BigQuery,5,0.037,0.0962,0.0666
+29,Looker,64,Agile & Scrum,5,0.0024,0.0962,0.0493
+42,Microsoft SQL Server,50,FastAPI & Flask,5,0.0123,0.1064,0.0593
+29,Looker,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.0149,0.0962,0.0555
+41,MySQL,68,Financial & Business Analysis,5,0.0064,0.035,0.0207
+28,Tableau,71,Networking & Infrastructure,5,0.0041,0.0128,0.0084
+41,MySQL,65,Product Management,5,0.0056,0.035,0.0203
+42,Microsoft SQL Server,70,UI/UX Design & Figma,5,0.0079,0.0184,0.0131
+42,Microsoft SQL Server,77,Ruby & Rails,5,0.0114,0.0649,0.0382
+6,C++,39,BigQuery,5,0.0118,0.0568,0.0343
+70,UI/UX Design & Figma,76,CAD & Industrial Automation,5,0.0047,0.0184,0.0115
+3,JavaScript,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.0058,0.0174,0.0116
+7,C#,50,FastAPI & Flask,5,0.0137,0.1064,0.06
+70,UI/UX Design & Figma,73,ServiceNow & ITIL / ITSM,5,0.0037,0.0184,0.011
+28,Tableau,35,Apache Airflow,5,0.0111,0.0794,0.0452
+43,Oracle Database,50,FastAPI & Flask,5,0.0125,0.1064,0.0594
+69,Test Automation (Selenium / Cypress),86,Talent Acquisition & HRIS,5,0.0044,0.0159,0.0101
+27,Power BI,71,Networking & Infrastructure,5,0.0041,0.0125,0.0083
+6,C++,28,Tableau,5,0.0069,0.0147,0.0108
+69,Test Automation (Selenium / Cypress),81,Regulatory Compliance (HIPAA / SOC 2 / SOX),5,0.0032,0.0159,0.0095
+69,Test Automation (Selenium / Cypress),77,Ruby & Rails,5,0.0129,0.0649,0.0389
+31,ETL & Data Pipelines,83,Financial Accounting & Audit (GAAP),5,0.0023,0.0105,0.0064
+7,C#,33,Apache Spark,5,0.0101,0.0282,0.0192
+43,Oracle Database,79,CRM Platforms (Salesforce / HubSpot),5,0.0037,0.014,0.0088
+27,Power BI,34,Apache Kafka,5,0.0091,0.0327,0.0209
+8,R,64,Agile & Scrum,5,0.0023,0.05,0.0262
+73,ServiceNow & ITIL / ITSM,75,Embedded Systems & Firmware,5,0.0039,0.0278,0.0159
+23,Scikit-Learn,41,MySQL,5,0.0287,0.1389,0.0838
+50,FastAPI & Flask,69,Test Automation (Selenium / Cypress),5,0.014,0.1064,0.0602
+33,Apache Spark,54,HTML & CSS,5,0.0076,0.0282,0.0179
+34,Apache Kafka,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.0115,0.0327,0.0221
+21,PyTorch,44,MongoDB,5,0.0181,0.102,0.06
+49,Node.js,84,Digital Marketing & SEO (GA4),5,0.0077,0.0325,0.0201
+10,Rust,62,Linux,5,0.0081,0.3333,0.1707
+10,Rust,64,Agile & Scrum,5,0.0024,0.3333,0.1679
+21,PyTorch,35,Apache Airflow,5,0.0467,0.102,0.0744
+50,FastAPI & Flask,57,Google Cloud Platform (GCP),5,0.0106,0.1064,0.0585
+50,FastAPI & Flask,60,Terraform & IaC,5,0.0168,0.1064,0.0616
+34,Apache Kafka,77,Ruby & Rails,5,0.0222,0.0649,0.0436
+11,Scala,27,Power BI,5,0.011,0.0806,0.0458
+37,Snowflake,69,Test Automation (Selenium / Cypress),5,0.0114,0.0385,0.0249
+37,Snowflake,68,Financial & Business Analysis,5,0.0065,0.0385,0.0225
+49,Node.js,66,Data Governance & Quality,5,0.0068,0.0325,0.0196
+20,Computer Vision,85,Supply Chain & Procurement,5,0.002,0.0758,0.0389
+4,TypeScript,85,Supply Chain & Procurement,5,0.002,0.0347,0.0183
+4,TypeScript,82,Project Management & SDLC (PMP),5,0.0048,0.0347,0.0198
+20,Computer Vision,56,Microsoft Azure,5,0.0059,0.0758,0.0409
+11,Scala,65,Product Management,5,0.0062,0.0806,0.0434
+20,Computer Vision,44,MongoDB,5,0.017,0.0758,0.0464
+20,Computer Vision,26,MLOps,5,0.045,0.1,0.0725
+11,Scala,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.0145,0.0806,0.0476
+36,dbt,41,MySQL,5,0.0278,0.119,0.0734
+36,dbt,42,Microsoft SQL Server,5,0.0124,0.119,0.0657
+63,Cybersecurity & IAM,67,Stakeholder Communication,5,0.005,0.0365,0.0207
+36,dbt,43,Oracle Database,5,0.0127,0.119,0.0659
+49,Node.js,68,Financial & Business Analysis,5,0.0063,0.0325,0.0194
+21,PyTorch,53,REST & GraphQL APIs,5,0.01,0.102,0.056
+49,Node.js,63,Cybersecurity & IAM,5,0.0049,0.0325,0.0187
+65,Product Management,76,CAD & Industrial Automation,5,0.0032,0.0067,0.005
+8,R,76,CAD & Industrial Automation,5,0.0056,0.05,0.0278
+23,Scikit-Learn,34,Apache Kafka,5,0.0272,0.1389,0.083
+8,R,80,Six Sigma & Lean Operations,5,0.0092,0.05,0.0296
+22,TensorFlow,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),5,0.0145,0.0806,0.0476
+22,TensorFlow,66,Data Governance & Quality,5,0.0078,0.0806,0.0442
+3,JavaScript,11,Scala,5,0.0078,0.0806,0.0442
+22,TensorFlow,62,Linux,5,0.0075,0.0806,0.0441
+22,TensorFlow,59,Kubernetes,5,0.0132,0.0806,0.0469
+47,Angular,77,Ruby & Rails,5,0.0179,0.0649,0.0414
+22,TensorFlow,53,REST & GraphQL APIs,5,0.0097,0.0806,0.0452
+10,Rust,55,AWS,5,0.0055,0.3333,0.1694
+48,Vue.js,51,Spring Boot,5,0.0266,0.0962,0.0614
+38,Databricks,63,Cybersecurity & IAM,5,0.0052,0.0521,0.0286
+65,Product Management,75,Embedded Systems & Firmware,5,0.0054,0.0278,0.0166
+34,Apache Kafka,73,ServiceNow & ITIL / ITSM,5,0.004,0.0327,0.0184
+22,TensorFlow,28,Tableau,5,0.0111,0.0806,0.0459
+9,Go,31,ETL & Data Pipelines,5,0.0091,0.0649,0.037
+39,BigQuery,58,Docker,5,0.0128,0.0568,0.0348
+38,Databricks,59,Kubernetes,5,0.0121,0.0521,0.0321
+49,Node.js,50,FastAPI & Flask,5,0.0255,0.1064,0.0659
+5,Java,29,Looker,4,0.005,0.0769,0.041
+14,Kotlin,62,Linux,4,0.0063,0.129,0.0677
+6,C++,19,Generative AI & LLMs,4,0.0086,0.0312,0.0199
+59,Kubernetes,78,ERP Systems (SAP / NetSuite / Workday),4,0.0029,0.0124,0.0077
+14,Kotlin,54,HTML & CSS,4,0.0078,0.129,0.0684
+6,C++,24,Pandas & NumPy,4,0.0104,0.08,0.0452
+75,Embedded Systems & Firmware,77,Ruby & Rails,4,0.0158,0.0519,0.0339
+73,ServiceNow & ITIL / ITSM,84,Digital Marketing & SEO (GA4),4,0.0025,0.008,0.0053
+79,CRM Platforms (Salesforce / HubSpot),80,Six Sigma & Lean Operations,4,0.0027,0.0089,0.0058
+5,Java,21,PyTorch,4,0.005,0.0816,0.0433
+59,Kubernetes,68,Financial & Business Analysis,4,0.0041,0.0124,0.0083
+6,C++,32,Data Warehousing,4,0.0068,0.0157,0.0113
+77,Ruby & Rails,82,Project Management & SDLC (PMP),4,0.0041,0.0519,0.028
+12,PHP,15,Bash / Shell,4,0.0102,0.0513,0.0307
+72,Observability & Monitoring,79,CRM Platforms (Salesforce / HubSpot),4,0.0033,0.0202,0.0118
+8,R,56,Microsoft Azure,4,0.0046,0.04,0.0223
+66,Data Governance & Quality,72,Observability & Monitoring,4,0.0051,0.0202,0.0127
+12,PHP,72,Observability & Monitoring,4,0.0147,0.0513,0.033
+12,PHP,70,UI/UX Design & Figma,4,0.0116,0.0513,0.0314
+9,Go,33,Apache Spark,4,0.016,0.0519,0.034
+9,Go,41,MySQL,4,0.0185,0.0519,0.0352
+9,Go,52,.NET Core,4,0.01,0.0519,0.0309
+9,Go,75,Embedded Systems & Firmware,4,0.0158,0.0519,0.0339
+9,Go,82,Project Management & SDLC (PMP),4,0.0041,0.0519,0.028
+10,Rust,58,Docker,4,0.0125,0.2667,0.1396
+12,PHP,44,MongoDB,4,0.013,0.0513,0.0322
+11,Scala,25,Statistics & A/B Testing,4,0.005,0.0645,0.0348
+11,Scala,29,Looker,4,0.0364,0.0769,0.0566
+11,Scala,36,dbt,4,0.04,0.0952,0.0676
+12,PHP,40,PostgreSQL,4,0.0176,0.0513,0.0345
+63,Cybersecurity & IAM,80,Six Sigma & Lean Operations,4,0.003,0.0089,0.006
+11,Scala,60,Terraform & IaC,4,0.0128,0.0645,0.0386
+12,PHP,27,Power BI,4,0.0085,0.0513,0.0299
+12,PHP,25,Statistics & A/B Testing,4,0.0049,0.0513,0.0281
+62,Linux,86,Talent Acquisition & HRIS,4,0.0028,0.0066,0.0047
+8,R,62,Linux,4,0.0057,0.04,0.0228
+1,Python,67,Stakeholder Communication,4,0.0031,0.0292,0.0161
+14,Kotlin,34,Apache Kafka,4,0.0222,0.129,0.0756
+12,PHP,85,Supply Chain & Procurement,4,0.0016,0.0513,0.0264
+6,C++,78,ERP Systems (SAP / NetSuite / Workday),4,0.0029,0.0118,0.0073
+13,Swift,85,Supply Chain & Procurement,4,0.0017,0.16,0.0808
+71,Networking & Infrastructure,80,Six Sigma & Lean Operations,4,0.0031,0.0089,0.006
+6,C++,83,Financial Accounting & Audit (GAAP),4,0.0019,0.0118,0.0068
+7,C#,10,Rust,4,0.0119,0.2667,0.1393
+70,UI/UX Design & Figma,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),4,0.0026,0.0147,0.0087
+70,UI/UX Design & Figma,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),4,0.0072,0.0147,0.011
+7,C#,20,Computer Vision,4,0.0104,0.0606,0.0355
+7,C#,24,Pandas & NumPy,4,0.0108,0.08,0.0454
+7,C#,30,Excel,4,0.0008,0.0123,0.0066
+13,Swift,57,Google Cloud Platform (GCP),4,0.0089,0.16,0.0845
+7,C#,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),4,0.0066,0.0139,0.0102
+7,C#,83,Financial Accounting & Audit (GAAP),4,0.0019,0.0123,0.0071
+7,C#,84,Digital Marketing & SEO (GA4),4,0.0049,0.0123,0.0086
+7,C#,86,Talent Acquisition & HRIS,4,0.0035,0.0123,0.0079
+13,Swift,49,Node.js,4,0.0229,0.16,0.0914
+13,Swift,47,Angular,4,0.0175,0.16,0.0888
+61,CI/CD & Git,67,Stakeholder Communication,4,0.004,0.0292,0.0166
+13,Swift,16,Machine Learning,4,0.0085,0.16,0.0843
+15,Bash / Shell,18,Natural Language Processing,4,0.0095,0.0381,0.0238
+4,TypeScript,77,Ruby & Rails,4,0.0184,0.0519,0.0352
+33,Apache Spark,47,Angular,4,0.0105,0.0226,0.0166
+52,.NET Core,86,Talent Acquisition & HRIS,4,0.0035,0.0122,0.0078
+19,Generative AI & LLMs,80,Six Sigma & Lean Operations,4,0.007,0.0312,0.0191
+30,Excel,47,Angular,4,0.0008,0.0193,0.0101
+28,Tableau,36,dbt,4,0.0093,0.0952,0.0523
+30,Excel,60,Terraform & IaC,4,0.0008,0.0157,0.0083
+31,ETL & Data Pipelines,45,Redis,4,0.0072,0.0494,0.0283
+43,Oracle Database,48,Vue.js,4,0.0099,0.0769,0.0434
+52,.NET Core,76,CAD & Industrial Automation,4,0.0035,0.0122,0.0079
+31,ETL & Data Pipelines,70,UI/UX Design & Figma,4,0.0054,0.0147,0.01
+40,PostgreSQL,70,UI/UX Design & Figma,4,0.0095,0.0261,0.0178
+3,JavaScript,35,Apache Airflow,4,0.0062,0.0635,0.0349
+31,ETL & Data Pipelines,77,Ruby & Rails,4,0.0073,0.0519,0.0296
+19,Generative AI & LLMs,54,HTML & CSS,4,0.0066,0.0312,0.0189
+30,Excel,39,BigQuery,4,0.0008,0.0455,0.0231
+19,Generative AI & LLMs,44,MongoDB,4,0.0112,0.0312,0.0212
+32,Data Warehousing,54,HTML & CSS,4,0.0054,0.0157,0.0106
+27,Power BI,62,Linux,4,0.004,0.01,0.007
+22,TensorFlow,60,Terraform & IaC,4,0.0128,0.0645,0.0386
+19,Generative AI & LLMs,24,Pandas & NumPy,4,0.023,0.08,0.0515
+18,Natural Language Processing,82,Project Management & SDLC (PMP),4,0.004,0.0381,0.021
+27,Power BI,60,Terraform & IaC,4,0.0062,0.0157,0.0109
+21,PyTorch,62,Linux,4,0.0061,0.0816,0.0439
+23,Scikit-Learn,35,Apache Airflow,4,0.0421,0.1111,0.0766
+39,BigQuery,73,ServiceNow & ITIL / ITSM,4,0.0034,0.0455,0.0244
+18,Natural Language Processing,68,Financial & Business Analysis,4,0.0053,0.0381,0.0217
+30,Excel,46,React,4,0.0008,0.0132,0.007
+42,Microsoft SQL Server,86,Talent Acquisition & HRIS,4,0.0034,0.011,0.0072
+33,Apache Spark,50,FastAPI & Flask,4,0.0182,0.0851,0.0516
+42,Microsoft SQL Server,48,Vue.js,4,0.0097,0.0769,0.0433
+21,PyTorch,59,Kubernetes,4,0.0109,0.0816,0.0463
+21,PyTorch,66,Data Governance & Quality,4,0.0063,0.0816,0.044
+21,PyTorch,50,FastAPI & Flask,4,0.0435,0.0851,0.0643
+28,Tableau,70,UI/UX Design & Figma,4,0.0061,0.0147,0.0104
+22,TensorFlow,34,Apache Kafka,4,0.019,0.0645,0.0417
+21,PyTorch,34,Apache Kafka,4,0.0202,0.0816,0.0509
+50,FastAPI & Flask,59,Kubernetes,4,0.011,0.0851,0.048
+29,Looker,35,Apache Airflow,4,0.036,0.0769,0.0565
+29,Looker,36,dbt,4,0.0444,0.0952,0.0698
+21,PyTorch,28,Tableau,4,0.0092,0.0816,0.0454
+50,FastAPI & Flask,65,Product Management,4,0.0051,0.0851,0.0451
+28,Tableau,53,REST & GraphQL APIs,4,0.0047,0.0102,0.0075
+25,Statistics & A/B Testing,67,Stakeholder Communication,4,0.0046,0.0292,0.0169
+50,FastAPI & Flask,86,Talent Acquisition & HRIS,4,0.0046,0.0851,0.0448
+42,Microsoft SQL Server,76,CAD & Industrial Automation,4,0.0034,0.011,0.0072
+29,Looker,42,Microsoft SQL Server,4,0.0097,0.0769,0.0433
+29,Looker,55,AWS,4,0.0042,0.0769,0.0406
+51,Spring Boot,65,Product Management,4,0.0045,0.0284,0.0164
+48,Vue.js,73,ServiceNow & ITIL / ITSM,4,0.0035,0.0769,0.0402
+51,Spring Boot,68,Financial & Business Analysis,4,0.0051,0.0284,0.0167
+42,Microsoft SQL Server,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),4,0.0025,0.011,0.0067
+48,Vue.js,60,Terraform & IaC,4,0.0132,0.0769,0.0451
+41,MySQL,70,UI/UX Design & Figma,4,0.0097,0.028,0.0189
+29,Looker,79,CRM Platforms (Salesforce / HubSpot),4,0.0038,0.0769,0.0403
+43,Oracle Database,70,UI/UX Design & Figma,4,0.0064,0.0147,0.0105
+21,PyTorch,60,Terraform & IaC,4,0.0133,0.0816,0.0475
+18,Natural Language Processing,60,Terraform & IaC,4,0.0112,0.0381,0.0247
+23,Scikit-Learn,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),4,0.0125,0.1111,0.0618
+24,Pandas & NumPy,36,dbt,4,0.0455,0.0952,0.0703
+43,Oracle Database,86,Talent Acquisition & HRIS,4,0.0034,0.0112,0.0073
+18,Natural Language Processing,59,Kubernetes,4,0.0095,0.0381,0.0238
+26,MLOps,73,ServiceNow & ITIL / ITSM,4,0.0035,0.08,0.0418
+16,Machine Learning,67,Stakeholder Communication,4,0.0069,0.0292,0.018
+37,Snowflake,72,Observability & Monitoring,4,0.0123,0.0308,0.0216
+35,Apache Airflow,40,PostgreSQL,4,0.0189,0.0635,0.0412
+26,MLOps,69,Test Automation (Selenium / Cypress),4,0.0111,0.08,0.0455
+35,Apache Airflow,53,REST & GraphQL APIs,4,0.0078,0.0635,0.0356
+56,Microsoft Azure,84,Digital Marketing & SEO (GA4),4,0.0031,0.008,0.0056
+45,Redis,82,Project Management & SDLC (PMP),4,0.0041,0.0494,0.0267
+37,Snowflake,59,Kubernetes,4,0.0089,0.0308,0.0198
+15,Bash / Shell,79,CRM Platforms (Salesforce / HubSpot),4,0.003,0.0125,0.0078
+15,Bash / Shell,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),4,0.0066,0.0139,0.0103
+24,Pandas & NumPy,51,Spring Boot,4,0.0214,0.08,0.0507
+4,TypeScript,31,ETL & Data Pipelines,4,0.0065,0.0278,0.0171
+4,TypeScript,33,Apache Spark,4,0.0126,0.0278,0.0202
+35,Apache Airflow,69,Test Automation (Selenium / Cypress),4,0.0107,0.0635,0.0371
+24,Pandas & NumPy,57,Google Cloud Platform (GCP),4,0.0084,0.08,0.0442
+26,MLOps,65,Product Management,4,0.005,0.08,0.0425
+15,Bash / Shell,35,Apache Airflow,4,0.0106,0.0635,0.037
+15,Bash / Shell,26,MLOps,4,0.0109,0.08,0.0455
+26,MLOps,40,PostgreSQL,4,0.0201,0.08,0.0501
+58,Docker,68,Financial & Business Analysis,4,0.0042,0.0129,0.0086
+26,MLOps,37,Snowflake,4,0.0227,0.08,0.0514
+35,Apache Airflow,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),4,0.0115,0.0635,0.0375
+15,Bash / Shell,22,TensorFlow,4,0.0106,0.0645,0.0375
+24,Pandas & NumPy,32,Data Warehousing,4,0.0133,0.08,0.0467
+24,Pandas & NumPy,37,Snowflake,4,0.0227,0.08,0.0514
+38,Databricks,62,Linux,4,0.0057,0.0417,0.0237
+17,Deep Learning,59,Kubernetes,4,0.0099,0.0455,0.0277
+18,Natural Language Processing,46,React,4,0.0099,0.0381,0.024
+23,Scikit-Learn,40,PostgreSQL,4,0.0216,0.1111,0.0664
+54,HTML & CSS,83,Financial Accounting & Audit (GAAP),4,0.0018,0.0083,0.005
+33,Apache Spark,71,Networking & Infrastructure,4,0.004,0.0226,0.0133
+27,Power BI,35,Apache Airflow,4,0.0087,0.0635,0.0361
+17,Deep Learning,85,Supply Chain & Procurement,4,0.0016,0.0455,0.0235
+46,React,86,Talent Acquisition & HRIS,4,0.0035,0.0132,0.0084
+34,Apache Kafka,48,Vue.js,4,0.0199,0.0769,0.0484
+23,Scikit-Learn,46,React,4,0.0119,0.1111,0.0615
+3,JavaScript,86,Talent Acquisition & HRIS,4,0.0028,0.0068,0.0048
+23,Scikit-Learn,50,FastAPI & Flask,4,0.0506,0.1111,0.0809
+16,Machine Learning,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),4,0.0024,0.0089,0.0057
+46,React,75,Embedded Systems & Firmware,4,0.0084,0.0222,0.0153
+34,Apache Kafka,50,FastAPI & Flask,4,0.0204,0.0851,0.0528
+55,AWS,80,Six Sigma & Lean Operations,4,0.003,0.0089,0.0059
+23,Scikit-Learn,60,Terraform & IaC,4,0.0139,0.1111,0.0625
+7,C#,18,Natural Language Processing,3,0.007,0.0286,0.0178
+68,Financial & Business Analysis,76,CAD & Industrial Automation,3,0.0021,0.0046,0.0034
+27,Power BI,36,dbt,3,0.0068,0.0714,0.0391
+28,Tableau,59,Kubernetes,3,0.0042,0.0093,0.0068
+28,Tableau,58,Docker,3,0.0043,0.0097,0.007
+7,C#,13,Swift,3,0.0087,0.12,0.0643
+27,Power BI,47,Angular,3,0.005,0.0145,0.0097
+27,Power BI,58,Docker,3,0.0043,0.0097,0.007
+26,MLOps,86,Talent Acquisition & HRIS,3,0.0034,0.06,0.0317
+43,Oracle Database,77,Ruby & Rails,3,0.0069,0.039,0.023
+70,UI/UX Design & Figma,78,ERP Systems (SAP / NetSuite / Workday),3,0.0023,0.011,0.0067
+69,Test Automation (Selenium / Cypress),79,CRM Platforms (Salesforce / HubSpot),3,0.0023,0.0095,0.0059
+69,Test Automation (Selenium / Cypress),80,Six Sigma & Lean Operations,3,0.0039,0.0095,0.0067
+28,Tableau,47,Angular,3,0.005,0.0145,0.0098
+27,Power BI,75,Embedded Systems & Firmware,3,0.0052,0.0167,0.0109
+26,MLOps,85,Supply Chain & Procurement,3,0.0012,0.06,0.0306
+27,Power BI,69,Test Automation (Selenium / Cypress),3,0.0042,0.0095,0.0069
+69,Test Automation (Selenium / Cypress),84,Digital Marketing & SEO (GA4),3,0.0037,0.0095,0.0066
+28,Tableau,50,FastAPI & Flask,3,0.0069,0.0638,0.0354
+70,UI/UX Design & Figma,80,Six Sigma & Lean Operations,3,0.0042,0.011,0.0076
+58,Docker,79,CRM Platforms (Salesforce / HubSpot),3,0.0023,0.0097,0.006
+30,Excel,34,Apache Kafka,3,0.0006,0.0196,0.0101
+6,C++,86,Talent Acquisition & HRIS,3,0.0026,0.0088,0.0057
+38,Databricks,50,FastAPI & Flask,3,0.0214,0.0638,0.0426
+6,C++,13,Swift,3,0.0083,0.12,0.0641
+39,BigQuery,65,Product Management,3,0.0036,0.0341,0.0188
+77,Ruby & Rails,84,Digital Marketing & SEO (GA4),3,0.0052,0.039,0.0221
+6,C++,11,Scala,3,0.0075,0.0484,0.028
+33,Apache Spark,83,Financial Accounting & Audit (GAAP),3,0.0016,0.0169,0.0093
+6,C++,8,R,3,0.0069,0.03,0.0184
+38,Databricks,85,Supply Chain & Procurement,3,0.0012,0.0312,0.0162
+38,Databricks,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),3,0.0022,0.0312,0.0167
+5,Java,84,Digital Marketing & SEO (GA4),3,0.0024,0.006,0.0042
+38,Databricks,78,ERP Systems (SAP / NetSuite / Workday),3,0.0027,0.0312,0.017
+38,Databricks,69,Test Automation (Selenium / Cypress),3,0.0074,0.0312,0.0193
+5,Java,76,CAD & Industrial Automation,3,0.0019,0.004,0.003
+38,Databricks,45,Redis,3,0.0172,0.037,0.0271
+28,Tableau,69,Test Automation (Selenium / Cypress),3,0.0043,0.0095,0.0069
+4,TypeScript,66,Data Governance & Quality,3,0.0041,0.0208,0.0125
+34,Apache Kafka,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),3,0.0022,0.0196,0.0109
+37,Snowflake,85,Supply Chain & Procurement,3,0.0012,0.0231,0.0121
+34,Apache Kafka,83,Financial Accounting & Audit (GAAP),3,0.0016,0.0196,0.0106
+35,Apache Airflow,50,FastAPI & Flask,3,0.028,0.0638,0.0459
+37,Snowflake,60,Terraform & IaC,3,0.0079,0.0231,0.0155
+35,Apache Airflow,63,Cybersecurity & IAM,3,0.0032,0.0476,0.0254
+37,Snowflake,54,HTML & CSS,3,0.0049,0.0231,0.014
+37,Snowflake,51,Spring Boot,3,0.0112,0.0231,0.0171
+4,TypeScript,73,ServiceNow & ITIL / ITSM,3,0.0024,0.0208,0.0116
+37,Snowflake,45,Redis,3,0.0144,0.037,0.0257
+36,dbt,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),3,0.0092,0.0714,0.0403
+39,BigQuery,68,Financial & Business Analysis,3,0.0041,0.0341,0.0191
+39,BigQuery,82,Project Management & SDLC (PMP),3,0.0031,0.0341,0.0186
+39,BigQuery,85,Supply Chain & Procurement,3,0.0012,0.0341,0.0176
+76,CAD & Industrial Automation,79,CRM Platforms (Salesforce / HubSpot),3,0.0017,0.0037,0.0027
+6,C++,80,Six Sigma & Lean Operations,3,0.0038,0.0088,0.0063
+3,JavaScript,83,Financial Accounting & Audit (GAAP),3,0.0013,0.0051,0.0032
+6,C++,79,CRM Platforms (Salesforce / HubSpot),3,0.0022,0.0088,0.0055
+29,Looker,34,Apache Kafka,3,0.0149,0.0577,0.0363
+6,C++,68,Financial & Business Analysis,3,0.003,0.0088,0.0059
+6,C++,66,Data Governance & Quality,3,0.0033,0.0088,0.006
+29,Looker,61,CI/CD & Git,3,0.0033,0.0577,0.0305
+41,MySQL,83,Financial Accounting & Audit (GAAP),3,0.0016,0.021,0.0113
+41,MySQL,82,Project Management & SDLC (PMP),3,0.0029,0.021,0.0119
+41,MySQL,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),3,0.0022,0.021,0.0116
+41,MySQL,77,Ruby & Rails,3,0.0138,0.039,0.0264
+6,C++,51,Spring Boot,3,0.0063,0.0213,0.0138
+6,C++,48,Vue.js,3,0.0077,0.0577,0.0327
+30,Excel,38,Databricks,3,0.0006,0.0312,0.0159
+30,Excel,49,Node.js,3,0.0006,0.0195,0.0101
+40,PostgreSQL,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),3,0.0022,0.0196,0.0109
+40,PostgreSQL,68,Financial & Business Analysis,3,0.0038,0.0196,0.0117
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),82,Project Management & SDLC (PMP),3,0.0025,0.0104,0.0065
+4,TypeScript,78,ERP Systems (SAP / NetSuite / Workday),3,0.0025,0.0208,0.0117
+32,Data Warehousing,47,Angular,3,0.0066,0.0145,0.0105
+32,Data Warehousing,69,Test Automation (Selenium / Cypress),3,0.0053,0.0118,0.0086
+75,Embedded Systems & Firmware,80,Six Sigma & Lean Operations,3,0.0048,0.0167,0.0107
+75,Embedded Systems & Firmware,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),3,0.0021,0.0167,0.0094
+75,Embedded Systems & Firmware,82,Project Management & SDLC (PMP),3,0.0028,0.0167,0.0097
+32,Data Warehousing,71,Networking & Infrastructure,3,0.0028,0.0118,0.0073
+26,MLOps,28,Tableau,3,0.0068,0.06,0.0334
+23,Scikit-Learn,38,Databricks,3,0.0233,0.0833,0.0533
+68,Financial & Business Analysis,72,Observability & Monitoring,3,0.0036,0.0152,0.0094
+19,Generative AI & LLMs,84,Digital Marketing & SEO (GA4),3,0.0048,0.0234,0.0141
+18,Natural Language Processing,30,Excel,3,0.0006,0.0286,0.0146
+18,Natural Language Processing,32,Data Warehousing,3,0.0084,0.0286,0.0185
+18,Natural Language Processing,38,Databricks,3,0.0152,0.0312,0.0232
+54,HTML & CSS,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),3,0.0039,0.0104,0.0072
+18,Natural Language Processing,63,Cybersecurity & IAM,3,0.0031,0.0286,0.0158
+53,REST & GraphQL APIs,83,Financial Accounting & Audit (GAAP),3,0.0014,0.0066,0.004
+61,CI/CD & Git,80,Six Sigma & Lean Operations,3,0.0023,0.0067,0.0045
+53,REST & GraphQL APIs,80,Six Sigma & Lean Operations,3,0.0033,0.0067,0.005
+18,Natural Language Processing,71,Networking & Infrastructure,3,0.0032,0.0286,0.0159
+12,PHP,63,Cybersecurity & IAM,3,0.0031,0.0385,0.0208
+12,PHP,60,Terraform & IaC,3,0.0091,0.0385,0.0238
+53,REST & GraphQL APIs,75,Embedded Systems & Firmware,3,0.0047,0.0167,0.0107
+18,Natural Language Processing,86,Talent Acquisition & HRIS,3,0.0032,0.0286,0.0159
+19,Generative AI & LLMs,27,Power BI,3,0.0057,0.0234,0.0146
+19,Generative AI & LLMs,35,Apache Airflow,3,0.016,0.0476,0.0318
+62,Linux,67,Stakeholder Communication,3,0.004,0.0219,0.013
+19,Generative AI & LLMs,37,Snowflake,3,0.0118,0.0234,0.0176
+19,Generative AI & LLMs,38,Databricks,3,0.0136,0.0312,0.0224
+19,Generative AI & LLMs,49,Node.js,3,0.0108,0.0234,0.0171
+12,PHP,36,dbt,3,0.0256,0.0714,0.0485
+19,Generative AI & LLMs,66,Data Governance & Quality,3,0.0042,0.0234,0.0138
+19,Generative AI & LLMs,68,Financial & Business Analysis,3,0.0039,0.0234,0.0137
+12,PHP,30,Excel,3,0.0006,0.0385,0.0195
+12,PHP,28,Tableau,3,0.0064,0.0385,0.0224
+19,Generative AI & LLMs,69,Test Automation (Selenium / Cypress),3,0.0068,0.0234,0.0151
+19,Generative AI & LLMs,71,Networking & Infrastructure,3,0.0031,0.0234,0.0133
+19,Generative AI & LLMs,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),3,0.0073,0.0234,0.0154
+19,Generative AI & LLMs,79,CRM Platforms (Salesforce / HubSpot),3,0.0026,0.0234,0.013
+12,PHP,13,Swift,3,0.03,0.12,0.075
+17,Deep Learning,86,Talent Acquisition & HRIS,3,0.0033,0.0341,0.0187
+17,Deep Learning,82,Project Management & SDLC (PMP),3,0.0031,0.0341,0.0186
+17,Deep Learning,69,Test Automation (Selenium / Cypress),3,0.0075,0.0341,0.0208
+4,TypeScript,12,PHP,3,0.0137,0.0385,0.0261
+14,Kotlin,72,Observability & Monitoring,3,0.0133,0.0968,0.055
+15,Bash / Shell,23,Scikit-Learn,3,0.0085,0.0833,0.0459
+15,Bash / Shell,24,Pandas & NumPy,3,0.0082,0.06,0.0341
+14,Kotlin,66,Data Governance & Quality,3,0.0049,0.0968,0.0508
+15,Bash / Shell,37,Snowflake,3,0.0067,0.0231,0.0149
+15,Bash / Shell,50,FastAPI & Flask,3,0.0082,0.0638,0.036
+57,Google Cloud Platform (GCP),79,CRM Platforms (Salesforce / HubSpot),3,0.0021,0.007,0.0045
+15,Bash / Shell,70,UI/UX Design & Figma,3,0.0051,0.011,0.0081
+16,Machine Learning,48,Vue.js,3,0.006,0.0577,0.0319
+59,Kubernetes,79,CRM Platforms (Salesforce / HubSpot),3,0.0022,0.0093,0.0058
+14,Kotlin,49,Node.js,3,0.0165,0.0968,0.0566
+59,Kubernetes,83,Financial Accounting & Audit (GAAP),3,0.0015,0.0093,0.0054
+4,TypeScript,14,Kotlin,3,0.0174,0.0968,0.0571
+14,Kotlin,16,Machine Learning,3,0.0063,0.0968,0.0515
+13,Swift,54,HTML & CSS,3,0.0059,0.12,0.063
+2,SQL,13,Swift,3,0.0021,0.12,0.061
+16,Machine Learning,77,Ruby & Rails,3,0.0058,0.039,0.0224
+16,Machine Learning,78,ERP Systems (SAP / NetSuite / Workday),3,0.002,0.0067,0.0044
+56,Microsoft Azure,67,Stakeholder Communication,3,0.0033,0.0219,0.0126
+60,Terraform & IaC,68,Financial & Business Analysis,3,0.0033,0.0118,0.0075
+13,Swift,66,Data Governance & Quality,3,0.0049,0.12,0.0625
+60,Terraform & IaC,70,UI/UX Design & Figma,3,0.0057,0.0118,0.0087
+17,Deep Learning,30,Excel,3,0.0006,0.0341,0.0174
+17,Deep Learning,34,Apache Kafka,3,0.0126,0.0341,0.0233
+17,Deep Learning,36,dbt,3,0.0236,0.0714,0.0475
+17,Deep Learning,43,Oracle Database,3,0.0068,0.0341,0.0204
+17,Deep Learning,45,Redis,3,0.0181,0.037,0.0276
+17,Deep Learning,68,Financial & Business Analysis,3,0.0041,0.0341,0.0191
+11,Scala,82,Project Management & SDLC (PMP),3,0.0031,0.0484,0.0258
+11,Scala,77,Ruby & Rails,3,0.0221,0.0484,0.0352
+44,MongoDB,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),3,0.002,0.0129,0.0075
+19,Generative AI & LLMs,85,Supply Chain & Procurement,3,0.0012,0.0234,0.0123
+22,TensorFlow,38,Databricks,3,0.0194,0.0484,0.0339
+22,TensorFlow,41,MySQL,3,0.0149,0.0484,0.0316
+22,TensorFlow,50,FastAPI & Flask,3,0.0283,0.0638,0.0461
+9,Go,27,Power BI,3,0.0063,0.039,0.0227
+9,Go,20,Computer Vision,3,0.0214,0.0455,0.0334
+9,Go,18,Natural Language Processing,3,0.0168,0.039,0.0279
+48,Vue.js,50,FastAPI & Flask,3,0.0312,0.0638,0.0475
+9,Go,13,Swift,3,0.0303,0.12,0.0752
+47,Angular,85,Supply Chain & Procurement,3,0.0012,0.0145,0.0078
+47,Angular,83,Financial Accounting & Audit (GAAP),3,0.0015,0.0145,0.008
+47,Angular,68,Financial & Business Analysis,3,0.0035,0.0145,0.009
+22,TensorFlow,85,Supply Chain & Procurement,3,0.0012,0.0484,0.0248
+8,R,79,CRM Platforms (Salesforce / HubSpot),3,0.0027,0.03,0.0163
+8,R,78,ERP Systems (SAP / NetSuite / Workday),3,0.0026,0.03,0.0163
+23,Scikit-Learn,30,Excel,3,0.0006,0.0833,0.042
+58,Docker,75,Embedded Systems & Firmware,3,0.0062,0.0167,0.0114
+8,R,68,Financial & Business Analysis,3,0.004,0.03,0.017
+8,R,65,Product Management,3,0.0035,0.03,0.0168
+23,Scikit-Learn,44,MongoDB,3,0.0113,0.0833,0.0473
+8,R,57,Google Cloud Platform (GCP),3,0.0057,0.03,0.0179
+23,Scikit-Learn,56,Microsoft Azure,3,0.0037,0.0833,0.0435
+24,Pandas & NumPy,35,Apache Airflow,3,0.0273,0.06,0.0436
+67,Stakeholder Communication,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),3,0.0071,0.0219,0.0145
+3,JavaScript,22,TensorFlow,3,0.0047,0.0484,0.0265
+45,Redis,85,Supply Chain & Procurement,3,0.0012,0.037,0.0191
+24,Pandas & NumPy,59,Kubernetes,3,0.0081,0.06,0.0341
+25,Statistics & A/B Testing,45,Redis,3,0.0037,0.037,0.0204
+44,MongoDB,85,Supply Chain & Procurement,3,0.0011,0.0129,0.007
+44,MongoDB,83,Financial Accounting & Audit (GAAP),3,0.0015,0.0129,0.0072
+48,Vue.js,72,Observability & Monitoring,3,0.0121,0.0577,0.0349
+48,Vue.js,77,Ruby & Rails,3,0.0238,0.0577,0.0408
+48,Vue.js,82,Project Management & SDLC (PMP),3,0.0032,0.0577,0.0304
+50,FastAPI & Flask,66,Data Governance & Quality,3,0.0048,0.0638,0.0343
+11,Scala,73,ServiceNow & ITIL / ITSM,3,0.0026,0.0484,0.0255
+20,Computer Vision,23,Scikit-Learn,3,0.0303,0.0833,0.0568
+20,Computer Vision,24,Pandas & NumPy,3,0.0265,0.06,0.0433
+51,Spring Boot,79,CRM Platforms (Salesforce / HubSpot),3,0.0026,0.0213,0.0119
+51,Spring Boot,73,ServiceNow & ITIL / ITSM,3,0.0024,0.0213,0.0119
+51,Spring Boot,71,Networking & Infrastructure,3,0.0031,0.0213,0.0122
+11,Scala,51,Spring Boot,3,0.015,0.0484,0.0317
+11,Scala,46,React,3,0.0083,0.0484,0.0283
+51,Spring Boot,66,Data Governance & Quality,3,0.0041,0.0213,0.0127
+20,Computer Vision,69,Test Automation (Selenium / Cypress),3,0.0079,0.0455,0.0267
+11,Scala,41,MySQL,3,0.0149,0.0484,0.0316
+20,Computer Vision,70,UI/UX Design & Figma,3,0.009,0.0455,0.0272
+50,FastAPI & Flask,72,Observability & Monitoring,3,0.0124,0.0638,0.0381
+50,FastAPI & Flask,63,Cybersecurity & IAM,3,0.0033,0.0638,0.0335
+48,Vue.js,84,Digital Marketing & SEO (GA4),3,0.0055,0.0577,0.0316
+11,Scala,18,Natural Language Processing,3,0.0183,0.0484,0.0333
+11,Scala,17,Deep Learning,3,0.0204,0.0484,0.0344
+11,Scala,14,Kotlin,3,0.0333,0.0968,0.0651
+21,PyTorch,38,Databricks,3,0.0211,0.0612,0.0412
+50,FastAPI & Flask,52,.NET Core,3,0.008,0.0638,0.0359
+50,FastAPI & Flask,51,Spring Boot,3,0.0162,0.0638,0.04
+10,Rust,59,Kubernetes,3,0.009,0.2,0.1045
+10,Rust,56,Microsoft Azure,3,0.0038,0.2,0.1019
+21,PyTorch,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),3,0.009,0.0612,0.0351
+21,PyTorch,85,Supply Chain & Procurement,3,0.0012,0.0612,0.0312
+22,TensorFlow,30,Excel,3,0.0006,0.0484,0.0245
+48,Vue.js,85,Supply Chain & Procurement,3,0.0012,0.0577,0.0295
+9,Go,48,Vue.js,3,0.0238,0.0577,0.0408
+52,.NET Core,84,Digital Marketing & SEO (GA4),3,0.0036,0.0091,0.0064

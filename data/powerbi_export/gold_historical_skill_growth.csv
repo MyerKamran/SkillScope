@@ -1,0 +1,87 @@
+skill_key,skill_name,category_name,parent_category,baseline_year,adoption_2020_pct,adoption_2025_pct,peak_adoption_pct,delta_pp,relative_change_pct,cagr_pct,comparable_2020_2025,respondents_2025,median_salary_2025_usd
+61,CI/CD & Git,DevOps & Infrastructure,Cloud & DevOps,2020,72.5,55.94,81.7,-16.56,-22.84,-5.05,1,27518,81210.0
+3,JavaScript,Programming Languages,Software & Engineering,2020,60.23,42.7,64.22,-17.53,-29.11,-6.65,1,21005,80254.0
+54,HTML & CSS,Web & Application Frameworks,Software & Engineering,2020,56.13,40.04,56.13,-16.09,-28.67,-6.53,1,19698,78890.0
+2,SQL,Programming Languages,Software & Engineering,2020,48.73,38.3,48.73,-10.43,-21.4,-4.7,1,18841,81210.0
+1,Python,Programming Languages,Software & Engineering,2020,39.23,37.43,48.39,-1.8,-4.59,-0.93,1,18410,81210.0
+15,Bash / Shell,Programming Languages,Software & Engineering,2020,29.44,37.03,38.23,7.59,25.78,4.69,1,18217,87000.0
+58,Docker,DevOps & Infrastructure,Cloud & DevOps,2020,29.24,35.4,47.74,6.16,21.07,3.9,1,17414,84599.0
+19,Generative AI & LLMs,AI & Machine Learning,Data & Analytics,2022,0.0,33.32,64.45,32.06,2544.44,197.93,0,16390,81210.0
+64,Agile & Scrum,Project & Product Management,Business & Operations,2020,41.13,31.28,46.61,-9.85,-23.95,-5.33,1,15386,87011.0
+40,PostgreSQL,Databases,Data & Analytics,2020,27.76,29.54,39.14,1.78,6.41,1.25,1,14529,82370.0
+62,Linux,DevOps & Infrastructure,Cloud & DevOps,2020,45.92,28.54,45.92,-17.38,-37.85,-9.07,1,14041,77881.0
+4,TypeScript,Programming Languages,Software & Engineering,2020,22.62,28.17,38.17,5.55,24.54,4.49,1,13859,82709.0
+41,MySQL,Databases,Data & Analytics,2020,45.15,24.97,45.6,-20.18,-44.7,-11.17,1,12285,71899.0
+49,Node.js,Web & Application Frameworks,Software & Engineering,2020,33.23,24.63,36.79,-8.6,-25.88,-5.81,1,12118,78890.0
+46,React,Web & Application Frameworks,Software & Engineering,2020,23.53,22.86,34.53,-0.67,-2.85,-0.58,1,11244,81210.0
+55,AWS,Cloud Platforms,Cloud & DevOps,2020,22.32,21.59,37.92,-0.73,-3.27,-0.66,1,10618,95299.0
+5,Java,Programming Languages,Software & Engineering,2020,35.8,19.02,35.8,-16.78,-46.87,-11.88,1,9358,80050.0
+45,Redis,Databases,Data & Analytics,2020,19.52,18.84,23.43,-0.68,-3.48,-0.71,1,9269,87944.0
+7,C#,Programming Languages,Software & Engineering,2020,27.99,18.0,27.99,-9.99,-35.69,-8.45,1,8852,81210.0
+44,MongoDB,Databases,Data & Analytics,2020,24.74,16.78,28.86,-7.96,-32.17,-7.47,1,8252,81210.0
+42,Microsoft SQL Server,Databases,Data & Analytics,2020,25.34,16.0,25.34,-9.34,-36.86,-8.79,1,7871,81210.0
+6,C++,Programming Languages,Software & Engineering,2020,21.26,15.22,24.04,-6.04,-28.41,-6.47,1,7485,80000.0
+59,Kubernetes,DevOps & Infrastructure,Cloud & DevOps,2020,9.58,14.22,17.82,4.64,48.43,8.22,1,6993,96000.0
+50,FastAPI & Flask,Web & Application Frameworks,Software & Engineering,2020,15.0,13.64,19.78,-1.36,-9.07,-1.88,1,6712,78306.0
+56,Microsoft Azure,Cloud Platforms,Cloud & DevOps,2020,16.03,13.11,20.3,-2.92,-18.22,-3.94,1,6447,87550.0
+60,Terraform & IaC,DevOps & Infrastructure,Cloud & DevOps,2020,7.21,12.34,15.22,5.13,71.15,11.35,1,6072,100000.0
+57,Google Cloud Platform (GCP),Cloud Platforms,Cloud & DevOps,2020,11.74,12.23,20.0,0.49,4.17,0.82,1,6015,87011.0
+12,PHP,Programming Languages,Software & Engineering,2020,23.28,12.19,23.28,-11.09,-47.64,-12.14,1,5994,65663.0
+72,Observability & Monitoring,DevOps & Infrastructure,Cloud & DevOps,2025,0.0,11.82,11.82,0.0,0.0,0.0,0,5816,104413.0
+48,Vue.js,Web & Application Frameworks,Software & Engineering,2020,11.36,11.08,17.22,-0.28,-2.46,-0.5,1,5450,75472.0
+52,.NET Core,Web & Application Frameworks,Software & Engineering,2020,26.05,10.86,26.05,-15.19,-58.31,-16.05,1,5342,81210.0
+9,Go,Programming Languages,Software & Engineering,2020,7.82,10.61,13.0,2.79,35.68,6.29,1,5219,92812.0
+47,Angular,Web & Application Frameworks,Software & Engineering,2020,20.91,10.03,20.91,-10.88,-52.03,-13.66,1,4935,76568.0
+10,Rust,Programming Languages,Software & Engineering,2020,4.54,9.6,12.81,5.06,111.45,16.16,1,4724,87011.0
+51,Spring Boot,Web & Application Frameworks,Software & Engineering,2020,10.77,7.08,11.85,-3.69,-34.26,-8.05,1,3481,81038.0
+14,Kotlin,Programming Languages,Software & Engineering,2020,6.93,6.95,8.9,0.02,0.29,0.06,1,3420,83531.0
+43,Oracle Database,Databases,Data & Analytics,2020,12.65,5.61,12.65,-7.04,-55.65,-15.01,1,2761,73624.0
+39,BigQuery,Data Engineering,Data & Analytics,2023,0.0,5.27,5.27,0.61,13.09,6.34,0,2590,102106.0
+77,Ruby & Rails,Programming Languages,Software & Engineering,2020,6.98,4.53,7.34,-2.45,-35.1,-8.28,1,2228,105000.0
+13,Swift,Programming Languages,Software & Engineering,2020,5.27,3.49,5.27,-1.78,-33.78,-7.91,1,1719,95132.0
+8,R,Programming Languages,Software & Engineering,2020,5.1,3.19,5.91,-1.91,-37.45,-8.96,1,1569,80000.0
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,Data & Analytics,2021,0.0,2.5,4.61,-2.11,-45.77,-14.19,0,1231,67680.0
+37,Snowflake,Data Engineering,Data & Analytics,2023,0.0,2.19,2.19,0.15,7.35,3.61,0,1079,135000.0
+38,Databricks,Data Engineering,Data & Analytics,2024,0.0,1.82,1.99,-0.17,-8.54,-8.54,0,895,109875.0
+11,Scala,Programming Languages,Software & Engineering,2020,3.18,1.71,3.18,-1.47,-46.23,-11.67,1,843,104413.0
+24,Pandas & NumPy,Data Analysis & Statistics,Data & Analytics,2020,9.7,1.65,21.68,-8.05,-82.99,-29.83,1,811,92812.0
+27,Power BI,Business Intelligence,Data & Analytics,2025,0.0,1.05,1.05,0.0,0.0,0.0,0,515,96423.0
+67,Stakeholder Communication,Leadership & Communication,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+85,Supply Chain & Procurement,Operations & Supply Chain,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+84,Digital Marketing & SEO (GA4),Marketing & Growth,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+83,Financial Accounting & Audit (GAAP),Finance & Accounting,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+76,CAD & Industrial Automation,Hardware & Embedded,Engineering & Hardware,2020,0.0,0.0,0.0,0.0,,,0,0,
+68,Financial & Business Analysis,Project & Product Management,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+69,Test Automation (Selenium / Cypress),QA & Testing,Software & Engineering,2020,0.0,0.0,0.0,0.0,,,0,0,
+75,Embedded Systems & Firmware,Hardware & Embedded,Engineering & Hardware,2020,0.0,0.0,0.0,0.0,,,0,0,
+80,Six Sigma & Lean Operations,Operations & Supply Chain,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+70,UI/UX Design & Figma,Design & UX,Product & Design,2020,0.0,0.0,0.0,0.0,,,0,0,
+71,Networking & Infrastructure,DevOps & Infrastructure,Cloud & DevOps,2022,0.0,0.0,6.04,-6.04,-100.0,,0,0,
+66,Data Governance & Quality,Data Analysis & Statistics,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+82,Project Management & SDLC (PMP),Project & Product Management,Business & Operations,2022,0.0,0.0,0.89,-0.89,-100.0,,0,0,
+73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+21,PyTorch,AI & Machine Learning,Data & Analytics,2020,2.9,0.0,7.41,-2.9,-100.0,-67.82,1,0,
+65,Product Management,Project & Product Management,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,
+33,Apache Spark,Data Engineering,Data & Analytics,2020,4.54,0.0,4.55,-4.54,-100.0,-70.58,1,0,
+23,Scikit-Learn,AI & Machine Learning,Data & Analytics,2022,0.0,0.0,7.88,-7.88,-100.0,,0,0,
+25,Statistics & A/B Testing,Data Analysis & Statistics,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+26,MLOps,AI & Machine Learning,Data & Analytics,2024,0.0,0.0,0.81,-0.81,-100.0,,0,0,
+28,Tableau,Business Intelligence,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+29,Looker,Business Intelligence,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+30,Excel,Business Intelligence,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+31,ETL & Data Pipelines,Data Engineering,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+32,Data Warehousing,Data Engineering,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+34,Apache Kafka,Data Engineering,Data & Analytics,2022,0.0,0.0,12.9,-6.48,-100.0,,0,0,
+63,Cybersecurity & IAM,Cybersecurity,Cloud & DevOps,2020,0.0,0.0,0.0,0.0,,,0,0,
+35,Apache Airflow,Data Engineering,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+36,dbt,Data Engineering,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+20,Computer Vision,AI & Machine Learning,Data & Analytics,2023,0.0,0.0,6.12,-6.12,-100.0,,0,0,
+18,Natural Language Processing,AI & Machine Learning,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+17,Deep Learning,AI & Machine Learning,Data & Analytics,2020,0.0,0.0,0.0,0.0,,,0,0,
+16,Machine Learning,AI & Machine Learning,Data & Analytics,2020,8.49,0.0,12.99,-8.49,-100.0,-74.05,1,0,
+53,REST & GraphQL APIs,Web & Application Frameworks,Software & Engineering,2020,0.0,0.0,0.0,0.0,,,0,0,
+22,TensorFlow,AI & Machine Learning,Data & Analytics,2020,7.83,0.0,10.54,-7.83,-100.0,-73.62,1,0,
+86,Talent Acquisition & HRIS,Human Resources,Business & Operations,2020,0.0,0.0,0.0,0.0,,,0,0,

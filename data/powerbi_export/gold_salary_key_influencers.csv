@@ -1,0 +1,29 @@
+factor_name,importance_pct,median_salary_impact_usd
+Factor: Seniority Level,57.22,61500.0
+Factor: Job Role Specialization,20.89,34650.0
+Skill: Python,3.95,57350.0
+Skill: Google Cloud Platform (GCP),3.19,65037.5
+Factor: Remote Work Eligibility,2.56,31200.0
+Skill: Excel,2.08,-10000.0
+Skill: Machine Learning,1.71,72126.98
+Skill: AWS,1.71,62426.25
+Skill: Networking & Infrastructure,1.19,32750.0
+Skill: SQL,1.01,39600.0
+Skill: Cybersecurity & IAM,0.96,50955.6
+Skill: C++,0.57,57900.0
+Skill: Data Governance & Quality,0.52,47500.0
+Skill: Microsoft Azure,0.42,48466.0
+Skill: JavaScript,0.28,47500.0
+Skill: Statistics & A/B Testing,0.26,22500.0
+Skill: Java,0.24,58225.0
+Skill: Linux,0.23,46600.25
+Skill: CAD & Industrial Automation,0.22,7500.0
+Skill: CI/CD & Git,0.21,55880.0
+Skill: Tableau,0.17,35000.0
+Skill: ETL & Data Pipelines,0.12,57900.0
+Skill: .NET Core,0.06,51000.0
+Skill: REST & GraphQL APIs,0.05,57700.0
+Skill: Power BI,0.05,26450.0
+Skill: Microsoft SQL Server,0.05,37100.0
+Skill: Oracle Database,0.04,35000.0
+Skill: HTML & CSS,0.02,27500.0

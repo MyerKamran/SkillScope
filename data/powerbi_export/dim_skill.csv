@@ -1,0 +1,87 @@
+skill_key,skill_name,taxonomy_id,skill_type,category_key,is_emerging,esco_occupation_count,version_num,is_current
+1,Python,urn:skillscope:esco-aligned:python,skill/competence,1,0,87,1,1
+2,SQL,urn:skillscope:esco-aligned:sql,skill/competence,1,0,44,1,1
+3,JavaScript,urn:skillscope:esco-aligned:javascript,skill/competence,1,0,349,1,1
+4,TypeScript,urn:skillscope:esco-aligned:typescript,skill/competence,1,1,20,1,1
+5,Java,urn:skillscope:esco-aligned:java,skill/competence,1,0,348,1,1
+6,C++,urn:skillscope:esco-aligned:cpp,skill/competence,1,0,348,1,1
+7,C#,urn:skillscope:esco-aligned:csharp,skill/competence,1,0,348,1,1
+8,R,urn:skillscope:esco-aligned:r-language,skill/competence,1,0,140,1,1
+9,Go,urn:skillscope:esco-aligned:golang,skill/competence,1,1,643,1,1
+10,Rust,urn:skillscope:esco-aligned:rust,skill/competence,1,1,695,1,1
+11,Scala,urn:skillscope:esco-aligned:scala,skill/competence,1,0,665,1,1
+12,PHP,urn:skillscope:esco-aligned:php,skill/competence,1,0,54,1,1
+13,Swift,urn:skillscope:esco-aligned:swift,skill/competence,1,0,465,1,1
+14,Kotlin,urn:skillscope:esco-aligned:kotlin,skill/competence,1,1,465,1,1
+15,Bash / Shell,urn:skillscope:esco-aligned:bash-shell,skill/competence,1,0,76,1,1
+16,Machine Learning,urn:skillscope:esco-aligned:machine-learning,knowledge,2,1,45,1,1
+17,Deep Learning,urn:skillscope:esco-aligned:deep-learning,knowledge,2,1,59,1,1
+18,Natural Language Processing,urn:skillscope:esco-aligned:nlp,knowledge,2,1,469,1,1
+19,Generative AI & LLMs,urn:skillscope:esco-aligned:generative-ai-llms,skill/competence,2,1,264,1,1
+20,Computer Vision,urn:skillscope:esco-aligned:computer-vision,knowledge,2,1,116,1,1
+21,PyTorch,urn:skillscope:esco-aligned:pytorch,skill/competence,2,1,348,1,1
+22,TensorFlow,urn:skillscope:esco-aligned:tensorflow,skill/competence,2,0,348,1,1
+23,Scikit-Learn,urn:skillscope:esco-aligned:scikit-learn,skill/competence,2,0,45,1,1
+24,Pandas & NumPy,urn:skillscope:esco-aligned:pandas-numpy,skill/competence,3,0,93,1,1
+25,Statistics & A/B Testing,urn:skillscope:esco-aligned:statistics-ab-testing,knowledge,3,0,108,1,1
+26,MLOps,urn:skillscope:esco-aligned:mlops,skill/competence,2,1,59,1,1
+27,Power BI,urn:skillscope:esco-aligned:power-bi,skill/competence,4,1,1005,1,1
+28,Tableau,urn:skillscope:esco-aligned:tableau,skill/competence,4,0,717,1,1
+29,Looker,urn:skillscope:esco-aligned:looker,skill/competence,4,0,963,1,1
+30,Excel,urn:skillscope:esco-aligned:excel,skill/competence,4,0,510,1,1
+31,ETL & Data Pipelines,urn:skillscope:esco-aligned:etl-pipelines,skill/competence,5,0,516,1,1
+32,Data Warehousing,urn:skillscope:esco-aligned:data-warehousing,knowledge,5,0,47,1,1
+33,Apache Spark,urn:skillscope:esco-aligned:apache-spark,skill/competence,5,0,469,1,1
+34,Apache Kafka,urn:skillscope:esco-aligned:apache-kafka,skill/competence,5,1,916,1,1
+35,Apache Airflow,urn:skillscope:esco-aligned:apache-airflow,skill/competence,5,1,588,1,1
+36,dbt,urn:skillscope:esco-aligned:dbt,skill/competence,5,1,469,1,1
+37,Snowflake,urn:skillscope:esco-aligned:snowflake,skill/competence,5,1,469,1,1
+38,Databricks,urn:skillscope:esco-aligned:databricks,skill/competence,5,1,469,1,1
+39,BigQuery,urn:skillscope:esco-aligned:bigquery,skill/competence,5,1,469,1,1
+40,PostgreSQL,urn:skillscope:esco-aligned:postgresql,skill/competence,6,0,41,1,1
+41,MySQL,urn:skillscope:esco-aligned:mysql,skill/competence,6,0,41,1,1
+42,Microsoft SQL Server,urn:skillscope:esco-aligned:mssql,skill/competence,6,0,41,1,1
+43,Oracle Database,urn:skillscope:esco-aligned:oracle-db,skill/competence,6,0,41,1,1
+44,MongoDB,urn:skillscope:esco-aligned:mongodb,skill/competence,6,0,534,1,1
+45,Redis,urn:skillscope:esco-aligned:redis,skill/competence,6,0,483,1,1
+46,React,urn:skillscope:esco-aligned:react,skill/competence,7,0,2,1,1
+47,Angular,urn:skillscope:esco-aligned:angular,skill/competence,7,0,2,1,1
+48,Vue.js,urn:skillscope:esco-aligned:vuejs,skill/competence,7,0,2,1,1
+49,Node.js,urn:skillscope:esco-aligned:nodejs,skill/competence,7,0,6,1,1
+50,FastAPI & Flask,urn:skillscope:esco-aligned:fastapi-flask,skill/competence,7,1,348,1,1
+51,Spring Boot,urn:skillscope:esco-aligned:spring-boot,skill/competence,7,0,351,1,1
+52,.NET Core,urn:skillscope:esco-aligned:dotnet-core,skill/competence,7,0,351,1,1
+53,REST & GraphQL APIs,urn:skillscope:esco-aligned:rest-graphql,skill/competence,7,0,79,1,1
+54,HTML & CSS,urn:skillscope:esco-aligned:html-css,skill/competence,7,0,350,1,1
+55,AWS,urn:skillscope:esco-aligned:aws,skill/competence,8,0,7,1,1
+56,Microsoft Azure,urn:skillscope:esco-aligned:azure,skill/competence,8,1,7,1,1
+57,Google Cloud Platform (GCP),urn:skillscope:esco-aligned:gcp,skill/competence,8,1,7,1,1
+58,Docker,urn:skillscope:esco-aligned:docker,skill/competence,9,0,358,1,1
+59,Kubernetes,urn:skillscope:esco-aligned:kubernetes,skill/competence,9,1,213,1,1
+60,Terraform & IaC,urn:skillscope:esco-aligned:terraform-iac,skill/competence,9,1,126,1,1
+61,CI/CD & Git,urn:skillscope:esco-aligned:cicd-git,skill/competence,9,0,720,1,1
+62,Linux,urn:skillscope:esco-aligned:linux,skill/competence,9,0,53,1,1
+63,Cybersecurity & IAM,urn:skillscope:esco-aligned:cybersecurity-iam,knowledge,10,1,33,1,1
+64,Agile & Scrum,urn:skillscope:esco-aligned:agile-scrum,knowledge,11,0,1582,1,1
+65,Product Management,urn:skillscope:esco-aligned:product-management,skill/competence,11,0,1902,1,1
+66,Data Governance & Quality,urn:skillscope:esco-aligned:data-governance,knowledge,3,1,209,1,1
+67,Stakeholder Communication,urn:skillscope:esco-aligned:stakeholder-comm,skill/competence,12,0,751,1,1
+68,Financial & Business Analysis,urn:skillscope:esco-aligned:business-analysis,skill/competence,11,0,680,1,1
+69,Test Automation (Selenium / Cypress),urn:skillscope:esco-aligned:test-automation,skill/competence,13,0,14,1,1
+70,UI/UX Design & Figma,urn:skillscope:esco-aligned:ui-ux-figma,skill/competence,14,1,361,1,1
+71,Networking & Infrastructure,urn:skillscope:esco-aligned:networking-infra,skill/competence,9,0,211,1,1
+72,Observability & Monitoring,urn:skillscope:esco-aligned:observability-monitoring,skill/competence,9,1,1201,1,1
+73,ServiceNow & ITIL / ITSM,urn:skillscope:esco-aligned:servicenow-itil,skill/competence,15,0,305,1,1
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),urn:skillscope:esco-aligned:statistical-tools,skill/competence,3,0,108,1,1
+75,Embedded Systems & Firmware,urn:skillscope:esco-aligned:embedded-firmware,skill/competence,16,0,11,1,1
+76,CAD & Industrial Automation,urn:skillscope:esco-aligned:cad-automation,skill/competence,16,0,527,1,1
+77,Ruby & Rails,urn:skillscope:esco-aligned:ruby-rails,skill/competence,1,0,348,1,1
+78,ERP Systems (SAP / NetSuite / Workday),urn:skillscope:esco-aligned:erp-systems,skill/competence,15,0,1478,1,1
+79,CRM Platforms (Salesforce / HubSpot),urn:skillscope:esco-aligned:crm-platforms,skill/competence,15,0,393,1,1
+80,Six Sigma & Lean Operations,urn:skillscope:esco-aligned:six-sigma-lean,knowledge,17,0,791,1,1
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),urn:skillscope:esco-aligned:regulatory-compliance,knowledge,18,1,664,1,1
+82,Project Management & SDLC (PMP),urn:skillscope:esco-aligned:pmp-sdlc,skill/competence,11,0,1040,1,1
+83,Financial Accounting & Audit (GAAP),urn:skillscope:esco-aligned:financial-accounting,knowledge,19,0,97,1,1
+84,Digital Marketing & SEO (GA4),urn:skillscope:esco-aligned:digital-marketing,skill/competence,20,0,130,1,1
+85,Supply Chain & Procurement,urn:skillscope:esco-aligned:supply-chain,knowledge,17,0,219,1,1
+86,Talent Acquisition & HRIS,urn:skillscope:esco-aligned:talent-hris,skill/competence,21,0,477,1,1

@@ -1,0 +1,87 @@
+skill_key,skill_name,mentions_2023,mentions_2024,total_mentions,wave1_share_pct,wave2_share_pct,share_change_pp,yoy_growth_pct,category_key,is_emerging,category_name,parent_category
+29,Looker,19,33,52,0.123,0.195,0.072,58.54,4,0,Business Intelligence,Data & Analytics
+26,MLOps,19,31,50,0.123,0.183,0.06,48.78,2,1,AI & Machine Learning,Data & Analytics
+45,Redis,33,48,81,0.213,0.284,0.071,33.33,6,0,Databases,Data & Analytics
+38,Databricks,42,54,96,0.271,0.319,0.048,17.71,5,1,Data Engineering,Data & Analytics
+76,CAD & Industrial Automation,361,443,804,2.332,2.619,0.287,12.31,16,0,Hardware & Embedded,Engineering & Hardware
+59,Kubernetes,145,177,322,0.937,1.047,0.11,11.74,9,1,DevOps & Infrastructure,Cloud & DevOps
+4,TypeScript,65,79,144,0.42,0.467,0.047,11.19,1,1,Programming Languages,Software & Engineering
+86,Talent Acquisition & HRIS,376,454,830,2.429,2.684,0.255,10.5,21,0,Human Resources,Business & Operations
+80,Six Sigma & Lean Operations,205,244,449,1.324,1.443,0.119,8.99,17,0,Operations & Supply Chain,Business & Operations
+68,Financial & Business Analysis,296,352,648,1.912,2.081,0.169,8.84,11,0,Project & Product Management,Business & Operations
+81,Regulatory Compliance (HIPAA / SOC 2 / SOX),569,673,1242,3.675,3.979,0.304,8.27,18,1,Governance & Compliance,Business & Operations
+35,Apache Airflow,29,34,63,0.187,0.201,0.014,7.49,5,1,Data Engineering,Data & Analytics
+48,Vue.js,24,28,52,0.155,0.166,0.011,7.1,7,0,Web & Application Frameworks,Software & Engineering
+34,Apache Kafka,71,82,153,0.459,0.485,0.026,5.66,5,1,Data Engineering,Data & Analytics
+17,Deep Learning,41,47,88,0.265,0.278,0.013,4.91,2,1,AI & Machine Learning,Data & Analytics
+9,Go,36,41,77,0.233,0.242,0.009,3.86,1,1,Programming Languages,Software & Engineering
+19,Generative AI & LLMs,60,68,128,0.388,0.402,0.014,3.61,2,1,AI & Machine Learning,Data & Analytics
+21,PyTorch,23,26,49,0.149,0.154,0.005,3.36,2,1,AI & Machine Learning,Data & Analytics
+60,Terraform & IaC,121,134,255,0.782,0.792,0.01,1.28,9,1,DevOps & Infrastructure,Cloud & DevOps
+74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),138,150,288,0.891,0.887,-0.004,-0.45,3,0,Data Analysis & Statistics,Data & Analytics
+8,R,48,52,100,0.31,0.307,-0.003,-0.97,1,0,Programming Languages,Software & Engineering
+69,Test Automation (Selenium / Cypress),152,163,315,0.982,0.964,-0.018,-1.83,13,0,QA & Testing,Software & Engineering
+40,PostgreSQL,74,79,153,0.478,0.467,-0.011,-2.3,6,0,Databases,Data & Analytics
+84,Digital Marketing & SEO (GA4),242,258,500,1.563,1.525,-0.038,-2.43,20,0,Marketing & Growth,Business & Operations
+30,Excel,2257,2395,4652,14.579,14.161,-0.418,-2.87,4,0,Business Intelligence,Data & Analytics
+58,Docker,150,159,309,0.969,0.94,-0.029,-2.99,9,0,DevOps & Infrastructure,Cloud & DevOps
+70,UI/UX Design & Figma,133,139,272,0.859,0.822,-0.037,-4.31,14,1,Design & UX,Product & Design
+41,MySQL,70,73,143,0.452,0.432,-0.02,-4.42,6,0,Databases,Data & Analytics
+85,Supply Chain & Procurement,1176,1225,2401,7.596,7.243,-0.353,-4.65,17,0,Operations & Supply Chain,Business & Operations
+56,Microsoft Azure,383,397,780,2.474,2.347,-0.127,-5.13,8,1,Cloud Platforms,Cloud & DevOps
+33,Apache Spark,87,90,177,0.562,0.532,-0.03,-5.34,5,0,Data Engineering,Data & Analytics
+27,Power BI,197,202,399,1.273,1.194,-0.079,-6.21,4,1,Business Intelligence,Data & Analytics
+83,Financial Accounting & Audit (GAAP),861,880,1741,5.562,5.203,-0.359,-6.45,19,0,Finance & Accounting,Business & Operations
+73,ServiceNow & ITIL / ITSM,544,548,1092,3.514,3.24,-0.274,-7.8,15,0,Enterprise Systems & IT,Business & Operations
+61,CI/CD & Git,433,436,869,2.797,2.578,-0.219,-7.83,9,0,DevOps & Infrastructure,Cloud & DevOps
+78,ERP Systems (SAP / NetSuite / Workday),521,518,1039,3.365,3.063,-0.302,-8.97,15,0,Enterprise Systems & IT,Business & Operations
+71,Networking & Infrastructure,421,417,838,2.719,2.466,-0.253,-9.3,9,0,DevOps & Infrastructure,Cloud & DevOps
+82,Project Management & SDLC (PMP),453,445,898,2.926,2.631,-0.295,-10.08,11,0,Project & Product Management,Business & Operations
+72,Observability & Monitoring,100,98,198,0.646,0.579,-0.067,-10.37,9,1,DevOps & Infrastructure,Cloud & DevOps
+15,Bash / Shell,162,158,320,1.046,0.934,-0.112,-10.71,1,0,Programming Languages,Software & Engineering
+55,AWS,456,444,900,2.946,2.625,-0.321,-10.9,8,0,Cloud Platforms,Cloud & DevOps
+49,Node.js,78,76,154,0.504,0.449,-0.055,-10.91,7,0,Web & Application Frameworks,Software & Engineering
+47,Angular,105,102,207,0.678,0.603,-0.075,-11.06,7,0,Web & Application Frameworks,Software & Engineering
+54,HTML & CSS,247,237,484,1.596,1.401,-0.195,-12.22,7,0,Web & Application Frameworks,Software & Engineering
+51,Spring Boot,72,69,141,0.465,0.408,-0.057,-12.26,7,0,Web & Application Frameworks,Software & Engineering
+75,Embedded Systems & Firmware,92,88,180,0.594,0.52,-0.074,-12.46,16,0,Hardware & Embedded,Engineering & Hardware
+25,Statistics & A/B Testing,380,361,741,2.455,2.134,-0.321,-13.08,3,0,Data Analysis & Statistics,Data & Analytics
+66,Data Governance & Quality,301,285,586,1.944,1.685,-0.259,-13.32,3,1,Data Analysis & Statistics,Data & Analytics
+1,Python,603,570,1173,3.895,3.37,-0.525,-13.48,1,0,Programming Languages,Software & Engineering
+14,Kotlin,16,15,31,0.103,0.089,-0.014,-13.59,1,1,Programming Languages,Software & Engineering
+16,Machine Learning,230,217,447,1.486,1.283,-0.203,-13.66,2,1,AI & Machine Learning,Data & Analytics
+3,JavaScript,302,283,585,1.951,1.673,-0.278,-14.25,1,0,Programming Languages,Software & Engineering
+22,TensorFlow,32,30,62,0.207,0.177,-0.03,-14.49,2,0,AI & Machine Learning,Data & Analytics
+2,SQL,737,686,1423,4.761,4.056,-0.705,-14.81,1,0,Programming Languages,Software & Engineering
+77,Ruby & Rails,40,37,77,0.258,0.219,-0.039,-15.12,1,0,Programming Languages,Software & Engineering
+5,Java,393,361,754,2.539,2.134,-0.405,-15.95,1,0,Programming Languages,Software & Engineering
+65,Product Management,391,358,749,2.526,2.117,-0.409,-16.19,11,0,Project & Product Management,Business & Operations
+64,Agile & Scrum,1078,980,2058,6.963,5.794,-1.169,-16.79,11,0,Project & Product Management,Business & Operations
+53,REST & GraphQL APIs,240,216,456,1.55,1.277,-0.273,-17.61,7,0,Web & Application Frameworks,Software & Engineering
+46,React,160,143,303,1.034,0.846,-0.188,-18.18,7,0,Web & Application Frameworks,Software & Engineering
+57,Google Cloud Platform (GCP),227,201,428,1.466,1.188,-0.278,-18.96,8,1,Cloud Platforms,Cloud & DevOps
+50,FastAPI & Flask,25,22,47,0.161,0.13,-0.031,-19.25,7,1,Web & Application Frameworks,Software & Engineering
+44,MongoDB,124,109,233,0.801,0.644,-0.157,-19.6,6,0,Databases,Data & Analytics
+63,Cybersecurity & IAM,468,410,878,3.023,2.424,-0.599,-19.81,10,1,Cybersecurity,Cloud & DevOps
+67,Stakeholder Communication,73,64,137,0.472,0.378,-0.094,-19.92,12,0,Leadership & Communication,Business & Operations
+62,Linux,326,284,610,2.106,1.679,-0.427,-20.28,9,0,DevOps & Infrastructure,Cloud & DevOps
+7,C#,174,150,324,1.124,0.887,-0.237,-21.09,1,0,Programming Languages,Software & Engineering
+6,C++,183,157,340,1.182,0.928,-0.254,-21.49,1,0,Programming Languages,Software & Engineering
+28,Tableau,213,179,392,1.376,1.058,-0.318,-23.11,4,0,Business Intelligence,Data & Analytics
+11,Scala,34,28,62,0.22,0.166,-0.054,-24.55,1,0,Programming Languages,Software & Engineering
+31,ETL & Data Pipelines,262,214,476,1.692,1.265,-0.427,-25.24,5,0,Data Engineering,Data & Analytics
+32,Data Warehousing,140,114,254,0.904,0.674,-0.23,-25.44,5,0,Data Engineering,Data & Analytics
+12,PHP,43,35,78,0.278,0.207,-0.071,-25.54,1,0,Programming Languages,Software & Engineering
+43,Oracle Database,199,159,358,1.285,0.94,-0.345,-26.85,6,0,Databases,Data & Analytics
+42,Microsoft SQL Server,204,161,365,1.318,0.952,-0.366,-27.77,6,0,Databases,Data & Analytics
+13,Swift,14,11,25,0.09,0.065,-0.025,-27.78,1,0,Programming Languages,Software & Engineering
+24,Pandas & NumPy,28,22,50,0.181,0.13,-0.051,-28.18,3,0,Data Analysis & Statistics,Data & Analytics
+52,.NET Core,188,141,329,1.214,0.834,-0.38,-31.3,7,0,Web & Application Frameworks,Software & Engineering
+79,CRM Platforms (Salesforce / HubSpot),586,430,1016,3.785,2.542,-1.243,-32.84,15,0,Enterprise Systems & IT,Business & Operations
+23,Scikit-Learn,21,15,36,0.136,0.089,-0.047,-34.56,2,0,AI & Machine Learning,Data & Analytics
+39,BigQuery,52,36,88,0.336,0.213,-0.123,-36.61,5,1,Data Engineering,Data & Analytics
+36,dbt,25,17,42,0.161,0.101,-0.06,-37.27,5,1,Data Engineering,Data & Analytics
+20,Computer Vision,40,26,66,0.258,0.154,-0.104,-40.31,2,1,AI & Machine Learning,Data & Analytics
+37,Snowflake,79,51,130,0.51,0.302,-0.208,-40.78,5,1,Data Engineering,Data & Analytics
+18,Natural Language Processing,66,39,105,0.426,0.231,-0.195,-45.77,2,1,AI & Machine Learning,Data & Analytics
+10,Rust,9,6,15,0.058,0.035,-0.023,-39.66,1,1,Programming Languages,Software & Engineering

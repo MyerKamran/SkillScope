@@ -1,0 +1,693 @@
+{
+  "kpis": {
+    "total_postings": 32394,
+    "median_annual_salary_usd": 83200.0,
+    "mean_annual_salary_usd": 96123.41,
+    "salary_coverage_pct": 40.07,
+    "salary_disclosed_count": 12979,
+    "distinct_skills_in_demand": 86,
+    "remote_share_pct": 14.45,
+    "top_skill_name": "Excel",
+    "top_skill_share_pct": 43.46,
+    "entry_level_3plus_years_paradox_pct": 13.96,
+    "entry_level_3plus_years_paradox_count": 1081,
+    "entry_level_total_count": 7744,
+    "date_range": "2023-06-08 to 2023-11-04",
+    "wave1_postings": 15481,
+    "wave2_postings": 16913,
+    "rf_salary_cv_r2": 0.3344,
+    "rf_salary_cv_mae_usd": 31757.35,
+    "rf_sample_size": 12979,
+    "historical_years_span": "2020-2025",
+    "historical_survey_total_respondents": 424980,
+    "historical_salary_total_records": 151439
+  },
+  "historical_survey_cohorts": [
+    {
+      "year_num": 2020,
+      "respondents": 64461
+    },
+    {
+      "year_num": 2021,
+      "respondents": 83439
+    },
+    {
+      "year_num": 2022,
+      "respondents": 73268
+    },
+    {
+      "year_num": 2023,
+      "respondents": 89184
+    },
+    {
+      "year_num": 2024,
+      "respondents": 65437
+    },
+    {
+      "year_num": 2025,
+      "respondents": 49191
+    }
+  ],
+  "historical_salary_overall": [
+    {
+      "segment_type": "overall",
+      "segment_value": "All AI & Tech Roles",
+      "year_num": 2020,
+      "record_count": 75,
+      "median_salary_usd": 79833.0,
+      "mean_salary_usd": 102250.87,
+      "p25_salary_usd": 47899.0,
+      "p75_salary_usd": 117552.0,
+      "remote_share_pct": 48.0
+    },
+    {
+      "segment_type": "overall",
+      "segment_value": "All AI & Tech Roles",
+      "year_num": 2021,
+      "record_count": 218,
+      "median_salary_usd": 83872.0,
+      "mean_salary_usd": 99922.07,
+      "p25_salary_usd": 54094.0,
+      "p75_salary_usd": 138750.0,
+      "remote_share_pct": 53.21
+    },
+    {
+      "segment_type": "overall",
+      "segment_value": "All AI & Tech Roles",
+      "year_num": 2022,
+      "record_count": 1661,
+      "median_salary_usd": 131300.0,
+      "mean_salary_usd": 134146.47,
+      "p25_salary_usd": 95000.0,
+      "p75_salary_usd": 172200.0,
+      "remote_share_pct": 53.4
+    },
+    {
+      "segment_type": "overall",
+      "segment_value": "All AI & Tech Roles",
+      "year_num": 2023,
+      "record_count": 8524,
+      "median_salary_usd": 145000.0,
+      "mean_salary_usd": 153682.16,
+      "p25_salary_usd": 109203.5,
+      "p75_salary_usd": 190000.0,
+      "remote_share_pct": 31.37
+    },
+    {
+      "segment_type": "overall",
+      "segment_value": "All AI & Tech Roles",
+      "year_num": 2024,
+      "record_count": 62239,
+      "median_salary_usd": 148932.0,
+      "mean_salary_usd": 159569.4,
+      "p25_salary_usd": 108000.0,
+      "p75_salary_usd": 200000.0,
+      "remote_share_pct": 19.05
+    },
+    {
+      "segment_type": "overall",
+      "segment_value": "All AI & Tech Roles",
+      "year_num": 2025,
+      "record_count": 78722,
+      "median_salary_usd": 145100.0,
+      "mean_salary_usd": 156986.49,
+      "p25_salary_usd": 104881.25,
+      "p75_salary_usd": 196922.5,
+      "remote_share_pct": 20.29
+    }
+  ],
+  "top_5yr_rising_skills": [
+    {
+      "skill_key": 15,
+      "skill_name": "Bash / Shell",
+      "category_name": "Programming Languages",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 29.44,
+      "adoption_2025_pct": 37.03,
+      "peak_adoption_pct": 38.23,
+      "delta_pp": 7.59,
+      "relative_change_pct": 25.78,
+      "cagr_pct": 4.69,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 18217,
+      "median_salary_2025_usd": 87000.0
+    },
+    {
+      "skill_key": 58,
+      "skill_name": "Docker",
+      "category_name": "DevOps & Infrastructure",
+      "parent_category": "Cloud & DevOps",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 29.24,
+      "adoption_2025_pct": 35.4,
+      "peak_adoption_pct": 47.74,
+      "delta_pp": 6.16,
+      "relative_change_pct": 21.07,
+      "cagr_pct": 3.9,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 17414,
+      "median_salary_2025_usd": 84599.0
+    },
+    {
+      "skill_key": 4,
+      "skill_name": "TypeScript",
+      "category_name": "Programming Languages",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 22.62,
+      "adoption_2025_pct": 28.17,
+      "peak_adoption_pct": 38.17,
+      "delta_pp": 5.55,
+      "relative_change_pct": 24.54,
+      "cagr_pct": 4.49,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 13859,
+      "median_salary_2025_usd": 82709.0
+    },
+    {
+      "skill_key": 60,
+      "skill_name": "Terraform & IaC",
+      "category_name": "DevOps & Infrastructure",
+      "parent_category": "Cloud & DevOps",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 7.21,
+      "adoption_2025_pct": 12.34,
+      "peak_adoption_pct": 15.22,
+      "delta_pp": 5.13,
+      "relative_change_pct": 71.15,
+      "cagr_pct": 11.35,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 6072,
+      "median_salary_2025_usd": 100000.0
+    },
+    {
+      "skill_key": 10,
+      "skill_name": "Rust",
+      "category_name": "Programming Languages",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 4.54,
+      "adoption_2025_pct": 9.6,
+      "peak_adoption_pct": 12.81,
+      "delta_pp": 5.06,
+      "relative_change_pct": 111.45,
+      "cagr_pct": 16.16,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 4724,
+      "median_salary_2025_usd": 87011.0
+    },
+    {
+      "skill_key": 59,
+      "skill_name": "Kubernetes",
+      "category_name": "DevOps & Infrastructure",
+      "parent_category": "Cloud & DevOps",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 9.58,
+      "adoption_2025_pct": 14.22,
+      "peak_adoption_pct": 17.82,
+      "delta_pp": 4.64,
+      "relative_change_pct": 48.43,
+      "cagr_pct": 8.22,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 6993,
+      "median_salary_2025_usd": 96000.0
+    },
+    {
+      "skill_key": 9,
+      "skill_name": "Go",
+      "category_name": "Programming Languages",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 7.82,
+      "adoption_2025_pct": 10.61,
+      "peak_adoption_pct": 13.0,
+      "delta_pp": 2.79,
+      "relative_change_pct": 35.68,
+      "cagr_pct": 6.29,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 5219,
+      "median_salary_2025_usd": 92812.0
+    },
+    {
+      "skill_key": 40,
+      "skill_name": "PostgreSQL",
+      "category_name": "Databases",
+      "parent_category": "Data & Analytics",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 27.76,
+      "adoption_2025_pct": 29.54,
+      "peak_adoption_pct": 39.14,
+      "delta_pp": 1.78,
+      "relative_change_pct": 6.41,
+      "cagr_pct": 1.25,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 14529,
+      "median_salary_2025_usd": 82370.0
+    }
+  ],
+  "top_5yr_cooling_skills": [
+    {
+      "skill_key": 41,
+      "skill_name": "MySQL",
+      "category_name": "Databases",
+      "parent_category": "Data & Analytics",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 45.15,
+      "adoption_2025_pct": 24.97,
+      "peak_adoption_pct": 45.6,
+      "delta_pp": -20.18,
+      "relative_change_pct": -44.7,
+      "cagr_pct": -11.17,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 12285,
+      "median_salary_2025_usd": 71899.0
+    },
+    {
+      "skill_key": 3,
+      "skill_name": "JavaScript",
+      "category_name": "Programming Languages",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 60.23,
+      "adoption_2025_pct": 42.7,
+      "peak_adoption_pct": 64.22,
+      "delta_pp": -17.53,
+      "relative_change_pct": -29.11,
+      "cagr_pct": -6.65,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 21005,
+      "median_salary_2025_usd": 80254.0
+    },
+    {
+      "skill_key": 62,
+      "skill_name": "Linux",
+      "category_name": "DevOps & Infrastructure",
+      "parent_category": "Cloud & DevOps",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 45.92,
+      "adoption_2025_pct": 28.54,
+      "peak_adoption_pct": 45.92,
+      "delta_pp": -17.38,
+      "relative_change_pct": -37.85,
+      "cagr_pct": -9.07,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 14041,
+      "median_salary_2025_usd": 77881.0
+    },
+    {
+      "skill_key": 5,
+      "skill_name": "Java",
+      "category_name": "Programming Languages",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 35.8,
+      "adoption_2025_pct": 19.02,
+      "peak_adoption_pct": 35.8,
+      "delta_pp": -16.78,
+      "relative_change_pct": -46.87,
+      "cagr_pct": -11.88,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 9358,
+      "median_salary_2025_usd": 80050.0
+    },
+    {
+      "skill_key": 61,
+      "skill_name": "CI/CD & Git",
+      "category_name": "DevOps & Infrastructure",
+      "parent_category": "Cloud & DevOps",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 72.5,
+      "adoption_2025_pct": 55.94,
+      "peak_adoption_pct": 81.7,
+      "delta_pp": -16.56,
+      "relative_change_pct": -22.84,
+      "cagr_pct": -5.05,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 27518,
+      "median_salary_2025_usd": 81210.0
+    },
+    {
+      "skill_key": 54,
+      "skill_name": "HTML & CSS",
+      "category_name": "Web & Application Frameworks",
+      "parent_category": "Software & Engineering",
+      "baseline_year": 2020,
+      "adoption_2020_pct": 56.13,
+      "adoption_2025_pct": 40.04,
+      "peak_adoption_pct": 56.13,
+      "delta_pp": -16.09,
+      "relative_change_pct": -28.67,
+      "cagr_pct": -6.53,
+      "comparable_2020_2025": 1,
+      "respondents_2025": 19698,
+      "median_salary_2025_usd": 78890.0
+    }
+  ],
+  "top_10_skills": [
+    {
+      "skill_name": "Excel",
+      "category_name": "Business Intelligence",
+      "mentions_2023": 2257,
+      "mentions_2024": 2395,
+      "wave1_share_pct": 14.579,
+      "wave2_share_pct": 14.161,
+      "yoy_growth_pct": -2.87
+    },
+    {
+      "skill_name": "Supply Chain & Procurement",
+      "category_name": "Operations & Supply Chain",
+      "mentions_2023": 1176,
+      "mentions_2024": 1225,
+      "wave1_share_pct": 7.596,
+      "wave2_share_pct": 7.243,
+      "yoy_growth_pct": -4.65
+    },
+    {
+      "skill_name": "Agile & Scrum",
+      "category_name": "Project & Product Management",
+      "mentions_2023": 1078,
+      "mentions_2024": 980,
+      "wave1_share_pct": 6.963,
+      "wave2_share_pct": 5.794,
+      "yoy_growth_pct": -16.79
+    },
+    {
+      "skill_name": "Financial Accounting & Audit (GAAP)",
+      "category_name": "Finance & Accounting",
+      "mentions_2023": 861,
+      "mentions_2024": 880,
+      "wave1_share_pct": 5.562,
+      "wave2_share_pct": 5.203,
+      "yoy_growth_pct": -6.45
+    },
+    {
+      "skill_name": "SQL",
+      "category_name": "Programming Languages",
+      "mentions_2023": 737,
+      "mentions_2024": 686,
+      "wave1_share_pct": 4.761,
+      "wave2_share_pct": 4.056,
+      "yoy_growth_pct": -14.81
+    },
+    {
+      "skill_name": "Regulatory Compliance (HIPAA / SOC 2 / SOX)",
+      "category_name": "Governance & Compliance",
+      "mentions_2023": 569,
+      "mentions_2024": 673,
+      "wave1_share_pct": 3.675,
+      "wave2_share_pct": 3.979,
+      "yoy_growth_pct": 8.27
+    },
+    {
+      "skill_name": "Python",
+      "category_name": "Programming Languages",
+      "mentions_2023": 603,
+      "mentions_2024": 570,
+      "wave1_share_pct": 3.895,
+      "wave2_share_pct": 3.37,
+      "yoy_growth_pct": -13.48
+    },
+    {
+      "skill_name": "ServiceNow & ITIL / ITSM",
+      "category_name": "Enterprise Systems & IT",
+      "mentions_2023": 544,
+      "mentions_2024": 548,
+      "wave1_share_pct": 3.514,
+      "wave2_share_pct": 3.24,
+      "yoy_growth_pct": -7.8
+    },
+    {
+      "skill_name": "ERP Systems (SAP / NetSuite / Workday)",
+      "category_name": "Enterprise Systems & IT",
+      "mentions_2023": 521,
+      "mentions_2024": 518,
+      "wave1_share_pct": 3.365,
+      "wave2_share_pct": 3.063,
+      "yoy_growth_pct": -8.97
+    },
+    {
+      "skill_name": "CRM Platforms (Salesforce / HubSpot)",
+      "category_name": "Enterprise Systems & IT",
+      "mentions_2023": 586,
+      "mentions_2024": 430,
+      "wave1_share_pct": 3.785,
+      "wave2_share_pct": 2.542,
+      "yoy_growth_pct": -32.84
+    }
+  ],
+  "fastest_rising_skills": [
+    {
+      "skill_name": "Looker",
+      "category_name": "Business Intelligence",
+      "mentions_2023": 19,
+      "mentions_2024": 33,
+      "wave1_share_pct": 0.123,
+      "wave2_share_pct": 0.195,
+      "yoy_growth_pct": 58.54
+    },
+    {
+      "skill_name": "MLOps",
+      "category_name": "AI & Machine Learning",
+      "mentions_2023": 19,
+      "mentions_2024": 31,
+      "wave1_share_pct": 0.123,
+      "wave2_share_pct": 0.183,
+      "yoy_growth_pct": 48.78
+    },
+    {
+      "skill_name": "Redis",
+      "category_name": "Databases",
+      "mentions_2023": 33,
+      "mentions_2024": 48,
+      "wave1_share_pct": 0.213,
+      "wave2_share_pct": 0.284,
+      "yoy_growth_pct": 33.33
+    },
+    {
+      "skill_name": "Databricks",
+      "category_name": "Data Engineering",
+      "mentions_2023": 42,
+      "mentions_2024": 54,
+      "wave1_share_pct": 0.271,
+      "wave2_share_pct": 0.319,
+      "yoy_growth_pct": 17.71
+    },
+    {
+      "skill_name": "CAD & Industrial Automation",
+      "category_name": "Hardware & Embedded",
+      "mentions_2023": 361,
+      "mentions_2024": 443,
+      "wave1_share_pct": 2.332,
+      "wave2_share_pct": 2.619,
+      "yoy_growth_pct": 12.31
+    },
+    {
+      "skill_name": "Kubernetes",
+      "category_name": "DevOps & Infrastructure",
+      "mentions_2023": 145,
+      "mentions_2024": 177,
+      "wave1_share_pct": 0.937,
+      "wave2_share_pct": 1.047,
+      "yoy_growth_pct": 11.74
+    },
+    {
+      "skill_name": "TypeScript",
+      "category_name": "Programming Languages",
+      "mentions_2023": 65,
+      "mentions_2024": 79,
+      "wave1_share_pct": 0.42,
+      "wave2_share_pct": 0.467,
+      "yoy_growth_pct": 11.19
+    },
+    {
+      "skill_name": "Talent Acquisition & HRIS",
+      "category_name": "Human Resources",
+      "mentions_2023": 376,
+      "mentions_2024": 454,
+      "wave1_share_pct": 2.429,
+      "wave2_share_pct": 2.684,
+      "yoy_growth_pct": 10.5
+    }
+  ],
+  "declining_skills": [
+    {
+      "skill_name": "Scikit-Learn",
+      "category_name": "AI & Machine Learning",
+      "mentions_2023": 21,
+      "mentions_2024": 15,
+      "wave1_share_pct": 0.136,
+      "wave2_share_pct": 0.089,
+      "yoy_growth_pct": -34.56
+    },
+    {
+      "skill_name": "BigQuery",
+      "category_name": "Data Engineering",
+      "mentions_2023": 52,
+      "mentions_2024": 36,
+      "wave1_share_pct": 0.336,
+      "wave2_share_pct": 0.213,
+      "yoy_growth_pct": -36.61
+    },
+    {
+      "skill_name": "dbt",
+      "category_name": "Data Engineering",
+      "mentions_2023": 25,
+      "mentions_2024": 17,
+      "wave1_share_pct": 0.161,
+      "wave2_share_pct": 0.101,
+      "yoy_growth_pct": -37.27
+    },
+    {
+      "skill_name": "Computer Vision",
+      "category_name": "AI & Machine Learning",
+      "mentions_2023": 40,
+      "mentions_2024": 26,
+      "wave1_share_pct": 0.258,
+      "wave2_share_pct": 0.154,
+      "yoy_growth_pct": -40.31
+    },
+    {
+      "skill_name": "Snowflake",
+      "category_name": "Data Engineering",
+      "mentions_2023": 79,
+      "mentions_2024": 51,
+      "wave1_share_pct": 0.51,
+      "wave2_share_pct": 0.302,
+      "yoy_growth_pct": -40.78
+    },
+    {
+      "skill_name": "Natural Language Processing",
+      "category_name": "AI & Machine Learning",
+      "mentions_2023": 66,
+      "mentions_2024": 39,
+      "wave1_share_pct": 0.426,
+      "wave2_share_pct": 0.231,
+      "yoy_growth_pct": -45.77
+    }
+  ],
+  "top_cooccurring_pairs": [
+    {
+      "skill_name_a": "Excel",
+      "skill_name_b": "Financial Accounting & Audit (GAAP)",
+      "co_posting_count": 662,
+      "cooccurrence_strength": 0.2479
+    },
+    {
+      "skill_name_a": "Excel",
+      "skill_name_b": "Supply Chain & Procurement",
+      "co_posting_count": 553,
+      "cooccurrence_strength": 0.1577
+    },
+    {
+      "skill_name_a": "CI/CD & Git",
+      "skill_name_b": "Agile & Scrum",
+      "co_posting_count": 479,
+      "cooccurrence_strength": 0.3734
+    },
+    {
+      "skill_name_a": "Python",
+      "skill_name_b": "SQL",
+      "co_posting_count": 455,
+      "cooccurrence_strength": 0.3002
+    },
+    {
+      "skill_name_a": "SQL",
+      "skill_name_b": "Agile & Scrum",
+      "co_posting_count": 415,
+      "cooccurrence_strength": 0.2135
+    },
+    {
+      "skill_name_a": "Excel",
+      "skill_name_b": "ERP Systems (SAP / NetSuite / Workday)",
+      "co_posting_count": 370,
+      "cooccurrence_strength": 0.2128
+    },
+    {
+      "skill_name_a": "AWS",
+      "skill_name_b": "Microsoft Azure",
+      "co_posting_count": 360,
+      "cooccurrence_strength": 0.3671
+    },
+    {
+      "skill_name_a": "Python",
+      "skill_name_b": "AWS",
+      "co_posting_count": 353,
+      "cooccurrence_strength": 0.2987
+    },
+    {
+      "skill_name_a": "Java",
+      "skill_name_b": "Agile & Scrum",
+      "co_posting_count": 352,
+      "cooccurrence_strength": 0.305
+    },
+    {
+      "skill_name_a": "SQL",
+      "skill_name_b": "Microsoft SQL Server",
+      "co_posting_count": 343,
+      "cooccurrence_strength": 0.5885
+    }
+  ],
+  "salary_key_influencers": [
+    {
+      "factor_name": "Factor: Seniority Level",
+      "importance_pct": 57.22,
+      "median_salary_impact_usd": 61500.0
+    },
+    {
+      "factor_name": "Factor: Job Role Specialization",
+      "importance_pct": 20.89,
+      "median_salary_impact_usd": 34650.0
+    },
+    {
+      "factor_name": "Skill: Python",
+      "importance_pct": 3.95,
+      "median_salary_impact_usd": 57350.0
+    },
+    {
+      "factor_name": "Skill: Google Cloud Platform (GCP)",
+      "importance_pct": 3.19,
+      "median_salary_impact_usd": 65037.5
+    },
+    {
+      "factor_name": "Factor: Remote Work Eligibility",
+      "importance_pct": 2.56,
+      "median_salary_impact_usd": 31200.0
+    },
+    {
+      "factor_name": "Skill: Excel",
+      "importance_pct": 2.08,
+      "median_salary_impact_usd": -10000.0
+    },
+    {
+      "factor_name": "Skill: Machine Learning",
+      "importance_pct": 1.71,
+      "median_salary_impact_usd": 72126.98
+    },
+    {
+      "factor_name": "Skill: AWS",
+      "importance_pct": 1.71,
+      "median_salary_impact_usd": 62426.25
+    },
+    {
+      "factor_name": "Skill: Networking & Infrastructure",
+      "importance_pct": 1.19,
+      "median_salary_impact_usd": 32750.0
+    },
+    {
+      "factor_name": "Skill: SQL",
+      "importance_pct": 1.01,
+      "median_salary_impact_usd": 39600.0
+    },
+    {
+      "factor_name": "Skill: Cybersecurity & IAM",
+      "importance_pct": 0.96,
+      "median_salary_impact_usd": 50955.6
+    },
+    {
+      "factor_name": "Skill: C++",
+      "importance_pct": 0.57,
+      "median_salary_impact_usd": 57900.0
+    }
+  ]
+}

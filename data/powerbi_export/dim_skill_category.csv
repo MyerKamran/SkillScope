@@ -1,0 +1,22 @@
+category_key,category_name,parent_category
+1,Programming Languages,Software & Engineering
+2,AI & Machine Learning,Data & Analytics
+3,Data Analysis & Statistics,Data & Analytics
+4,Business Intelligence,Data & Analytics
+5,Data Engineering,Data & Analytics
+6,Databases,Data & Analytics
+7,Web & Application Frameworks,Software & Engineering
+8,Cloud Platforms,Cloud & DevOps
+9,DevOps & Infrastructure,Cloud & DevOps
+10,Cybersecurity,Cloud & DevOps
+11,Project & Product Management,Business & Operations
+12,Leadership & Communication,Business & Operations
+13,QA & Testing,Software & Engineering
+14,Design & UX,Product & Design
+15,Enterprise Systems & IT,Business & Operations
+16,Hardware & Embedded,Engineering & Hardware
+17,Operations & Supply Chain,Business & Operations
+18,Governance & Compliance,Business & Operations
+19,Finance & Accounting,Business & Operations
+20,Marketing & Growth,Business & Operations
+21,Human Resources,Business & Operations

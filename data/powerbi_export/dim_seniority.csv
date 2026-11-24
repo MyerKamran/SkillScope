@@ -1,0 +1,8 @@
+seniority_key,level_name,min_years,max_years,seniority_rank
+1,Internship,0,1,1
+2,Entry Level / Junior,0,2,2
+3,Associate,1,3,3
+4,Mid-Senior Level,3,7,4
+5,Director / Lead,7,12,5
+6,Executive,10,25,6
+7,Not Specified,0,0,0

@@ -1,0 +1,218 @@
+// ============================================================================
+// SkillScope: Power BI DAX Measures Library
+// Courses: Data Analytics & Visualization (DAV) + Data Warehousing & Business Intelligence (DWBI)
+// Model Architecture: Constellation / Star-Snowflake Schema with Bridge Fact (`fact_posting_skill`)
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// 1. OVERVIEW KPI MEASURES (Page 1: Market Overview)
+// ----------------------------------------------------------------------------
+
+Total Job Postings = 
+COUNTROWS('fact_job_posting')
+
+Median Annual Salary (USD) = 
+MEDIAN('fact_job_posting'[salary_annual_usd])
+
+Average Annual Salary (USD) = 
+AVERAGE('fact_job_posting'[salary_annual_usd])
+
+Salary Coverage % = 
+DIVIDE(
+    CALCULATE(COUNTROWS('fact_job_posting'), NOT(ISBLANK('fact_job_posting'[salary_annual_usd]))),
+    [Total Job Postings],
+    0
+) * 100
+
+Distinct Skills in Demand = 
+DISTINCTCOUNT('fact_posting_skill'[skill_key])
+
+Remote Postings Count = 
+CALCULATE(
+    [Total Job Postings],
+    'fact_job_posting'[is_remote] = 1
+)
+
+Remote Share % = 
+DIVIDE([Remote Postings Count], [Total Job Postings], 0) * 100
+
+Postings Previous Month = 
+CALCULATE(
+    [Total Job Postings],
+    DATEADD('dim_date'[full_date], -1, MONTH)
+)
+
+MoM Posting Growth % = 
+VAR CurrMo = [Total Job Postings]
+VAR PrevMo = [Postings Previous Month]
+RETURN
+IF(
+    NOT ISBLANK(PrevMo) && PrevMo > 0,
+    DIVIDE(CurrMo - PrevMo, PrevMo, 0) * 100,
+    BLANK()
+)
+
+// ----------------------------------------------------------------------------
+// 2. SKILL DEMAND & RANKING MEASURES (Page 2: Skill Demand & Page 3: Trends)
+// ----------------------------------------------------------------------------
+
+Skill Mention Postings = 
+DISTINCTCOUNT('fact_posting_skill'[posting_key])
+
+Skill Demand % = 
+VAR TotalPostingsInContext = 
+    CALCULATE(
+        DISTINCTCOUNT('fact_job_posting'[posting_key]),
+        ALLSELECTED('dim_skill'),
+        ALLSELECTED('dim_skill_category')
+    )
+RETURN
+DIVIDE([Skill Mention Postings], TotalPostingsInContext, 0) * 100
+
+Top Skill Share % = 
+MAXX(
+    ALLSELECTED('dim_skill'[skill_name]),
+    [Skill Demand %]
+)
+
+Skill Rank by Demand = 
+IF(
+    HASONEVALUE('dim_skill'[skill_name]),
+    RANKX(
+        ALLSELECTED('dim_skill'[skill_name]),
+        [Skill Mention Postings],
+        ,
+        DESC,
+        Dense
+    )
+)
+
+Skill Mentions Wave 1 (Jun-Sep 2023) = 
+CALCULATE(
+    [Skill Mention Postings],
+    'dim_date'[year_num] = 2023,
+    'dim_date'[month_num] <= 9
+)
+
+Skill Mentions Wave 2 (Oct-Nov 2023) = 
+CALCULATE(
+    [Skill Mention Postings],
+    'dim_date'[year_num] = 2023,
+    'dim_date'[month_num] >= 10
+)
+
+Skill Wave 1 Share % = 
+VAR W1Total = CALCULATE(DISTINCTCOUNT('fact_job_posting'[posting_key]), 'dim_date'[year_num] = 2023, 'dim_date'[month_num] <= 9, ALLSELECTED('dim_skill'), ALLSELECTED('dim_skill_category'))
+RETURN
+DIVIDE([Skill Mentions Wave 1 (Jun-Sep 2023)], W1Total, 0) * 100
+
+Skill Wave 2 Share % = 
+VAR W2Total = CALCULATE(DISTINCTCOUNT('fact_job_posting'[posting_key]), 'dim_date'[year_num] = 2023, 'dim_date'[month_num] >= 10, ALLSELECTED('dim_skill'), ALLSELECTED('dim_skill_category'))
+RETURN
+DIVIDE([Skill Mentions Wave 2 (Oct-Nov 2023)], W2Total, 0) * 100
+
+Skill Period Growth % = 
+VAR S1 = [Skill Wave 1 Share %]
+VAR S2 = [Skill Wave 2 Share %]
+RETURN
+IF(
+    S1 > 0.05,
+    DIVIDE(S2 - S1, S1, 0) * 100,
+    BLANK()
+)
+
+Skill YoY / Wave Growth % (Gold) = 
+AVERAGE('gold_skill_yoy_growth'[yoy_growth_pct])
+
+// ----------------------------------------------------------------------------
+// 3. SALARY & PREMIUM MEASURES (Page 4: Relationships & Page 5: Salary Insights)
+// ----------------------------------------------------------------------------
+
+Skill Median Salary (USD) = 
+CALCULATE(
+    MEDIAN('fact_job_posting'[salary_annual_usd]),
+    CROSSFILTER('fact_posting_skill'[posting_key], 'fact_job_posting'[posting_key], Both)
+)
+
+Baseline Market Median Salary (USD) = 
+CALCULATE(
+    MEDIAN('fact_job_posting'[salary_annual_usd]),
+    ALLSELECTED('dim_skill'),
+    ALLSELECTED('dim_skill_category')
+)
+
+Skill Salary Premium (USD) = 
+VAR SkillSal = [Skill Median Salary (USD)]
+VAR BaseSal = [Baseline Market Median Salary (USD)]
+RETURN
+IF(NOT ISBLANK(SkillSal) && NOT ISBLANK(BaseSal), SkillSal - BaseSal, BLANK())
+
+Skill Salary Premium % = 
+VAR SkillSal = [Skill Median Salary (USD)]
+VAR BaseSal = [Baseline Market Median Salary (USD)]
+RETURN
+IF(NOT ISBLANK(SkillSal) && BaseSal > 0, DIVIDE(SkillSal - BaseSal, BaseSal, 0) * 100, BLANK())
+
+// ----------------------------------------------------------------------------
+// 4. SURVEY VS. MARKET MEASURES (Page 6: Survey vs. Market)
+// ----------------------------------------------------------------------------
+
+Survey Respondent Count = 
+COUNTROWS('fact_survey_response')
+
+Survey Median Salary (USD) = 
+MEDIAN('fact_survey_response'[salary_usd])
+
+Market vs Survey Salary Delta (USD) = 
+[Median Annual Salary (USD)] - [Survey Median Salary (USD)]
+
+// ----------------------------------------------------------------------------
+// 5. SKILL-GAP SIMULATOR MEASURES (Page 7: Interactive Skill-Gap Simulator)
+//    Uses Disconnected Table `Learner_Skills_Selector` for Multi-Select Learner Skills
+// ----------------------------------------------------------------------------
+
+// Disconnected Table DAX Definition (create via Modeling -> New Table):
+// Learner_Skills_Selector = SELECTCOLUMNS('dim_skill', "Learner_Skill_Key", 'dim_skill'[skill_key], "Learner_Skill_Name", 'dim_skill'[skill_name])
+
+Is Skill Known By Learner = 
+VAR CurrentSkillKey = SELECTEDVALUE('dim_skill'[skill_key])
+VAR SelectedLearnerSkills = VALUES('Learner_Skills_Selector'[Learner_Skill_Key])
+RETURN
+IF(
+    ISFILTERED('Learner_Skills_Selector'[Learner_Skill_Name]) && CurrentSkillKey IN SelectedLearnerSkills,
+    1,
+    0
+)
+
+Role Match Score % (Live Simulator) = 
+VAR SelectedLearnerSkills = 
+    IF(
+        ISFILTERED('Learner_Skills_Selector'[Learner_Skill_Name]),
+        VALUES('Learner_Skills_Selector'[Learner_Skill_Key]),
+        {-1}
+    )
+VAR TopRoleSkills = 
+    TOPN(
+        15,
+        ALL('dim_skill'[skill_key], 'dim_skill'[skill_name]),
+        [Skill Demand %],
+        DESC
+    )
+VAR TotalRoleWeight = 
+    SUMX(TopRoleSkills, [Skill Demand %])
+VAR MatchedWeight = 
+    SUMX(
+        FILTER(TopRoleSkills, 'dim_skill'[skill_key] IN SelectedLearnerSkills),
+        [Skill Demand %]
+    )
+RETURN
+DIVIDE(MatchedWeight, TotalRoleWeight, 0) * 100
+
+Missing Skill Status = 
+IF([Is Skill Known By Learner] = 1, "Already Known", "Missing - Recommended to Learn")
+
+Dynamic Simulator Title = 
+VAR RoleName = SELECTEDVALUE('dim_role'[role_title_norm], "All Target Roles")
+VAR MatchPct = FORMAT([Role Match Score % (Live Simulator)] / 100, "0.0%")
+RETURN
+"Personalised Skill-Gap Analysis for " & RoleName & " — Current Role Match: " & MatchPct

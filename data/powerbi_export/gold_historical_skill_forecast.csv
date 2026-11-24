@@ -1,0 +1,609 @@
+year_num,skill_key,skill_name,category_name,adoption_pct,respondent_count,median_salary_usd,record_type,ci_lower_pct,ci_upper_pct
+2020,1,Python,Programming Languages,39.23,25287,60000.0,Historical,39.23,39.23
+2021,1,Python,Programming Languages,47.69,39792,60000.0,Historical,47.69,47.69
+2022,1,Python,Programming Languages,46.62,34155,70385.0,Historical,46.62,46.62
+2023,1,Python,Programming Languages,48.39,43158,80317.0,Historical,48.39,48.39
+2024,1,Python,Programming Languages,46.94,30719,71287.5,Historical,46.94,46.94
+2025,1,Python,Programming Languages,37.43,18410,81210.0,Historical,37.43,37.43
+2026,1,Python,Programming Languages,43.55,0,,Forecast,34.4,52.71
+2027,1,Python,Programming Languages,43.32,0,,Forecast,33.53,53.1
+2020,2,SQL,Programming Languages,48.73,31413,54806.0,Historical,48.73,48.73
+2021,2,SQL,Programming Languages,46.54,38835,57588.0,Historical,46.54,46.54
+2022,2,SQL,Programming Languages,47.94,35127,69102.0,Historical,47.94,47.94
+2023,2,SQL,Programming Languages,47.94,42753,78000.0,Historical,47.94,47.94
+2024,2,SQL,Programming Languages,47.17,30868,69814.0,Historical,47.17,47.17
+2025,2,SQL,Programming Languages,38.3,18841,81210.0,Historical,38.3,38.3
+2026,2,SQL,Programming Languages,41.71,0,,Forecast,36.22,47.2
+2027,2,SQL,Programming Languages,40.45,0,,Forecast,34.58,46.32
+2020,3,JavaScript,Programming Languages,60.23,38822,54049.0,Historical,60.23,60.23
+2021,3,JavaScript,Programming Languages,64.22,53587,54972.0,Historical,64.22,64.22
+2022,3,JavaScript,Programming Languages,63.39,46443,66119.0,Historical,63.39,63.39
+2023,3,JavaScript,Programming Languages,62.47,55711,75000.0,Historical,62.47,62.47
+2024,3,JavaScript,Programming Languages,57.29,37492,67666.0,Historical,57.29,57.29
+2025,3,JavaScript,Programming Languages,42.7,21005,80254.0,Historical,42.7,42.7
+2026,3,JavaScript,Programming Languages,48.81,0,,Forecast,37.94,59.69
+2027,3,JavaScript,Programming Languages,46.08,0,,Forecast,34.46,57.7
+2020,4,TypeScript,Programming Languages,22.62,14578,58167.0,Historical,22.62,22.62
+2021,4,TypeScript,Programming Languages,29.85,24909,59454.0,Historical,29.85,29.85
+2022,4,TypeScript,Programming Languages,33.78,24752,70000.0,Historical,33.78,33.78
+2023,4,TypeScript,Programming Languages,38.17,34041,80000.0,Historical,38.17,38.17
+2024,4,TypeScript,Programming Languages,35.38,23150,70097.5,Historical,35.38,35.38
+2025,4,TypeScript,Programming Languages,28.17,13859,82709.0,Historical,28.17,28.17
+2026,4,TypeScript,Programming Languages,35.59,0,,Forecast,25.97,45.21
+2027,4,TypeScript,Programming Languages,36.81,0,,Forecast,26.53,47.09
+2020,5,Java,Programming Languages,35.8,23074,51888.0,Historical,35.8,35.8
+2021,5,Java,Programming Languages,34.95,29162,53364.0,Historical,34.95,34.95
+2022,5,Java,Programming Languages,32.27,23644,65000.0,Historical,32.27,32.27
+2023,5,Java,Programming Languages,30.0,26757,74963.0,Historical,30.0,30.0
+2024,5,Java,Programming Languages,27.87,18239,64732.0,Historical,27.87,27.87
+2025,5,Java,Programming Languages,19.02,9358,80050.0,Historical,19.02,19.02
+2026,5,Java,Programming Languages,20.59,0,,Forecast,16.17,25.01
+2027,5,Java,Programming Languages,17.9,0,,Forecast,13.18,22.63
+2020,6,C++,Programming Languages,21.26,13707,54289.0,Historical,21.26,21.26
+2021,6,C++,Programming Languages,24.04,20057,55000.0,Historical,24.04,24.04
+2022,6,C++,Programming Languages,21.87,16024,68459.0,Historical,21.87,21.87
+2023,6,C++,Programming Languages,22.02,19634,78175.0,Historical,22.02,22.02
+2024,6,C++,Programming Languages,21.13,13827,67666.0,Historical,21.13,21.13
+2025,6,C++,Programming Languages,15.22,7485,80000.0,Historical,15.22,15.22
+2026,6,C++,Programming Languages,17.53,0,,Forecast,13.35,21.71
+2027,6,C++,Programming Languages,16.56,0,,Forecast,12.1,21.03
+2020,7,C#,Programming Languages,27.99,18041,57114.0,Historical,27.99,27.99
+2021,7,C#,Programming Languages,27.55,22984,58992.0,Historical,27.55,27.55
+2022,7,C#,Programming Languages,27.14,19883,69318.0,Historical,27.14,27.14
+2023,7,C#,Programming Languages,27.13,24193,77342.0,Historical,27.13,27.13
+2024,7,C#,Programming Languages,24.94,16318,70000.0,Historical,24.94,24.94
+2025,7,C#,Programming Languages,18.0,8852,81210.0,Historical,18.0,18.0
+2026,7,C#,Programming Languages,20.4,0,,Forecast,16.05,24.75
+2027,7,C#,Programming Languages,18.96,0,,Forecast,14.31,23.61
+2020,8,R,Programming Languages,5.1,3288,56211.0,Historical,5.1,5.1
+2021,8,R,Programming Languages,5.91,4935,56897.5,Historical,5.91,5.91
+2022,8,R,Programming Languages,5.22,3822,66372.0,Historical,5.22,5.22
+2023,8,R,Programming Languages,4.67,4168,77057.0,Historical,4.67,4.67
+2024,8,R,Programming Languages,4.45,2909,66066.0,Historical,4.45,4.45
+2025,8,R,Programming Languages,3.19,1569,80000.0,Historical,3.19,3.19
+2026,8,R,Programming Languages,3.49,0,,Forecast,2.52,4.46
+2027,8,R,Programming Languages,3.13,0,,Forecast,2.09,4.17
+2020,9,Go,Programming Languages,7.82,5038,72657.0,Historical,7.82,7.82
+2021,9,Go,Programming Languages,9.44,7879,75631.0,Historical,9.44,9.44
+2022,9,Go,Programming Languages,10.81,7922,86868.0,Historical,10.81,10.81
+2023,9,Go,Programming Languages,13.0,11592,96000.0,Historical,13.0,13.0
+2024,9,Go,Programming Languages,12.38,8103,80555.0,Historical,12.38,12.38
+2025,9,Go,Programming Languages,10.61,5219,92812.0,Historical,10.61,10.61
+2026,9,Go,Programming Languages,12.86,0,,Forecast,10.23,15.49
+2027,9,Go,Programming Languages,13.48,0,,Forecast,10.67,16.29
+2020,10,Rust,Programming Languages,4.54,2929,72900.0,Historical,4.54,4.54
+2021,10,Rust,Programming Languages,6.95,5799,75669.0,Historical,6.95,6.95
+2022,10,Rust,Programming Languages,9.04,6625,85000.0,Historical,9.04,9.04
+2023,10,Rust,Programming Languages,12.81,11427,89222.0,Historical,12.81,12.81
+2024,10,Rust,Programming Languages,11.55,7559,79279.0,Historical,11.55,11.55
+2025,10,Rust,Programming Languages,9.6,4724,87011.0,Historical,9.6,9.6
+2026,10,Rust,Programming Languages,12.83,0,,Forecast,9.01,16.66
+2027,10,Rust,Programming Languages,13.9,0,,Forecast,9.82,17.99
+2020,11,Scala,Programming Languages,3.18,2052,75631.0,Historical,3.18,3.18
+2021,11,Scala,Programming Languages,2.57,2148,77369.0,Historical,2.57,2.57
+2022,11,Scala,Programming Languages,2.51,1837,90553.5,Historical,2.51,2.51
+2023,11,Scala,Programming Languages,2.72,2422,97416.0,Historical,2.72,2.72
+2024,11,Scala,Programming Languages,2.36,1547,91295.0,Historical,2.36,2.36
+2025,11,Scala,Programming Languages,1.71,843,104413.0,Historical,1.71,1.71
+2026,11,Scala,Programming Languages,1.83,0,,Forecast,1.09,2.57
+2027,11,Scala,Programming Languages,1.63,0,,Forecast,0.84,2.43
+2020,12,PHP,Programming Languages,23.28,15007,42804.0,Historical,23.28,23.28
+2021,12,PHP,Programming Languages,21.73,18130,41568.0,Historical,21.73,21.73
+2022,12,PHP,Programming Languages,20.24,14827,52422.0,Historical,20.24,20.24
+2023,12,PHP,Programming Languages,18.25,16274,62112.0,Historical,18.25,18.25
+2024,12,PHP,Programming Languages,16.74,10951,54363.0,Historical,16.74,16.74
+2025,12,PHP,Programming Languages,12.19,5994,65663.0,Historical,12.19,12.19
+2026,12,PHP,Programming Languages,12.4,0,,Forecast,10.43,14.38
+2027,12,PHP,Programming Languages,10.59,0,,Forecast,8.48,12.7
+2020,13,Swift,Programming Languages,5.27,3397,59454.0,Historical,5.27,5.27
+2021,13,Swift,Programming Languages,5.04,4204,59112.0,Historical,5.04,5.04
+2022,13,Swift,Programming Languages,4.76,3489,77084.0,Historical,4.76,4.76
+2023,13,Swift,Programming Languages,5.11,4559,87996.0,Historical,5.11,5.11
+2024,13,Swift,Programming Languages,4.94,3230,77332.0,Historical,4.94,4.94
+2025,13,Swift,Programming Languages,3.49,1719,95132.0,Historical,3.49,3.49
+2026,13,Swift,Programming Languages,3.99,0,,Forecast,3.13,4.86
+2027,13,Swift,Programming Languages,3.77,0,,Forecast,2.85,4.7
+2020,14,Kotlin,Programming Languages,6.93,4468,54456.0,Historical,6.93,6.93
+2021,14,Kotlin,Programming Languages,8.23,6866,56723.0,Historical,8.23,8.23
+2022,14,Kotlin,Programming Languages,8.88,6507,69372.0,Historical,8.88,8.88
+2023,14,Kotlin,Programming Languages,8.9,7935,80317.0,Historical,8.9,8.9
+2024,14,Kotlin,Programming Languages,8.66,5665,70000.0,Historical,8.66,8.66
+2025,14,Kotlin,Programming Languages,6.95,3420,83531.0,Historical,6.95,6.95
+2026,14,Kotlin,Programming Languages,8.22,0,,Forecast,6.43,10.0
+2027,14,Kotlin,Programming Languages,8.25,0,,Forecast,6.35,10.15
+2020,15,Bash / Shell,Programming Languages,29.44,18980,65000.0,Historical,29.44,29.44
+2021,15,Bash / Shell,Programming Languages,32.12,26803,70264.0,Historical,32.12,32.12
+2022,15,Bash / Shell,Programming Languages,33.86,24806,79153.0,Historical,33.86,33.86
+2023,15,Bash / Shell,Programming Languages,38.23,34096,85672.0,Historical,38.23,38.23
+2024,15,Bash / Shell,Programming Languages,36.78,24067,76714.0,Historical,36.78,36.78
+2025,15,Bash / Shell,Programming Languages,37.03,18217,87000.0,Historical,37.03,37.03
+2026,15,Bash / Shell,Programming Languages,39.5,0,,Forecast,36.44,42.57
+2027,15,Bash / Shell,Programming Languages,40.91,0,,Forecast,37.63,44.19
+2020,16,Machine Learning,AI & Machine Learning,8.49,5475,54049.0,Historical,8.49,8.49
+2021,16,Machine Learning,AI & Machine Learning,12.05,10055,51704.0,Historical,12.05,12.05
+2022,16,Machine Learning,AI & Machine Learning,12.96,9495,63984.0,Historical,12.96,12.96
+2023,16,Machine Learning,AI & Machine Learning,12.64,11272,74963.0,Historical,12.64,12.64
+2024,16,Machine Learning,AI & Machine Learning,12.99,8500,64444.0,Historical,12.99,12.99
+2025,16,Machine Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2026,16,Machine Learning,AI & Machine Learning,14.89,0,,Forecast,12.61,17.18
+2027,16,Machine Learning,AI & Machine Learning,15.66,0,,Forecast,13.2,18.13
+2020,17,Deep Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2021,17,Deep Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2022,17,Deep Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2023,17,Deep Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2024,17,Deep Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2025,17,Deep Learning,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2020,18,Natural Language Processing,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2021,18,Natural Language Processing,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2022,18,Natural Language Processing,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2023,18,Natural Language Processing,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2024,18,Natural Language Processing,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2025,18,Natural Language Processing,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2020,19,Generative AI & LLMs,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2021,19,Generative AI & LLMs,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2022,19,Generative AI & LLMs,AI & Machine Learning,1.26,925,70750.0,Historical,1.26,1.26
+2023,19,Generative AI & LLMs,AI & Machine Learning,62.9,56095,75531.0,Historical,62.9,62.9
+2024,19,Generative AI & LLMs,AI & Machine Learning,64.45,42175,66995.0,Historical,64.45,64.45
+2025,19,Generative AI & LLMs,AI & Machine Learning,33.32,16390,81210.0,Historical,33.32,33.32
+2026,19,Generative AI & LLMs,AI & Machine Learning,56.77,0,,Forecast,4.89,98.0
+2027,19,Generative AI & LLMs,AI & Machine Learning,63.29,0,,Forecast,6.45,98.0
+2020,20,Computer Vision,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2021,20,Computer Vision,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2022,20,Computer Vision,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2023,20,Computer Vision,AI & Machine Learning,6.12,5455,65000.0,Historical,6.12,6.12
+2024,20,Computer Vision,AI & Machine Learning,6.05,3961,57463.0,Historical,6.05,6.05
+2025,20,Computer Vision,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2020,21,PyTorch,AI & Machine Learning,2.9,1872,54049.0,Historical,2.9,2.9
+2021,21,PyTorch,AI & Machine Learning,5.76,4808,53184.0,Historical,5.76,5.76
+2022,21,PyTorch,AI & Machine Learning,5.39,3952,66589.0,Historical,5.39,5.39
+2023,21,PyTorch,AI & Machine Learning,6.6,5884,74963.0,Historical,6.6,6.6
+2024,21,PyTorch,AI & Machine Learning,7.41,4846,64444.0,Historical,7.41,7.41
+2025,21,PyTorch,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2026,21,PyTorch,AI & Machine Learning,8.77,0,,Forecast,7.31,10.22
+2027,21,PyTorch,AI & Machine Learning,9.56,0,,Forecast,7.98,11.13
+2020,22,TensorFlow,AI & Machine Learning,7.83,5046,54049.0,Historical,7.83,7.83
+2021,22,TensorFlow,AI & Machine Learning,10.54,8791,50592.0,Historical,10.54,10.54
+2022,22,TensorFlow,AI & Machine Learning,8.85,6487,60149.5,Historical,8.85,8.85
+2023,22,TensorFlow,AI & Machine Learning,7.69,6862,72660.5,Historical,7.69,7.69
+2024,22,TensorFlow,AI & Machine Learning,7.59,4969,59520.0,Historical,7.59,7.59
+2025,22,TensorFlow,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2026,22,TensorFlow,AI & Machine Learning,7.43,0,,Forecast,5.25,9.61
+2027,22,TensorFlow,AI & Machine Learning,7.17,0,,Forecast,4.81,9.52
+2020,23,Scikit-Learn,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2021,23,Scikit-Learn,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2022,23,Scikit-Learn,AI & Machine Learning,7.88,5776,63984.0,Historical,7.88,7.88
+2023,23,Scikit-Learn,AI & Machine Learning,7.11,6339,72821.0,Historical,7.11,7.11
+2024,23,Scikit-Learn,AI & Machine Learning,7.41,4849,64444.0,Historical,7.41,7.41
+2025,23,Scikit-Learn,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2020,24,Pandas & NumPy,Data Analysis & Statistics,9.7,6253,58167.0,Historical,9.7,9.7
+2021,24,Pandas & NumPy,Data Analysis & Statistics,21.68,18091,55582.0,Historical,21.68,21.68
+2022,24,Pandas & NumPy,Data Analysis & Statistics,19.94,14609,67845.0,Historical,19.94,19.94
+2023,24,Pandas & NumPy,Data Analysis & Statistics,18.78,16745,77104.0,Historical,18.78,18.78
+2024,24,Pandas & NumPy,Data Analysis & Statistics,18.71,12241,67386.0,Historical,18.71,18.71
+2025,24,Pandas & NumPy,Data Analysis & Statistics,1.65,811,92812.0,Historical,1.65,1.65
+2026,24,Pandas & NumPy,Data Analysis & Statistics,10.67,0,,Forecast,0.0,24.82
+2027,24,Pandas & NumPy,Data Analysis & Statistics,9.42,0,,Forecast,0.0,24.53
+2020,25,Statistics & A/B Testing,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2021,25,Statistics & A/B Testing,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2022,25,Statistics & A/B Testing,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2023,25,Statistics & A/B Testing,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2024,25,Statistics & A/B Testing,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2025,25,Statistics & A/B Testing,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2020,26,MLOps,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2021,26,MLOps,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2022,26,MLOps,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2023,26,MLOps,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2024,26,MLOps,AI & Machine Learning,0.81,531,75184.0,Historical,0.81,0.81
+2025,26,MLOps,AI & Machine Learning,0.0,0,,Historical,0.0,0.0
+2020,27,Power BI,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2021,27,Power BI,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2022,27,Power BI,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2023,27,Power BI,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2024,27,Power BI,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2025,27,Power BI,Business Intelligence,1.05,515,96423.0,Historical,1.05,1.05
+2020,28,Tableau,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2021,28,Tableau,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2022,28,Tableau,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2023,28,Tableau,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2024,28,Tableau,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2025,28,Tableau,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2020,29,Looker,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2021,29,Looker,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2022,29,Looker,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2023,29,Looker,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2024,29,Looker,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2025,29,Looker,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2020,30,Excel,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2021,30,Excel,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2022,30,Excel,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2023,30,Excel,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2024,30,Excel,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2025,30,Excel,Business Intelligence,0.0,0,,Historical,0.0,0.0
+2020,31,ETL & Data Pipelines,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,31,ETL & Data Pipelines,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,31,ETL & Data Pipelines,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,31,ETL & Data Pipelines,Data Engineering,0.0,0,,Historical,0.0,0.0
+2024,31,ETL & Data Pipelines,Data Engineering,0.0,0,,Historical,0.0,0.0
+2025,31,ETL & Data Pipelines,Data Engineering,0.0,0,,Historical,0.0,0.0
+2020,32,Data Warehousing,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,32,Data Warehousing,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,32,Data Warehousing,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,32,Data Warehousing,Data Engineering,0.0,0,,Historical,0.0,0.0
+2024,32,Data Warehousing,Data Engineering,0.0,0,,Historical,0.0,0.0
+2025,32,Data Warehousing,Data Engineering,0.0,0,,Historical,0.0,0.0
+2020,33,Apache Spark,Data Engineering,4.54,2924,66701.5,Historical,4.54,4.54
+2021,33,Apache Spark,Data Engineering,4.55,3795,64859.0,Historical,4.55,4.55
+2022,33,Apache Spark,Data Engineering,4.06,2977,80536.5,Historical,4.06,4.06
+2023,33,Apache Spark,Data Engineering,3.8,3385,96381.0,Historical,3.8,3.8
+2024,33,Apache Spark,Data Engineering,3.72,2436,83760.5,Historical,3.72,3.72
+2025,33,Apache Spark,Data Engineering,0.0,0,,Historical,0.0,0.0
+2026,33,Apache Spark,Data Engineering,3.37,0,,Forecast,2.62,4.12
+2027,33,Apache Spark,Data Engineering,3.18,0,,Forecast,2.37,3.99
+2020,34,Apache Kafka,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,34,Apache Kafka,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,34,Apache Kafka,Data Engineering,6.48,4748,80000.0,Historical,6.48,6.48
+2023,34,Apache Kafka,Data Engineering,12.9,11503,82522.5,Historical,12.9,12.9
+2024,34,Apache Kafka,Data Engineering,12.44,8143,74052.0,Historical,12.44,12.44
+2025,34,Apache Kafka,Data Engineering,0.0,0,,Historical,0.0,0.0
+2020,35,Apache Airflow,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,35,Apache Airflow,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,35,Apache Airflow,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,35,Apache Airflow,Data Engineering,0.0,0,,Historical,0.0,0.0
+2024,35,Apache Airflow,Data Engineering,0.0,0,,Historical,0.0,0.0
+2025,35,Apache Airflow,Data Engineering,0.0,0,,Historical,0.0,0.0
+2020,36,dbt,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,36,dbt,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,36,dbt,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,36,dbt,Data Engineering,0.0,0,,Historical,0.0,0.0
+2024,36,dbt,Data Engineering,0.0,0,,Historical,0.0,0.0
+2025,36,dbt,Data Engineering,0.0,0,,Historical,0.0,0.0
+2020,37,Snowflake,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,37,Snowflake,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,37,Snowflake,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,37,Snowflake,Data Engineering,2.04,1820,135000.0,Historical,2.04,2.04
+2024,37,Snowflake,Data Engineering,2.08,1364,116654.5,Historical,2.08,2.08
+2025,37,Snowflake,Data Engineering,2.19,1079,135000.0,Historical,2.19,2.19
+2020,38,Databricks,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,38,Databricks,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,38,Databricks,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,38,Databricks,Data Engineering,0.0,0,,Historical,0.0,0.0
+2024,38,Databricks,Data Engineering,1.99,1302,96666.0,Historical,1.99,1.99
+2025,38,Databricks,Data Engineering,1.82,895,109875.0,Historical,1.82,1.82
+2020,39,BigQuery,Data Engineering,0.0,0,,Historical,0.0,0.0
+2021,39,BigQuery,Data Engineering,0.0,0,,Historical,0.0,0.0
+2022,39,BigQuery,Data Engineering,0.0,0,,Historical,0.0,0.0
+2023,39,BigQuery,Data Engineering,4.66,4160,91877.0,Historical,4.66,4.66
+2024,39,BigQuery,Data Engineering,4.94,3231,81663.0,Historical,4.94,4.94
+2025,39,BigQuery,Data Engineering,5.27,2590,102106.0,Historical,5.27,5.27
+2020,40,PostgreSQL,Databases,27.76,17892,58344.0,Historical,27.76,27.76
+2021,40,PostgreSQL,Databases,34.07,28424,59459.0,Historical,34.07,34.07
+2022,40,PostgreSQL,Databases,36.22,26538,70276.0,Historical,36.22,36.22
+2023,40,PostgreSQL,Databases,39.14,34909,80317.0,Historical,39.14,39.14
+2024,40,PostgreSQL,Databases,39.02,25536,70193.0,Historical,39.02,39.02
+2025,40,PostgreSQL,Databases,29.54,14529,82370.0,Historical,29.54,29.54
+2026,40,PostgreSQL,Databases,36.63,0,,Forecast,27.77,45.48
+2027,40,PostgreSQL,Databases,37.29,0,,Forecast,27.83,46.75
+2020,41,MySQL,Databases,45.15,29106,47500.0,Historical,45.15,45.15
+2021,41,MySQL,Databases,45.6,38046,47292.0,Historical,45.6,45.6
+2022,41,MySQL,Databases,42.73,31311,58037.0,Historical,42.73,42.73
+2023,41,MySQL,Databases,39.55,35274,69608.0,Historical,39.55,39.55
+2024,41,MySQL,Databases,36.25,23722,60000.0,Historical,36.25,36.25
+2025,41,MySQL,Databases,24.97,12285,71899.0,Historical,24.97,24.97
+2026,41,MySQL,Databases,27.48,0,,Forecast,21.1,33.86
+2027,41,MySQL,Databases,24.18,0,,Forecast,17.36,31.0
+2020,42,Microsoft SQL Server,Databases,25.34,16336,56766.0,Historical,25.34,25.34
+2021,42,Microsoft SQL Server,Databases,22.65,18896,58373.0,Historical,22.65,22.65
+2022,42,Microsoft SQL Server,Databases,22.32,16355,69028.0,Historical,22.32,22.32
+2023,42,Microsoft SQL Server,Databases,21.87,19506,76009.5,Historical,21.87,21.87
+2024,42,Microsoft SQL Server,Databases,20.29,13275,69814.0,Historical,20.29,20.29
+2025,42,Microsoft SQL Server,Databases,16.0,7871,81210.0,Historical,16.0,16.0
+2026,42,Microsoft SQL Server,Databases,16.67,0,,Forecast,14.35,18.98
+2027,42,Microsoft SQL Server,Databases,15.31,0,,Forecast,12.83,17.79
+2020,43,Oracle Database,Databases,12.65,8155,48106.0,Historical,12.65,12.65
+2021,43,Oracle Database,Databases,10.63,8868,49160.0,Historical,10.63,10.63
+2022,43,Oracle Database,Databases,9.55,6994,59720.0,Historical,9.55,9.55
+2023,43,Oracle Database,Databases,8.42,7507,69608.0,Historical,8.42,8.42
+2024,43,Oracle Database,Databases,8.06,5273,64444.0,Historical,8.06,8.06
+2025,43,Oracle Database,Databases,5.61,2761,73624.0,Historical,5.61,5.61
+2026,43,Oracle Database,Databases,5.3,0,,Forecast,4.21,6.39
+2027,43,Oracle Database,Databases,4.2,0,,Forecast,3.04,5.36
+2020,44,MongoDB,Databases,24.74,15947,54480.0,Historical,24.74,24.74
+2021,44,MongoDB,Databases,28.18,23514,54049.0,Historical,28.18,28.18
+2022,44,MongoDB,Databases,28.86,21148,66589.0,Historical,28.86,28.86
+2023,44,MongoDB,Databases,27.92,24897,77389.0,Historical,27.92,27.92
+2024,44,MongoDB,Databases,24.74,16186,66377.0,Historical,24.74,24.74
+2025,44,MongoDB,Databases,16.78,8252,81210.0,Historical,16.78,16.78
+2026,44,MongoDB,Databases,20.74,0,,Forecast,13.8,27.67
+2027,44,MongoDB,Databases,19.46,0,,Forecast,12.05,26.87
+2020,45,Redis,Databases,19.52,12580,63192.0,Historical,19.52,19.52
+2021,45,Redis,Databases,22.75,18986,64630.0,Historical,22.75,22.75
+2022,45,Redis,Databases,23.09,16915,74784.0,Historical,23.09,23.09
+2023,45,Redis,Databases,23.43,20895,85000.0,Historical,23.43,23.43
+2024,45,Redis,Databases,21.13,13829,75184.0,Historical,21.13,21.13
+2025,45,Redis,Databases,18.84,9269,87944.0,Historical,18.84,18.84
+2026,45,Redis,Databases,20.77,0,,Forecast,17.09,24.44
+2027,45,Redis,Databases,20.57,0,,Forecast,16.64,24.5
+2020,46,React,Web & Application Frameworks,23.53,15167,58368.0,Historical,23.53,23.53
+2021,46,React,Web & Application Frameworks,30.32,25296,59040.0,Historical,30.32,30.32
+2022,46,React,Web & Application Frameworks,32.94,24135,69480.0,Historical,32.94,32.94
+2023,46,React,Web & Application Frameworks,34.53,30791,80317.0,Historical,34.53,34.53
+2024,46,React,Web & Application Frameworks,31.15,20383,70008.0,Historical,31.15,31.15
+2025,46,React,Web & Application Frameworks,22.86,11244,81210.0,Historical,22.86,22.86
+2026,46,React,Web & Application Frameworks,29.29,0,,Forecast,19.83,38.74
+2027,46,React,Web & Application Frameworks,29.3,0,,Forecast,19.19,39.42
+2020,47,Angular,Web & Application Frameworks,20.91,13481,50219.0,Historical,20.91,20.91
+2021,47,Angular,Web & Application Frameworks,20.68,17259,50592.0,Historical,20.68,20.68
+2022,47,Angular,Web & Application Frameworks,17.8,13042,61186.0,Historical,17.8,17.8
+2023,47,Angular,Web & Application Frameworks,16.35,14580,71750.0,Historical,16.35,16.35
+2024,47,Angular,Web & Application Frameworks,14.54,9513,64444.0,Historical,14.54,14.54
+2025,47,Angular,Web & Application Frameworks,10.03,4935,76568.0,Historical,10.03,10.03
+2026,47,Angular,Web & Application Frameworks,10.22,0,,Forecast,8.02,12.42
+2027,47,Angular,Web & Application Frameworks,8.36,0,,Forecast,6.01,10.72
+2020,48,Vue.js,Web & Application Frameworks,11.36,7322,50405.5,Historical,11.36,11.36
+2021,48,Vue.js,Web & Application Frameworks,15.54,12965,51888.0,Historical,15.54,15.54
+2022,48,Vue.js,Web & Application Frameworks,16.42,12033,62316.0,Historical,16.42,16.42
+2023,48,Vue.js,Web & Application Frameworks,17.22,15354,71322.0,Historical,17.22,17.22
+2024,48,Vue.js,Web & Application Frameworks,15.22,9960,64444.0,Historical,15.22,15.22
+2025,48,Vue.js,Web & Application Frameworks,11.08,5450,75472.0,Historical,11.08,11.08
+2026,48,Vue.js,Web & Application Frameworks,14.34,0,,Forecast,9.28,19.39
+2027,48,Vue.js,Web & Application Frameworks,14.3,0,,Forecast,8.89,19.7
+2020,49,Node.js,Web & Application Frameworks,33.23,21422,55000.0,Historical,33.23,33.23
+2021,49,Node.js,Web & Application Frameworks,35.69,29778,55224.0,Historical,35.69,35.69
+2022,49,Node.js,Web & Application Frameworks,36.79,26952,65000.0,Historical,36.79,36.79
+2023,49,Node.js,Web & Application Frameworks,36.6,32637,74963.0,Historical,36.6,36.6
+2024,49,Node.js,Web & Application Frameworks,32.3,21133,65665.0,Historical,32.3,32.3
+2025,49,Node.js,Web & Application Frameworks,24.63,12118,78890.0,Historical,24.63,24.63
+2026,49,Node.js,Web & Application Frameworks,28.54,0,,Forecast,21.58,35.5
+2027,49,Node.js,Web & Application Frameworks,27.2,0,,Forecast,19.76,34.64
+2020,50,FastAPI & Flask,Web & Application Frameworks,15.0,9668,54480.0,Historical,15.0,15.0
+2021,50,FastAPI & Flask,Web & Application Frameworks,19.78,16507,53448.0,Historical,19.78,19.78
+2022,50,FastAPI & Flask,Web & Application Frameworks,19.17,14043,64451.0,Historical,19.17,19.17
+2023,50,FastAPI & Flask,Web & Application Frameworks,18.1,16144,75622.5,Historical,18.1,18.1
+2024,50,FastAPI & Flask,Web & Application Frameworks,18.2,11908,66114.0,Historical,18.2,18.2
+2025,50,FastAPI & Flask,Web & Application Frameworks,13.64,6712,78306.0,Historical,13.64,13.64
+2026,50,FastAPI & Flask,Web & Application Frameworks,16.21,0,,Forecast,11.68,20.75
+2027,50,FastAPI & Flask,Web & Application Frameworks,15.9,0,,Forecast,11.05,20.75
+2020,51,Spring Boot,Web & Application Frameworks,10.77,6941,51887.0,Historical,10.77,10.77
+2021,51,Spring Boot,Web & Application Frameworks,11.0,9177,52776.0,Historical,11.0,11.0
+2022,51,Spring Boot,Web & Application Frameworks,10.1,7399,66119.0,Historical,10.1,10.1
+2023,51,Spring Boot,Web & Application Frameworks,11.85,10571,73946.0,Historical,11.85,11.85
+2024,51,Spring Boot,Web & Application Frameworks,11.47,7506,66631.5,Historical,11.47,11.47
+2025,51,Spring Boot,Web & Application Frameworks,7.08,3481,81038.0,Historical,7.08,7.08
+2026,51,Spring Boot,Web & Application Frameworks,9.04,0,,Forecast,6.1,11.98
+2027,51,Spring Boot,Web & Application Frameworks,8.66,0,,Forecast,5.52,11.8
+2020,52,.NET Core,Web & Application Frameworks,26.05,16789,58167.0,Historical,26.05,26.05
+2021,52,.NET Core,Web & Application Frameworks,17.12,14283,59454.0,Historical,17.12,17.12
+2022,52,.NET Core,Web & Application Frameworks,24.4,17881,70000.0,Historical,24.4,24.4
+2023,52,.NET Core,Web & Application Frameworks,23.96,21368,78069.0,Historical,23.96,23.96
+2024,52,.NET Core,Web & Application Frameworks,22.26,14565,70008.0,Historical,22.26,22.26
+2025,52,.NET Core,Web & Application Frameworks,10.86,5342,81210.0,Historical,10.86,10.86
+2026,52,.NET Core,Web & Application Frameworks,15.44,0,,Forecast,6.26,24.62
+2027,52,.NET Core,Web & Application Frameworks,13.92,0,,Forecast,4.11,23.72
+2020,53,REST & GraphQL APIs,Web & Application Frameworks,0.0,0,,Historical,0.0,0.0
+2021,53,REST & GraphQL APIs,Web & Application Frameworks,0.0,0,,Historical,0.0,0.0
+2022,53,REST & GraphQL APIs,Web & Application Frameworks,0.0,0,,Historical,0.0,0.0
+2023,53,REST & GraphQL APIs,Web & Application Frameworks,0.0,0,,Historical,0.0,0.0
+2024,53,REST & GraphQL APIs,Web & Application Frameworks,0.0,0,,Historical,0.0,0.0
+2025,53,REST & GraphQL APIs,Web & Application Frameworks,0.0,0,,Historical,0.0,0.0
+2020,54,HTML & CSS,Web & Application Frameworks,56.13,36181,52942.0,Historical,56.13,56.13
+2021,54,HTML & CSS,Web & Application Frameworks,55.44,46259,54049.0,Historical,55.44,55.44
+2022,54,HTML & CSS,Web & Application Frameworks,53.42,39142,63986.0,Historical,53.42,53.42
+2023,54,HTML & CSS,Web & Application Frameworks,52.02,46396,74351.0,Historical,52.02,52.02
+2024,54,HTML & CSS,Web & Application Frameworks,48.62,31816,65424.0,Historical,48.62,48.62
+2025,54,HTML & CSS,Web & Application Frameworks,40.04,19698,78890.0,Historical,40.04,40.04
+2026,54,HTML & CSS,Web & Application Frameworks,41.99,0,,Forecast,37.14,46.84
+2027,54,HTML & CSS,Web & Application Frameworks,39.44,0,,Forecast,34.25,44.62
+2020,55,AWS,Cloud Platforms,22.32,14389,69139.0,Historical,22.32,22.32
+2021,55,AWS,Cloud Platforms,34.92,29138,66810.0,Historical,34.92,34.92
+2022,55,AWS,Cloud Platforms,35.4,25939,80000.0,Historical,35.4,35.4
+2023,55,AWS,Cloud Platforms,37.92,33818,90000.0,Historical,37.92,37.92
+2024,55,AWS,Cloud Platforms,33.91,22191,80000.0,Historical,33.91,33.91
+2025,55,AWS,Cloud Platforms,21.59,10618,95299.0,Historical,21.59,21.59
+2026,55,AWS,Cloud Platforms,30.65,0,,Forecast,16.85,44.44
+2027,55,AWS,Cloud Platforms,30.54,0,,Forecast,15.8,45.29
+2020,56,Microsoft Azure,Cloud Platforms,16.03,10330,63564.0,Historical,16.03,16.03
+2021,56,Microsoft Azure,Cloud Platforms,19.82,16540,64630.0,Historical,19.82,19.82
+2022,56,Microsoft Azure,Cloud Platforms,19.93,14604,73140.0,Historical,19.93,19.93
+2023,56,Microsoft Azure,Cloud Platforms,20.3,18105,81043.0,Historical,20.3,20.3
+2024,56,Microsoft Azure,Cloud Platforms,19.64,12850,75184.0,Historical,19.64,19.64
+2025,56,Microsoft Azure,Cloud Platforms,13.11,6447,87550.0,Historical,13.11,13.11
+2026,56,Microsoft Azure,Cloud Platforms,16.85,0,,Forecast,11.41,22.29
+2027,56,Microsoft Azure,Cloud Platforms,16.48,0,,Forecast,10.66,22.29
+2020,57,Google Cloud Platform (GCP),Cloud Platforms,11.74,7569,58206.0,Historical,11.74,11.74
+2021,57,Google Cloud Platform (GCP),Cloud Platforms,20.0,16687,56750.5,Historical,20.0,20.0
+2022,57,Google Cloud Platform (GCP),Cloud Platforms,18.61,13634,73140.0,Historical,18.61,18.61
+2023,57,Google Cloud Platform (GCP),Cloud Platforms,18.6,16592,84983.0,Historical,18.6,18.6
+2024,57,Google Cloud Platform (GCP),Cloud Platforms,17.73,11605,73389.0,Historical,17.73,17.73
+2025,57,Google Cloud Platform (GCP),Cloud Platforms,12.23,6015,87011.0,Historical,12.23,12.23
+2026,57,Google Cloud Platform (GCP),Cloud Platforms,16.1,0,,Forecast,9.23,22.98
+2027,57,Google Cloud Platform (GCP),Cloud Platforms,15.99,0,,Forecast,8.65,23.34
+2020,58,Docker,DevOps & Infrastructure,29.24,18851,62774.0,Historical,29.24,29.24
+2021,58,Docker,DevOps & Infrastructure,42.72,35644,63337.0,Historical,42.72,42.72
+2022,58,Docker,DevOps & Infrastructure,47.74,34981,72594.0,Historical,47.74,47.74
+2023,58,Docker,DevOps & Infrastructure,46.39,41369,81355.0,Historical,46.39,46.39
+2024,58,Docker,DevOps & Infrastructure,44.65,29219,72471.0,Historical,44.65,44.65
+2025,58,Docker,DevOps & Infrastructure,35.4,17414,84599.0,Historical,35.4,35.4
+2026,58,Docker,DevOps & Infrastructure,44.11,0,,Forecast,30.64,57.58
+2027,58,Docker,DevOps & Infrastructure,44.99,0,,Forecast,30.59,59.39
+2020,59,Kubernetes,DevOps & Infrastructure,9.58,6178,73614.0,Historical,9.58,9.58
+2021,59,Kubernetes,DevOps & Infrastructure,14.52,12115,73644.0,Historical,14.52,14.52
+2022,59,Kubernetes,DevOps & Infrastructure,17.23,12624,83183.0,Historical,17.23,17.23
+2023,59,Kubernetes,DevOps & Infrastructure,17.82,15896,91026.0,Historical,17.82,17.82
+2024,59,Kubernetes,DevOps & Infrastructure,16.75,10962,80555.0,Historical,16.75,16.75
+2025,59,Kubernetes,DevOps & Infrastructure,14.22,6993,96000.0,Historical,14.22,14.22
+2026,59,Kubernetes,DevOps & Infrastructure,17.69,0,,Forecast,12.71,22.66
+2027,59,Kubernetes,DevOps & Infrastructure,18.45,0,,Forecast,13.13,23.77
+2020,60,Terraform & IaC,DevOps & Infrastructure,7.21,4650,75936.0,Historical,7.21,7.21
+2021,60,Terraform & IaC,DevOps & Infrastructure,11.21,9354,79862.0,Historical,11.21,11.21
+2022,60,Terraform & IaC,DevOps & Infrastructure,13.06,9568,90000.0,Historical,13.06,13.06
+2023,60,Terraform & IaC,DevOps & Infrastructure,15.22,13575,96381.0,Historical,15.22,15.22
+2024,60,Terraform & IaC,DevOps & Infrastructure,13.09,8565,87876.0,Historical,13.09,13.09
+2025,60,Terraform & IaC,DevOps & Infrastructure,12.34,6072,100000.0,Historical,12.34,12.34
+2026,60,Terraform & IaC,DevOps & Infrastructure,14.95,0,,Forecast,11.02,18.87
+2027,60,Terraform & IaC,DevOps & Infrastructure,15.78,0,,Forecast,11.59,19.98
+2020,61,CI/CD & Git,DevOps & Infrastructure,72.5,46732,55000.0,Historical,72.5,72.5
+2021,61,CI/CD & Git,DevOps & Infrastructure,81.7,68171,58000.0,Historical,81.7,81.7
+2022,61,CI/CD & Git,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2023,61,CI/CD & Git,DevOps & Infrastructure,24.31,21679,81787.0,Historical,24.31,24.31
+2024,61,CI/CD & Git,DevOps & Infrastructure,23.95,15672,73573.0,Historical,23.95,23.95
+2025,61,CI/CD & Git,DevOps & Infrastructure,55.94,27518,81210.0,Historical,55.94,55.94
+2026,61,CI/CD & Git,DevOps & Infrastructure,29.87,0,,Forecast,0.0,73.64
+2027,61,CI/CD & Git,DevOps & Infrastructure,22.6,0,,Forecast,0.0,69.88
+2020,62,Linux,DevOps & Infrastructure,45.92,29600,55847.0,Historical,45.92,45.92
+2021,62,Linux,DevOps & Infrastructure,3.29,2743,51704.0,Historical,3.29,3.29
+2022,62,Linux,DevOps & Infrastructure,13.99,10252,64008.0,Historical,13.99,13.99
+2023,62,Linux,DevOps & Infrastructure,41.18,36726,74534.0,Historical,41.18,41.18
+2024,62,Linux,DevOps & Infrastructure,39.73,25995,66592.0,Historical,39.73,39.73
+2025,62,Linux,DevOps & Infrastructure,28.54,14041,77881.0,Historical,28.54,28.54
+2026,62,Linux,DevOps & Infrastructure,33.12,0,,Forecast,0.76,65.47
+2027,62,Linux,DevOps & Infrastructure,34.36,0,,Forecast,0.0,68.94
+2020,63,Cybersecurity & IAM,Cybersecurity,0.0,0,,Historical,0.0,0.0
+2021,63,Cybersecurity & IAM,Cybersecurity,0.0,0,,Historical,0.0,0.0
+2022,63,Cybersecurity & IAM,Cybersecurity,0.0,0,,Historical,0.0,0.0
+2023,63,Cybersecurity & IAM,Cybersecurity,0.0,0,,Historical,0.0,0.0
+2024,63,Cybersecurity & IAM,Cybersecurity,0.0,0,,Historical,0.0,0.0
+2025,63,Cybersecurity & IAM,Cybersecurity,0.0,0,,Historical,0.0,0.0
+2020,64,Agile & Scrum,Project & Product Management,41.13,26516,60535.0,Historical,41.13,41.13
+2021,64,Agile & Scrum,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2022,64,Agile & Scrum,Project & Product Management,42.02,30787,73182.0,Historical,42.02,42.02
+2023,64,Agile & Scrum,Project & Product Management,46.61,41572,82400.0,Historical,46.61,46.61
+2024,64,Agile & Scrum,Project & Product Management,43.01,28143,75000.0,Historical,43.01,43.01
+2025,64,Agile & Scrum,Project & Product Management,31.28,15386,87011.0,Historical,31.28,31.28
+2026,64,Agile & Scrum,Project & Product Management,36.32,0,,Forecast,26.85,45.79
+2027,64,Agile & Scrum,Project & Product Management,34.82,0,,Forecast,24.59,45.05
+2020,65,Product Management,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2021,65,Product Management,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2022,65,Product Management,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2023,65,Product Management,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2024,65,Product Management,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2025,65,Product Management,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2020,66,Data Governance & Quality,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2021,66,Data Governance & Quality,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2022,66,Data Governance & Quality,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2023,66,Data Governance & Quality,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2024,66,Data Governance & Quality,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2025,66,Data Governance & Quality,Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2020,67,Stakeholder Communication,Leadership & Communication,0.0,0,,Historical,0.0,0.0
+2021,67,Stakeholder Communication,Leadership & Communication,0.0,0,,Historical,0.0,0.0
+2022,67,Stakeholder Communication,Leadership & Communication,0.0,0,,Historical,0.0,0.0
+2023,67,Stakeholder Communication,Leadership & Communication,0.0,0,,Historical,0.0,0.0
+2024,67,Stakeholder Communication,Leadership & Communication,0.0,0,,Historical,0.0,0.0
+2025,67,Stakeholder Communication,Leadership & Communication,0.0,0,,Historical,0.0,0.0
+2020,68,Financial & Business Analysis,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2021,68,Financial & Business Analysis,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2022,68,Financial & Business Analysis,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2023,68,Financial & Business Analysis,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2024,68,Financial & Business Analysis,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2025,68,Financial & Business Analysis,Project & Product Management,0.0,0,,Historical,0.0,0.0
+2020,69,Test Automation (Selenium / Cypress),QA & Testing,0.0,0,,Historical,0.0,0.0
+2021,69,Test Automation (Selenium / Cypress),QA & Testing,0.0,0,,Historical,0.0,0.0
+2022,69,Test Automation (Selenium / Cypress),QA & Testing,0.0,0,,Historical,0.0,0.0
+2023,69,Test Automation (Selenium / Cypress),QA & Testing,0.0,0,,Historical,0.0,0.0
+2024,69,Test Automation (Selenium / Cypress),QA & Testing,0.0,0,,Historical,0.0,0.0
+2025,69,Test Automation (Selenium / Cypress),QA & Testing,0.0,0,,Historical,0.0,0.0
+2020,70,UI/UX Design & Figma,Design & UX,0.0,0,,Historical,0.0,0.0
+2021,70,UI/UX Design & Figma,Design & UX,0.0,0,,Historical,0.0,0.0
+2022,70,UI/UX Design & Figma,Design & UX,0.0,0,,Historical,0.0,0.0
+2023,70,UI/UX Design & Figma,Design & UX,0.0,0,,Historical,0.0,0.0
+2024,70,UI/UX Design & Figma,Design & UX,0.0,0,,Historical,0.0,0.0
+2025,70,UI/UX Design & Figma,Design & UX,0.0,0,,Historical,0.0,0.0
+2020,71,Networking & Infrastructure,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2021,71,Networking & Infrastructure,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2022,71,Networking & Infrastructure,DevOps & Infrastructure,6.04,4429,65000.0,Historical,6.04,6.04
+2023,71,Networking & Infrastructure,DevOps & Infrastructure,5.57,4964,75000.0,Historical,5.57,5.57
+2024,71,Networking & Infrastructure,DevOps & Infrastructure,4.65,3043,65518.0,Historical,4.65,4.65
+2025,71,Networking & Infrastructure,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2020,72,Observability & Monitoring,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2021,72,Observability & Monitoring,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2022,72,Observability & Monitoring,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2023,72,Observability & Monitoring,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2024,72,Observability & Monitoring,DevOps & Infrastructure,0.0,0,,Historical,0.0,0.0
+2025,72,Observability & Monitoring,DevOps & Infrastructure,11.82,5816,104413.0,Historical,11.82,11.82
+2020,73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2021,73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2022,73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2023,73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2024,73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2025,73,ServiceNow & ITIL / ITSM,Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2020,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,0.0,0,,Historical,0.0,0.0
+2021,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,4.61,3846,45564.0,Historical,4.61,4.61
+2022,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,4.43,3249,58654.0,Historical,4.43,4.43
+2023,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,4.13,3682,67960.0,Historical,4.13,4.13
+2024,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,3.63,2378,56051.0,Historical,3.63,3.63
+2025,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,2.5,1231,67680.0,Historical,2.5,2.5
+2026,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,2.66,0,,Forecast,1.9,3.41
+2027,74,Statistical Tools (SAS / SPSS / MATLAB / Qlik),Data Analysis & Statistics,2.25,0,,Forecast,1.44,3.07
+2020,75,Embedded Systems & Firmware,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2021,75,Embedded Systems & Firmware,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2022,75,Embedded Systems & Firmware,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2023,75,Embedded Systems & Firmware,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2024,75,Embedded Systems & Firmware,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2025,75,Embedded Systems & Firmware,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2020,76,CAD & Industrial Automation,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2021,76,CAD & Industrial Automation,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2022,76,CAD & Industrial Automation,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2023,76,CAD & Industrial Automation,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2024,76,CAD & Industrial Automation,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2025,76,CAD & Industrial Automation,Hardware & Embedded,0.0,0,,Historical,0.0,0.0
+2020,77,Ruby & Rails,Programming Languages,6.98,4501,68000.0,Historical,6.98,6.98
+2021,77,Ruby & Rails,Programming Languages,7.34,6126,77556.0,Historical,7.34,7.34
+2022,77,Ruby & Rails,Programming Languages,6.47,4743,89093.5,Historical,6.47,6.47
+2023,77,Ruby & Rails,Programming Languages,6.69,5969,99593.0,Historical,6.69,6.69
+2024,77,Ruby & Rails,Programming Languages,5.31,3477,90866.0,Historical,5.31,5.31
+2025,77,Ruby & Rails,Programming Languages,4.53,2228,105000.0,Historical,4.53,4.53
+2026,77,Ruby & Rails,Programming Languages,4.63,0,,Forecast,3.69,5.57
+2027,77,Ruby & Rails,Programming Languages,4.18,0,,Forecast,3.18,5.19
+2020,78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2021,78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2022,78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2023,78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2024,78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2025,78,ERP Systems (SAP / NetSuite / Workday),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2020,79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2021,79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2022,79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2023,79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2024,79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2025,79,CRM Platforms (Salesforce / HubSpot),Enterprise Systems & IT,0.0,0,,Historical,0.0,0.0
+2020,80,Six Sigma & Lean Operations,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2021,80,Six Sigma & Lean Operations,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2022,80,Six Sigma & Lean Operations,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2023,80,Six Sigma & Lean Operations,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2024,80,Six Sigma & Lean Operations,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2025,80,Six Sigma & Lean Operations,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2020,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,0.0,0,,Historical,0.0,0.0
+2021,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,0.0,0,,Historical,0.0,0.0
+2022,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,0.0,0,,Historical,0.0,0.0
+2023,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,0.0,0,,Historical,0.0,0.0
+2024,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,0.0,0,,Historical,0.0,0.0
+2025,81,Regulatory Compliance (HIPAA / SOC 2 / SOX),Governance & Compliance,0.0,0,,Historical,0.0,0.0
+2020,82,Project Management & SDLC (PMP),Project & Product Management,0.0,0,,Historical,0.0,0.0
+2021,82,Project Management & SDLC (PMP),Project & Product Management,0.0,0,,Historical,0.0,0.0
+2022,82,Project Management & SDLC (PMP),Project & Product Management,0.89,654,115800.0,Historical,0.89,0.89
+2023,82,Project Management & SDLC (PMP),Project & Product Management,0.82,731,125000.0,Historical,0.82,0.82
+2024,82,Project Management & SDLC (PMP),Project & Product Management,0.73,475,112000.0,Historical,0.73,0.73
+2025,82,Project Management & SDLC (PMP),Project & Product Management,0.0,0,,Historical,0.0,0.0
+2020,83,Financial Accounting & Audit (GAAP),Finance & Accounting,0.0,0,,Historical,0.0,0.0
+2021,83,Financial Accounting & Audit (GAAP),Finance & Accounting,0.0,0,,Historical,0.0,0.0
+2022,83,Financial Accounting & Audit (GAAP),Finance & Accounting,0.0,0,,Historical,0.0,0.0
+2023,83,Financial Accounting & Audit (GAAP),Finance & Accounting,0.0,0,,Historical,0.0,0.0
+2024,83,Financial Accounting & Audit (GAAP),Finance & Accounting,0.0,0,,Historical,0.0,0.0
+2025,83,Financial Accounting & Audit (GAAP),Finance & Accounting,0.0,0,,Historical,0.0,0.0
+2020,84,Digital Marketing & SEO (GA4),Marketing & Growth,0.0,0,,Historical,0.0,0.0
+2021,84,Digital Marketing & SEO (GA4),Marketing & Growth,0.0,0,,Historical,0.0,0.0
+2022,84,Digital Marketing & SEO (GA4),Marketing & Growth,0.0,0,,Historical,0.0,0.0
+2023,84,Digital Marketing & SEO (GA4),Marketing & Growth,0.0,0,,Historical,0.0,0.0
+2024,84,Digital Marketing & SEO (GA4),Marketing & Growth,0.0,0,,Historical,0.0,0.0
+2025,84,Digital Marketing & SEO (GA4),Marketing & Growth,0.0,0,,Historical,0.0,0.0
+2020,85,Supply Chain & Procurement,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2021,85,Supply Chain & Procurement,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2022,85,Supply Chain & Procurement,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2023,85,Supply Chain & Procurement,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2024,85,Supply Chain & Procurement,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2025,85,Supply Chain & Procurement,Operations & Supply Chain,0.0,0,,Historical,0.0,0.0
+2020,86,Talent Acquisition & HRIS,Human Resources,0.0,0,,Historical,0.0,0.0
+2021,86,Talent Acquisition & HRIS,Human Resources,0.0,0,,Historical,0.0,0.0
+2022,86,Talent Acquisition & HRIS,Human Resources,0.0,0,,Historical,0.0,0.0
+2023,86,Talent Acquisition & HRIS,Human Resources,0.0,0,,Historical,0.0,0.0
+2024,86,Talent Acquisition & HRIS,Human Resources,0.0,0,,Historical,0.0,0.0
+2025,86,Talent Acquisition & HRIS,Human Resources,0.0,0,,Historical,0.0,0.0

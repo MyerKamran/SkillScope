@@ -1,0 +1,11 @@
+role_family_key,family_name,domain_area
+1,Data Science & AI,Data & Analytics
+2,Data Analytics & BI,Data & Analytics
+3,Data Engineering & Database,Data & Analytics
+4,Software Engineering,Technology
+5,"Cloud, DevOps & Security",Technology
+6,Product & Business Management,Business
+7,General & Domain Operations,Operations
+8,Engineering & Hardware,Engineering
+9,"Finance, Sales & Marketing",Business
+10,"Operations, Legal & Healthcare",Operations

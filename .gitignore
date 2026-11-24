@@ -1,0 +1,22 @@
+# Large raw bronze CSV (128.6 MB > GitHub 100 MB limit; compressed copy in data/bronze/job_postings.zip)
+data/bronze/job_postings.csv
+data/bronze/.cache/
+
+# Node / Next.js dependencies & build output (recreated cleanly via `npm install` & `npm run build`)
+**/node_modules/
+**/.next/
+frontend-next/out/
+npm-debug.log*
+
+# Python & Jupyter caches
+**/__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment & local OS files
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db

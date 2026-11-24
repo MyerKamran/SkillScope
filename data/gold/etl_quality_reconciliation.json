@@ -1,0 +1,306 @@
+{
+  "overall_status": "PASSED",
+  "bronze_row_counts": {
+    "linkedin_job_postings_raw": 33246,
+    "stackoverflow_survey_2024_raw": 65437,
+    "stackoverflow_survey_2020_2025_total_raw": 424980,
+    "stackoverflow_survey_yearly_raw": {
+      "2020": 64461,
+      "2021": 83439,
+      "2022": 73268,
+      "2023": 89184,
+      "2024": 65437,
+      "2025": 49191
+    },
+    "ai_jobs_salaries_2020_2025_raw": 151445,
+    "esco_occupations_raw": 3015,
+    "geonames_cities_raw": 34216
+  },
+  "silver_row_counts": {
+    "silver_job_postings": 32394,
+    "silver_posting_skills": 41462,
+    "silver_survey_responses": 65437,
+    "silver_historical_survey_yearly": 516,
+    "silver_ai_jobs_salaries": 151439,
+    "silver_esco_taxonomy": 3015,
+    "silver_geonames_cities": 4207
+  },
+  "gold_row_counts": {
+    "dim_industry": 10,
+    "dim_country": 49,
+    "dim_role_family": 10,
+    "dim_skill_category": 21,
+    "dim_date": 2557,
+    "dim_company": 11326,
+    "dim_location": 4208,
+    "dim_role": 29,
+    "dim_seniority": 7,
+    "dim_source": 9,
+    "dim_skill": 86,
+    "fact_job_posting": 32394,
+    "fact_posting_skill": 41462,
+    "fact_survey_response": 65437,
+    "fact_survey_skill": 732058,
+    "fact_skill_gap_result": 1080,
+    "fact_historical_skill_trend": 516,
+    "fact_historical_salary_benchmark": 2185,
+    "gold_monthly_skill_demand": 347,
+    "gold_skill_cooccurrence": 2477,
+    "gold_role_skill_profiles": 1569,
+    "gold_survey_vs_market": 86
+  },
+  "checks_passed": 50,
+  "checks_total": 50,
+  "checks": [
+    {
+      "check": "pk_unique:dim_industry",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['industry_key']"
+    },
+    {
+      "check": "pk_unique:dim_country",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['country_key']"
+    },
+    {
+      "check": "pk_unique:dim_role_family",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['role_family_key']"
+    },
+    {
+      "check": "pk_unique:dim_skill_category",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['category_key']"
+    },
+    {
+      "check": "pk_unique:dim_date",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['date_key']"
+    },
+    {
+      "check": "pk_unique:dim_company",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['company_key']"
+    },
+    {
+      "check": "pk_unique:dim_location",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['location_key']"
+    },
+    {
+      "check": "pk_unique:dim_role",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['role_key']"
+    },
+    {
+      "check": "pk_unique:dim_seniority",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['seniority_key']"
+    },
+    {
+      "check": "pk_unique:dim_source",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['source_key']"
+    },
+    {
+      "check": "pk_unique:dim_skill",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['skill_key']"
+    },
+    {
+      "check": "pk_unique:fact_job_posting",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['posting_key']"
+    },
+    {
+      "check": "pk_unique:fact_posting_skill",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['posting_key', 'skill_key']"
+    },
+    {
+      "check": "pk_unique:fact_survey_response",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['response_key']"
+    },
+    {
+      "check": "pk_unique:fact_survey_skill",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['response_key', 'skill_key']"
+    },
+    {
+      "check": "pk_unique:fact_skill_gap_result",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['gap_key']"
+    },
+    {
+      "check": "pk_unique:fact_historical_skill_trend",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['trend_key']"
+    },
+    {
+      "check": "pk_unique:fact_historical_salary_benchmark",
+      "status": "PASSED",
+      "details": "Duplicate PK count=0 on ['benchmark_key']"
+    },
+    {
+      "check": "fk_integrity:dim_company.industry_key->dim_industry",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:dim_location.country_key->dim_country",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:dim_role.role_family_key->dim_role_family",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:dim_skill.category_key->dim_skill_category",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_job_posting.date_key->dim_date",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_job_posting.company_key->dim_company",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_job_posting.location_key->dim_location",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_job_posting.role_key->dim_role",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_job_posting.seniority_key->dim_seniority",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_job_posting.source_key->dim_source",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_posting_skill.posting_key->fact_job_posting",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_posting_skill.skill_key->dim_skill",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_survey_response.date_key->dim_date",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_survey_response.role_key->dim_role",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_survey_response.country_key->dim_country",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_survey_response.seniority_key->dim_seniority",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_survey_skill.response_key->fact_survey_response",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_survey_skill.skill_key->dim_skill",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_skill_gap_result.role_key->dim_role",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_skill_gap_result.skill_key->dim_skill",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_skill_trend.date_key->dim_date",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_skill_trend.skill_key->dim_skill",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_skill_trend.source_key->dim_source",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_salary_benchmark.date_key->dim_date",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_salary_benchmark.role_key->dim_role",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_salary_benchmark.seniority_key->dim_seniority",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_salary_benchmark.country_key->dim_country",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "fk_integrity:fact_historical_salary_benchmark.source_key->dim_source",
+      "status": "PASSED",
+      "details": "Orphan FK count=0"
+    },
+    {
+      "check": "salary_no_silent_imputation",
+      "status": "PASSED",
+      "details": "Disclosed salary coverage=40.07% (12,979/32,394); missing retained as NULL"
+    },
+    {
+      "check": "geonames_coordinate_bounds",
+      "status": "PASSED",
+      "details": "All 4208 locations within lat[-90,90], lon[-180,180]"
+    },
+    {
+      "check": "posting_date_bounds",
+      "status": "PASSED",
+      "details": "Date key range 20230608..20231104"
+    },
+    {
+      "check": "historical_span_2020_2025",
+      "status": "PASSED",
+      "details": "SO survey years=[2020, 2021, 2022, 2023, 2024, 2025], ai-jobs salary years=[2020, 2021, 2022, 2023, 2024, 2025]"
+    }
+  ]
+}

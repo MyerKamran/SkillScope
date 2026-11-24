@@ -1,0 +1,1261 @@
+[
+  {
+    "sample_id": 1,
+    "job_id": "3755556417",
+    "job_title": "Associate QA Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "SQL",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 2,
+    "job_id": "3757733845",
+    "job_title": "Cloud Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Go",
+      "Google Cloud Platform (GCP)",
+      "JavaScript",
+      "Linux",
+      "Microsoft Azure",
+      "Networking & Infrastructure",
+      "Node.js",
+      "Python",
+      "Ruby & Rails"
+    ]
+  },
+  {
+    "sample_id": 3,
+    "job_id": "3699059418",
+    "job_title": "Jr. DevOps",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 4,
+    "job_id": "3749345480",
+    "job_title": "AWS DevOps Engineer ( Onsite, Mon to fri)",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Apache Kafka",
+      "CI/CD & Git",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "Microsoft SQL Server",
+      "Networking & Infrastructure",
+      "Oracle Database",
+      "PostgreSQL",
+      "SQL",
+      "Terraform & IaC",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 5,
+    "job_id": "3757457761",
+    "job_title": "Java Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Angular",
+      "CI/CD & Git",
+      "HTML & CSS",
+      "Java",
+      "Microsoft Azure",
+      "MongoDB",
+      "REST & GraphQL APIs",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 6,
+    "job_id": "3749915561",
+    "job_title": "Principal Embedded Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "C++",
+      "Embedded Systems & Firmware"
+    ]
+  },
+  {
+    "sample_id": 7,
+    "job_id": "3755586018",
+    "job_title": "Staff Data Engineer (SaaS)",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Apache Airflow",
+      "Apache Spark",
+      "BigQuery",
+      "Data Governance & Quality",
+      "Docker",
+      "ETL & Data Pipelines",
+      "Google Cloud Platform (GCP)",
+      "Kubernetes",
+      "MLOps",
+      "Python",
+      "SQL",
+      "Snowflake",
+      "Terraform & IaC",
+      "dbt"
+    ]
+  },
+  {
+    "sample_id": 8,
+    "job_id": "3749370485",
+    "job_title": "Senior Android Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "CI/CD & Git",
+      "Java",
+      "Kotlin",
+      "Product Management"
+    ]
+  },
+  {
+    "sample_id": 9,
+    "job_id": "3757489867",
+    "job_title": "Senior Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Angular",
+      "CI/CD & Git",
+      "Java",
+      "Microsoft SQL Server",
+      "Project Management & SDLC (PMP)",
+      "REST & GraphQL APIs",
+      "SQL",
+      "Spring Boot"
+    ]
+  },
+  {
+    "sample_id": 10,
+    "job_id": "3757473688",
+    "job_title": "React Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "CI/CD & Git",
+      "HTML & CSS",
+      "Java",
+      "React",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 11,
+    "job_id": "3755587446",
+    "job_title": "Network Security Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "Cybersecurity & IAM",
+      "Networking & Infrastructure",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 12,
+    "job_id": "3749360147",
+    "job_title": "QA Engineer, Web",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "Java",
+      "JavaScript",
+      "Product Management",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 13,
+    "job_id": "3693074456",
+    "job_title": "Java Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "HTML & CSS",
+      "Java",
+      "JavaScript",
+      "Oracle Database",
+      "REST & GraphQL APIs",
+      "Spring Boot",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 14,
+    "job_id": "3693590076",
+    "job_title": "Senior Marketing Data Analyst",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Digital Marketing & SEO (GA4)",
+      "Excel",
+      "Python",
+      "R",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 15,
+    "job_id": "3693070256",
+    "job_title": "Java Full Stack Lead Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "CI/CD & Git",
+      "HTML & CSS",
+      "Java",
+      "JavaScript",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 16,
+    "job_id": "3757741116",
+    "job_title": "2024 Software Engineer Intern",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "JavaScript",
+      "Python",
+      "REST & GraphQL APIs",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "sample_id": 17,
+    "job_id": "3699080894",
+    "job_title": "ATO Cybersecurity Analyst",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Cybersecurity & IAM",
+      "Regulatory Compliance (HIPAA / SOC 2 / SOX)"
+    ]
+  },
+  {
+    "sample_id": 18,
+    "job_id": "3757703789",
+    "job_title": "Senior Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "CI/CD & Git",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "MongoDB",
+      "PostgreSQL",
+      "Python",
+      "Redis",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 19,
+    "job_id": "3693584721",
+    "job_title": "Associate Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      ".NET Core",
+      "Agile & Scrum",
+      "C#",
+      "C++",
+      "Cybersecurity & IAM",
+      "Java"
+    ]
+  },
+  {
+    "sample_id": 20,
+    "job_id": "3693589275",
+    "job_title": "QA/DC Program Manager",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Python"
+    ]
+  },
+  {
+    "sample_id": 21,
+    "job_id": "3757730969",
+    "job_title": "Data Engineer 1",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Apache Airflow",
+      "Apache Spark",
+      "CI/CD & Git",
+      "Cybersecurity & IAM",
+      "Data Governance & Quality",
+      "Data Warehousing",
+      "Databricks",
+      "Machine Learning",
+      "Power BI",
+      "Python",
+      "Statistical Tools (SAS / SPSS / MATLAB / Qlik)",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 22,
+    "job_id": "3755577445",
+    "job_title": "Lead SQL Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Google Cloud Platform (GCP)",
+      "Microsoft SQL Server",
+      "PostgreSQL",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 23,
+    "job_id": "3757459078",
+    "job_title": "Data Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "CI/CD & Git",
+      "Linux",
+      "Microsoft Azure",
+      "R",
+      "Snowflake"
+    ]
+  },
+  {
+    "sample_id": 24,
+    "job_id": "3757406739",
+    "job_title": "Senior Software Engineer - Treasury, Financial Platform",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Go",
+      "Java",
+      "Kotlin",
+      "Kubernetes",
+      "Observability & Monitoring",
+      "REST & GraphQL APIs"
+    ]
+  },
+  {
+    "sample_id": 25,
+    "job_id": "3756167891",
+    "job_title": "Sr. Software Engineer - Data Platform",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Apache Airflow",
+      "Apache Kafka",
+      "Apache Spark",
+      "BigQuery",
+      "Data Warehousing",
+      "ETL & Data Pipelines",
+      "Google Cloud Platform (GCP)",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "Rust",
+      "SQL",
+      "Scala",
+      "dbt"
+    ]
+  },
+  {
+    "sample_id": 26,
+    "job_id": "3697399126",
+    "job_title": "Senior Software Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "Computer Vision",
+      "Deep Learning",
+      "MongoDB",
+      "React",
+      "Scala",
+      "TypeScript"
+    ]
+  },
+  {
+    "sample_id": 27,
+    "job_id": "3757742264",
+    "job_title": "Cybersecurity Engineer II",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Cybersecurity & IAM",
+      "Networking & Infrastructure"
+    ]
+  },
+  {
+    "sample_id": 28,
+    "job_id": "3694121250",
+    "job_title": "Senior Transaction Security Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "C++",
+      "Cybersecurity & IAM",
+      "Java",
+      "Linux"
+    ]
+  },
+  {
+    "sample_id": 29,
+    "job_id": "3757734194",
+    "job_title": "Software Engineer (SME)",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "CI/CD & Git",
+      "Networking & Infrastructure",
+      "Python",
+      "Terraform & IaC",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 30,
+    "job_id": "3756781674",
+    "job_title": "Business Intelligence Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "BigQuery",
+      "Data Warehousing",
+      "ETL & Data Pipelines",
+      "Google Cloud Platform (GCP)",
+      "Looker",
+      "Machine Learning",
+      "Microsoft Azure",
+      "Power BI",
+      "SQL",
+      "Statistical Tools (SAS / SPSS / MATLAB / Qlik)",
+      "Tableau"
+    ]
+  },
+  {
+    "sample_id": 31,
+    "job_id": "3701196929",
+    "job_title": "Master Data Analyst ",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Data Governance & Quality",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 32,
+    "job_id": "3699084827",
+    "job_title": "Data Engineer with Python AWS, ETL with 10+years exp",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "ETL & Data Pipelines",
+      "Linux",
+      "Python",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 33,
+    "job_id": "3694119410",
+    "job_title": "Senior Transaction Security Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "C++",
+      "Cybersecurity & IAM",
+      "Java",
+      "Linux"
+    ]
+  },
+  {
+    "sample_id": 34,
+    "job_id": "3693054269",
+    "job_title": "Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "Bash / Shell",
+      "CI/CD & Git",
+      "Kubernetes",
+      "Oracle Database",
+      "Python",
+      "REST & GraphQL APIs",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 35,
+    "job_id": "3694147694",
+    "job_title": "Android Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "CI/CD & Git",
+      "HTML & CSS",
+      "Java",
+      "JavaScript",
+      "Kotlin",
+      "REST & GraphQL APIs",
+      "UI/UX Design & Figma"
+    ]
+  },
+  {
+    "sample_id": 36,
+    "job_id": "3699080440",
+    "job_title": "Senior Software Engineer, AR",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "sample_id": 37,
+    "job_id": "3693584762",
+    "job_title": "SAP Procurement Analyst with Power BI ",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "ERP Systems (SAP / NetSuite / Workday)",
+      "Excel",
+      "Financial & Business Analysis",
+      "Power BI",
+      "Supply Chain & Procurement"
+    ]
+  },
+  {
+    "sample_id": 38,
+    "job_id": "3756108754",
+    "job_title": "Director, Advisors Business Development, Business Intelligence (BI) -Open to Remote",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum"
+    ]
+  },
+  {
+    "sample_id": 39,
+    "job_id": "3749900657",
+    "job_title": "Senior Software Engineer-Autonomy Visualization and Mission Planning- ONSITE",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "C++",
+      "CI/CD & Git",
+      "Docker",
+      "Java",
+      "Linux"
+    ]
+  },
+  {
+    "sample_id": 40,
+    "job_id": "3693050467",
+    "job_title": "Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "Angular",
+      "CI/CD & Git",
+      "JavaScript",
+      "Ruby & Rails",
+      "Vue.js"
+    ]
+  },
+  {
+    "sample_id": 41,
+    "job_id": "3701318946",
+    "job_title": "Senior Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      ".NET Core",
+      "AWS",
+      "Agile & Scrum",
+      "C#",
+      "Java",
+      "Microsoft Azure",
+      "Microsoft SQL Server",
+      "MongoDB",
+      "Product Management",
+      "Redis",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 42,
+    "job_id": "3757444916",
+    "job_title": "IAM Security Engineer ",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Bash / Shell",
+      "Cybersecurity & IAM",
+      "Networking & Infrastructure",
+      "Python"
+    ]
+  },
+  {
+    "sample_id": 43,
+    "job_id": "3749351331",
+    "job_title": "Big Data Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Apache Spark",
+      "BigQuery",
+      "Google Cloud Platform (GCP)",
+      "Python",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 44,
+    "job_id": "3757460037",
+    "job_title": "Senior Software Engineer - Python/Backend",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Bash / Shell",
+      "CI/CD & Git",
+      "FastAPI & Flask",
+      "Linux",
+      "PostgreSQL",
+      "Python"
+    ]
+  },
+  {
+    "sample_id": 45,
+    "job_id": "3693049412",
+    "job_title": "Cyber Security Engineer (ONSITE)",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Cybersecurity & IAM",
+      "Go",
+      "Google Cloud Platform (GCP)",
+      "Java",
+      "JavaScript",
+      "Linux",
+      "Microsoft Azure",
+      "Networking & Infrastructure",
+      "Python",
+      "ServiceNow & ITIL / ITSM"
+    ]
+  },
+  {
+    "sample_id": 46,
+    "job_id": "3697384842",
+    "job_title": "Staff Software Engineer, Infrastructure, Google Cloud Application Modernization",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Google Cloud Platform (GCP)",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "sample_id": 47,
+    "job_id": "3757436744",
+    "job_title": "Data Scientist",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "Python",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 48,
+    "job_id": "3756914492",
+    "job_title": "DevOps Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Bash / Shell",
+      "C++",
+      "CI/CD & Git",
+      "Docker",
+      "Java",
+      "Kubernetes",
+      "Linux",
+      "Microsoft Azure",
+      "PHP",
+      "Python",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 49,
+    "job_id": "3694152760",
+    "job_title": "DevOps Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Bash / Shell",
+      "CI/CD & Git",
+      "Cybersecurity & IAM",
+      "Docker",
+      "Google Cloud Platform (GCP)",
+      "Linux",
+      "Microsoft SQL Server",
+      "MySQL",
+      "Networking & Infrastructure",
+      "Observability & Monitoring",
+      "Project Management & SDLC (PMP)",
+      "Python",
+      "Regulatory Compliance (HIPAA / SOC 2 / SOX)",
+      "SQL",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 50,
+    "job_id": "3699088107",
+    "job_title": "073076-Software Engineer Lead",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      ".NET Core",
+      "C#",
+      "CI/CD & Git"
+    ]
+  },
+  {
+    "sample_id": 51,
+    "job_id": "3694102194",
+    "job_title": "Sr Business Intelligence Engineer III, Strategies Labor BI",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "ETL & Data Pipelines",
+      "Python",
+      "SQL",
+      "Statistics & A/B Testing"
+    ]
+  },
+  {
+    "sample_id": 52,
+    "job_id": "3748834938",
+    "job_title": "Software Engineer II - Fullstack React",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Angular",
+      "CI/CD & Git",
+      "Java",
+      "MongoDB",
+      "Node.js",
+      "Python",
+      "REST & GraphQL APIs",
+      "React",
+      "Spring Boot",
+      "Test Automation (Selenium / Cypress)",
+      "TypeScript"
+    ]
+  },
+  {
+    "sample_id": 53,
+    "job_id": "3701322385",
+    "job_title": "Data Analyst ",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 54,
+    "job_id": "3749399756",
+    "job_title": "Principal Software Engineer-Autonomy Visualization and Mission Planning - ONSITE",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Agile & Scrum",
+      "C++",
+      "CI/CD & Git",
+      "Docker",
+      "Java"
+    ]
+  },
+  {
+    "sample_id": 55,
+    "job_id": "3757464983",
+    "job_title": "Senior IT Security Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Cybersecurity & IAM",
+      "ERP Systems (SAP / NetSuite / Workday)",
+      "Financial & Business Analysis",
+      "Linux",
+      "Observability & Monitoring",
+      "Oracle Database",
+      "Redis",
+      "Regulatory Compliance (HIPAA / SOC 2 / SOX)"
+    ]
+  },
+  {
+    "sample_id": 56,
+    "job_id": "3749359401",
+    "job_title": "Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "CI/CD & Git",
+      "Java",
+      "Kubernetes",
+      "Node.js",
+      "REST & GraphQL APIs",
+      "Spring Boot",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 57,
+    "job_id": "3756113676",
+    "job_title": "SECURITY ENGINEER [REMOTE]",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Cybersecurity & IAM",
+      "Networking & Infrastructure",
+      "Regulatory Compliance (HIPAA / SOC 2 / SOX)"
+    ]
+  },
+  {
+    "sample_id": 58,
+    "job_id": "3757484459",
+    "job_title": "Data Engineer - Power BI",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Bash / Shell",
+      "BigQuery",
+      "Databricks",
+      "ETL & Data Pipelines",
+      "FastAPI & Flask",
+      "Microsoft Azure",
+      "Pandas & NumPy",
+      "Power BI",
+      "Python",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 59,
+    "job_id": "3692303023",
+    "job_title": "Azure DevOps Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Bash / Shell",
+      "CI/CD & Git",
+      "Java",
+      "Kubernetes",
+      "Microsoft Azure",
+      "Observability & Monitoring",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 60,
+    "job_id": "3757741020",
+    "job_title": "Senior DevOps Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "CI/CD & Git",
+      "Google Cloud Platform (GCP)",
+      "Kubernetes",
+      "Microsoft Azure",
+      "Project Management & SDLC (PMP)",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 61,
+    "job_id": "3694151722",
+    "job_title": "Lead Full Stack Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      ".NET Core",
+      "Angular",
+      "C#",
+      "CI/CD & Git",
+      "HTML & CSS",
+      "JavaScript",
+      "Microsoft Azure",
+      "Microsoft SQL Server",
+      "MySQL",
+      "REST & GraphQL APIs",
+      "React",
+      "SQL",
+      "Test Automation (Selenium / Cypress)"
+    ]
+  },
+  {
+    "sample_id": 62,
+    "job_id": "3693588071",
+    "job_title": "Software Engineer (SE-2301)",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      ".NET Core",
+      "Data Governance & Quality"
+    ]
+  },
+  {
+    "sample_id": 63,
+    "job_id": "3697385637",
+    "job_title": "DevOps and Quality Assurance Manager",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "CI/CD & Git"
+    ]
+  },
+  {
+    "sample_id": 64,
+    "job_id": "3701302764",
+    "job_title": "Business Intelligence Analyst",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "BigQuery",
+      "Financial & Business Analysis",
+      "Machine Learning",
+      "Python",
+      "R",
+      "SQL",
+      "Statistical Tools (SAS / SPSS / MATLAB / Qlik)",
+      "Statistics & A/B Testing",
+      "Tableau"
+    ]
+  },
+  {
+    "sample_id": 65,
+    "job_id": "3693067287",
+    "job_title": "Associate Cyber Data Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "ETL & Data Pipelines",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 66,
+    "job_id": "3757747927",
+    "job_title": "Principal AI Engineer - Advanced Analytics and Language Modeling",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Natural Language Processing",
+      "Python"
+    ]
+  },
+  {
+    "sample_id": 67,
+    "job_id": "3749348541",
+    "job_title": "Web Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "CI/CD & Git",
+      "Docker",
+      "HTML & CSS",
+      "JavaScript",
+      "Kubernetes",
+      "Linux",
+      "REST & GraphQL APIs",
+      "Ruby & Rails",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 68,
+    "job_id": "3755576744",
+    "job_title": "Lead Python Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Java",
+      "Oracle Database",
+      "Python",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 69,
+    "job_id": "3755589661",
+    "job_title": "Senior DevOps Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "CI/CD & Git",
+      "JavaScript",
+      "Microsoft SQL Server",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Python",
+      "REST & GraphQL APIs",
+      "Redis",
+      "Ruby & Rails",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 70,
+    "job_id": "3699057402",
+    "job_title": "Security Engineer, Penetration Testing",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Cybersecurity & IAM",
+      "Linux",
+      "Python"
+    ]
+  },
+  {
+    "sample_id": 71,
+    "job_id": "3757438611",
+    "job_title": "SQL Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Data Warehousing",
+      "Microsoft SQL Server",
+      "SQL"
+    ]
+  },
+  {
+    "sample_id": 72,
+    "job_id": "3749344977",
+    "job_title": "Power BI Developer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Microsoft SQL Server",
+      "Power BI"
+    ]
+  },
+  {
+    "sample_id": 73,
+    "job_id": "3749901223",
+    "job_title": "DevOps Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Agile & Scrum",
+      "Angular",
+      "Bash / Shell",
+      "CI/CD & Git",
+      "Cybersecurity & IAM",
+      "Docker",
+      "Java",
+      "JavaScript",
+      "Kubernetes",
+      "Linux",
+      "MongoDB",
+      "Observability & Monitoring",
+      "Oracle Database",
+      "PostgreSQL",
+      "Python",
+      "Redis",
+      "Ruby & Rails",
+      "Spring Boot",
+      "Terraform & IaC"
+    ]
+  },
+  {
+    "sample_id": 74,
+    "job_id": "3756114516",
+    "job_title": "Sr. Fullstack Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "Go",
+      "Machine Learning",
+      "Node.js",
+      "Python",
+      "REST & GraphQL APIs",
+      "React",
+      "UI/UX Design & Figma"
+    ]
+  },
+  {
+    "sample_id": 75,
+    "job_id": "3757731065",
+    "job_title": "Backend Software Engineer",
+    "stratum": "tech_data_role",
+    "ground_truth_skills": [
+      "AWS",
+      "Java",
+      "Spring Boot"
+    ]
+  },
+  {
+    "sample_id": 76,
+    "job_id": "3757485780",
+    "job_title": "REGISTERED NURSE - LONG TERM ACUTE CARE (LTAC)",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 77,
+    "job_id": "3757417400",
+    "job_title": "Travel - Med Surg - Nurse Job - $2216/wk - $2405/wk",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 78,
+    "job_id": "3757719104",
+    "job_title": "Travel Registered Nurse ER Emergency Room - 680195",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 79,
+    "job_id": "3693583853",
+    "job_title": "Patient Flow Coordinator - Registered Nurse",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 80,
+    "job_id": "3749358672",
+    "job_title": "Admissions Nurse (Registered Nurse/RN)",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 81,
+    "job_id": "3757780540",
+    "job_title": "Travel Registered Nurse - PCU job available in Fort Smith, TX - Make $1,865wk",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 82,
+    "job_id": "3757487689",
+    "job_title": "Mobile Therapist - Intensive Behavioral Health Services",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 83,
+    "job_id": "3749374712",
+    "job_title": "Travel Nurse RN - Med Surg / Telemetry - $2,229 per week - 23173393",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 84,
+    "job_id": "3749374711",
+    "job_title": "Travel Nurse RN - ICU - Intensive Care Unit - $1,884 per week - 679954",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 85,
+    "job_id": "3699414647",
+    "job_title": "Clinical Nurse-MSH- Full Time Nights- 9 West",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 86,
+    "job_id": "3701303213",
+    "job_title": "Mental Health Therapist",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 87,
+    "job_id": "3757781377",
+    "job_title": "Travel Registered Nurse - Medsurg/Tele job available in Irvine, CA - Make $2,254wk",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 88,
+    "job_id": "3757735288",
+    "job_title": "Travel - Step Down - Nurse Job - $2602/wk - $2783/wk",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 89,
+    "job_id": "3697364345",
+    "job_title": "Truck Driver",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 90,
+    "job_id": "3749359495",
+    "job_title": "Nurse Practitioner - Bangor ME",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 91,
+    "job_id": "3699413565",
+    "job_title": "Registered Nurse (RN) - Inpatient Pediatrics (Per Diem)",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 92,
+    "job_id": "3757748392",
+    "job_title": "Registered Nurse - RN - Med Surge",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 93,
+    "job_id": "3756150363",
+    "job_title": "CASHIER (full-time & part-time opportunities)",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 94,
+    "job_id": "3749358680",
+    "job_title": "Registered Respiratory Therapist",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 95,
+    "job_id": "3756130657",
+    "job_title": "Head Nurse-Endoscopy",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 96,
+    "job_id": "3701160090",
+    "job_title": "Electrician (Industrial)",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": [
+      "CAD & Industrial Automation"
+    ]
+  },
+  {
+    "sample_id": 97,
+    "job_id": "3697379724",
+    "job_title": "Carpenter",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 98,
+    "job_id": "3757487974",
+    "job_title": "Vacuum Truck Driver Class B Industrial Services",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 99,
+    "job_id": "3757797228",
+    "job_title": "(USA) Staff Pharmacist (Central City) - Sign-On Bonus Available!",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  },
+  {
+    "sample_id": 100,
+    "job_id": "3757497135",
+    "job_title": "Dental Hygienist (RDH)",
+    "stratum": "nontech_hard_negative",
+    "ground_truth_skills": []
+  }
+]

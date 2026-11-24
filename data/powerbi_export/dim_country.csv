@@ -1,0 +1,50 @@
+country_key,country_name,iso_code,region_group,currency_code
+1,United States,US,North America,USD
+2,United Kingdom,GB,Europe,GBP
+3,Canada,CA,North America,CAD
+4,Germany,DE,Europe,EUR
+5,India,IN,Asia-Pacific,INR
+6,France,FR,Europe,EUR
+7,Australia,AU,Asia-Pacific,AUD
+8,Netherlands,NL,Europe,EUR
+9,Spain,ES,Europe,EUR
+10,Italy,IT,Europe,EUR
+11,Brazil,BR,Latin America,BRL
+12,Poland,PL,Europe,PLN
+13,Sweden,SE,Europe,SEK
+14,Switzerland,CH,Europe,CHF
+15,Singapore,SG,Asia-Pacific,SGD
+16,Pakistan,PK,Asia-Pacific,PKR
+17,Japan,JP,Asia-Pacific,JPY
+18,Ireland,IE,Europe,EUR
+19,Mexico,MX,Latin America,USD
+20,United Arab Emirates,AE,Middle East & Africa,USD
+21,Ukraine,UA,Europe,USD
+22,Russian Federation,RU,Europe,USD
+23,Austria,AT,Europe,EUR
+24,Czech Republic,CZ,Europe,EUR
+25,Israel,IL,Middle East & Africa,USD
+26,Turkey,TR,Europe,USD
+27,Belgium,BE,Europe,EUR
+28,Denmark,DK,Europe,EUR
+29,Portugal,PT,Europe,EUR
+30,Norway,NO,Europe,USD
+31,Romania,RO,Europe,EUR
+32,Finland,FI,Europe,EUR
+33,New Zealand,NZ,Asia-Pacific,AUD
+34,Argentina,AR,Latin America,USD
+35,Colombia,CO,Latin America,USD
+36,South Africa,ZA,Middle East & Africa,USD
+37,Greece,GR,Europe,EUR
+38,Hungary,HU,Europe,EUR
+39,South Korea,KR,Asia-Pacific,USD
+40,China,CN,Asia-Pacific,USD
+41,Taiwan,TW,Asia-Pacific,USD
+42,Hong Kong,HK,Asia-Pacific,USD
+43,Egypt,EG,Middle East & Africa,USD
+44,Nigeria,NG,Middle East & Africa,USD
+45,Saudi Arabia,SA,Middle East & Africa,USD
+46,Chile,CL,Latin America,USD
+47,Philippines,PH,Asia-Pacific,USD
+48,Vietnam,VN,Asia-Pacific,USD
+49,Global / Remote,GL,Global,USD
