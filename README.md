@@ -91,4 +91,4 @@ Start the studio:
 ```powershell
 .\start_studio.ps1
 ```
-Then open **http://127.0.0.1:3000** in your browser (port `8050` runs the headless Python API backend and redirects `/` to `:3000`).
+Then open **http://127.0.0.1:3000** in your browser (port `8050` runs the Python API backend). When local **MySQL 8.0** (`skillscope_dw`) is loaded via `warehouse/load_mysql.py`, **both the website and Power BI Desktop** query the exact same MySQL 8.0 Star Schema & Data Marts (`mart_demand`, `mart_skills`, `fact_*`, `dim_*`) via live SQL (falling back to Gold Parquet automatically only if MySQL is not running).

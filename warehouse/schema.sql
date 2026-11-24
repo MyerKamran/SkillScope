@@ -455,3 +455,135 @@ JOIN dim_role_family rf ON r.role_family_key = rf.role_family_key
 JOIN dim_seniority s ON f.seniority_key = s.seniority_key
 JOIN dim_location l ON f.location_key = l.location_key
 JOIN dim_country co ON l.country_key = co.country_key;
+
+
+-- ============================================================================
+-- 6. GOLD ANALYTICAL SUMMARY TABLES (Shared Directly by Website SQL & Power BI)
+-- ============================================================================
+
+CREATE TABLE IF NOT EXISTS gold_monthly_skill_demand (
+    `year_month` VARCHAR(10) NOT NULL,
+    year_num SMALLINT NOT NULL,
+    month_num TINYINT NOT NULL,
+    skill_key INT NOT NULL,
+    skill_name VARCHAR(120) NOT NULL,
+    posting_mentions INT NOT NULL,
+    avg_salary_usd DECIMAL(12,2) NULL,
+    month_total_postings INT NOT NULL,
+    demand_share_pct DECIMAL(8,4) NOT NULL,
+    record_type VARCHAR(20) NOT NULL,
+    ci_lower INT NULL,
+    ci_upper INT NULL,
+    PRIMARY KEY (skill_key, `year_month`, record_type),
+    INDEX idx_gmsd_ym (`year_month`)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_skill_cooccurrence (
+    skill_key_a INT NOT NULL,
+    skill_name_a VARCHAR(120) NOT NULL,
+    skill_key_b INT NOT NULL,
+    skill_name_b VARCHAR(120) NOT NULL,
+    co_posting_count INT NOT NULL,
+    jaccard_index DECIMAL(10,6) NULL,
+    conditional_prob DECIMAL(10,6) NULL,
+    cooccurrence_strength DECIMAL(10,6) NULL,
+    PRIMARY KEY (skill_key_a, skill_key_b),
+    INDEX idx_gsc_count (co_posting_count)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_role_skill_profiles (
+    role_key INT NOT NULL,
+    skill_key INT NOT NULL,
+    skill_name VARCHAR(120) NOT NULL,
+    posting_count INT NOT NULL,
+    role_total_postings INT NOT NULL,
+    demand_pct DECIMAL(8,4) NOT NULL,
+    salary_sample_count INT NOT NULL,
+    median_skill_salary_usd DECIMAL(12,2) NULL,
+    role_base_salary_usd DECIMAL(12,2) NULL,
+    salary_premium_pct DECIMAL(10,4) NULL,
+    role_lift DECIMAL(10,4) NULL,
+    is_core_skill TINYINT NOT NULL DEFAULT 0,
+    is_differentiating TINYINT NOT NULL DEFAULT 0,
+    PRIMARY KEY (role_key, skill_key)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_survey_vs_market (
+    skill_key INT NOT NULL PRIMARY KEY,
+    skill_name VARCHAR(120) NOT NULL,
+    category_key INT NOT NULL,
+    market_posting_count INT NOT NULL,
+    market_demand_pct DECIMAL(8,4) NOT NULL,
+    survey_respondent_count INT NOT NULL,
+    survey_usage_pct DECIMAL(8,4) NOT NULL,
+    supply_demand_gap_pct DECIMAL(8,4) NULL,
+    market_median_salary_usd DECIMAL(12,2) NULL,
+    survey_median_salary_usd DECIMAL(12,2) NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_skill_yoy_growth (
+    skill_key INT NOT NULL PRIMARY KEY,
+    skill_name VARCHAR(120) NOT NULL,
+    mentions_2023 INT NOT NULL,
+    mentions_2024 INT NOT NULL,
+    total_mentions INT NOT NULL,
+    wave1_share_pct DECIMAL(8,4) NOT NULL,
+    wave2_share_pct DECIMAL(8,4) NOT NULL,
+    share_change_pp DECIMAL(8,4) NULL,
+    yoy_growth_pct DECIMAL(10,4) NULL,
+    category_key INT NOT NULL,
+    is_emerging TINYINT NOT NULL DEFAULT 0,
+    category_name VARCHAR(120) NOT NULL,
+    parent_category VARCHAR(120) NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_salary_key_influencers (
+    factor_name VARCHAR(180) NOT NULL PRIMARY KEY,
+    importance_pct DECIMAL(8,4) NOT NULL,
+    median_salary_impact_usd DECIMAL(12,2) NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_historical_skill_forecast (
+    year_num SMALLINT NOT NULL,
+    skill_key INT NOT NULL,
+    skill_name VARCHAR(120) NOT NULL,
+    category_name VARCHAR(120) NOT NULL,
+    adoption_pct DECIMAL(8,4) NOT NULL,
+    respondent_count INT NOT NULL,
+    median_salary_usd DECIMAL(12,2) NULL,
+    record_type VARCHAR(20) NOT NULL,
+    ci_lower_pct DECIMAL(8,4) NULL,
+    ci_upper_pct DECIMAL(8,4) NULL,
+    PRIMARY KEY (skill_key, year_num, record_type),
+    INDEX idx_ghsf_year (year_num)
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_historical_skill_growth (
+    skill_key INT NOT NULL PRIMARY KEY,
+    skill_name VARCHAR(120) NOT NULL,
+    category_name VARCHAR(120) NOT NULL,
+    parent_category VARCHAR(120) NOT NULL,
+    baseline_year SMALLINT NOT NULL,
+    adoption_2020_pct DECIMAL(8,4) NULL,
+    adoption_2025_pct DECIMAL(8,4) NULL,
+    peak_adoption_pct DECIMAL(8,4) NULL,
+    delta_pp DECIMAL(8,4) NULL,
+    relative_change_pct DECIMAL(10,4) NULL,
+    cagr_pct DECIMAL(8,4) NULL,
+    comparable_2020_2025 TINYINT NOT NULL DEFAULT 0,
+    respondents_2025 INT NOT NULL,
+    median_salary_2025_usd DECIMAL(12,2) NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS gold_historical_salary_trends (
+    segment_type VARCHAR(40) NOT NULL,
+    segment_value VARCHAR(160) NOT NULL,
+    year_num SMALLINT NOT NULL,
+    record_count INT NOT NULL,
+    median_salary_usd DECIMAL(12,2) NOT NULL,
+    mean_salary_usd DECIMAL(12,2) NOT NULL,
+    p25_salary_usd DECIMAL(12,2) NOT NULL,
+    p75_salary_usd DECIMAL(12,2) NOT NULL,
+    remote_share_pct DECIMAL(8,4) NULL,
+    PRIMARY KEY (segment_type, segment_value, year_num)
+) ENGINE=InnoDB;

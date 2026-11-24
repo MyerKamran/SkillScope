@@ -42,7 +42,7 @@ export function SimulatorPage({
       .then((json) => {
         if (active) setSimResult(json);
       })
-      .catch(() => {});
+      .catch(() => { });
     return () => {
       active = false;
     };
@@ -90,9 +90,26 @@ export function SimulatorPage({
     }
   };
 
+  const closeModalRef = React.useRef(null);
+
+  useEffect(() => {
+    if (!drillSkill) return undefined;
+    const onKeyDown = (e) => {
+      if (e.key === 'Escape') setDrillSkill(null);
+    };
+    document.addEventListener('keydown', onKeyDown);
+    const rafId = window.requestAnimationFrame(() => closeModalRef.current?.focus());
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      window.cancelAnimationFrame(rafId);
+    };
+  }, [drillSkill]);
+
   const drillPostings = useMemo(() => {
     if (!drillSkill) return [];
-    return (data.sample_postings || []).filter((p) => p.skill_key === drillSkill.skill_key);
+    return (data.sample_postings || []).filter(
+      (p) => Number(p.skill_key) === Number(drillSkill.skill_key)
+    );
   }, [data.sample_postings, drillSkill]);
 
   return (
@@ -263,48 +280,83 @@ export function SimulatorPage({
       <AnimatePresence>
         {drillSkill && (
           <motion.div
-            key="drill-drawer"
-            className="panel"
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 14 }}
-            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+            key="drill-modal-backdrop"
+            className="drill-modal-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.22 }}
+            onClick={() => setDrillSkill(null)}
           >
-            <h3>
-              <span>Drill-Through: Sample LinkedIn Postings Requesting &ldquo;{drillSkill.skill_name}&rdquo;</span>
-              <button className="preset-btn" type="button" onClick={() => setDrillSkill(null)}>
-                <X size={14} style={{ verticalAlign: 'middle', marginRight: 4 }} />
-                Close
-              </button>
-            </h3>
-            <div className="table-wrapper" tabIndex={0}>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Posting Key</th>
-                    <th>Job Title</th>
-                    <th>City / Region</th>
-                    <th>Work Type</th>
-                    <th>Annual Salary (USD)</th>
-                    <th>NLP Confidence</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {drillPostings.map((p) => (
-                    <tr key={p.posting_key}>
-                      <td data-label="Posting" className="mono">#{p.posting_key}</td>
-                      <td data-label="Job Title"><strong>{p.raw_job_title}</strong></td>
-                      <td data-label="City / Region">{p.city || 'Remote'}, {p.region || ''}</td>
-                      <td data-label="Work Type">{p.work_type}</td>
-                      <td data-label="Salary USD" className="mono">
-                        {p.salary_annual_usd ? `$${Math.round(p.salary_annual_usd).toLocaleString()}` : 'Not Disclosed'}
-                      </td>
-                      <td data-label="Confidence" className="mono">{(Number(p.confidence) * 100).toFixed(1)}%</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <motion.div
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="drill-modal-title"
+              className="drill-modal"
+              initial={{ opacity: 0, y: 18, scale: 0.96 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 12, scale: 0.97 }}
+              transition={{ duration: 0.26, ease: [0.22, 1, 0.36, 1] }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="drill-modal-head">
+                <div>
+                  <h3 id="drill-modal-title" className="drill-modal-title">
+                    Sample LinkedIn Postings Requesting &ldquo;{drillSkill.skill_name}&rdquo;
+                  </h3>
+                  <span className="badge badge-coral" style={{ marginTop: 6 }}>
+                    {drillPostings.length} Verified Postings from {data.data_source?.engine || 'Warehouse'}
+                  </span>
+                </div>
+                <button
+                  ref={closeModalRef}
+                  className="preset-btn"
+                  type="button"
+                  onClick={() => setDrillSkill(null)}
+                  aria-label="Close drill-through postings modal"
+                >
+                  <X size={14} style={{ verticalAlign: 'middle', marginRight: 4 }} />
+                  Close
+                </button>
+              </div>
+
+              <div className="table-wrapper" style={{ maxHeight: '58vh' }} tabIndex={0}>
+                {drillPostings.length > 0 ? (
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Posting Key</th>
+                        <th>Job Title</th>
+                        <th>City / Region</th>
+                        <th>Work Type</th>
+                        <th>Annual Salary (USD)</th>
+                        <th>NLP Confidence</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {drillPostings.map((p) => (
+                        <tr key={p.posting_key}>
+                          <td data-label="Posting" className="mono">#{p.posting_key}</td>
+                          <td data-label="Job Title"><strong>{p.raw_job_title}</strong></td>
+                          <td data-label="City / Region">
+                            {p.city || 'Remote'}{p.region ? `, ${p.region}` : ''}
+                          </td>
+                          <td data-label="Work Type">{p.work_type}</td>
+                          <td data-label="Salary USD" className="mono">
+                            {p.salary_annual_usd ? `$${Math.round(p.salary_annual_usd).toLocaleString()}` : 'Not Disclosed'}
+                          </td>
+                          <td data-label="Confidence" className="mono">{(Number(p.confidence) * 100).toFixed(1)}%</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : (
+                  <div style={{ padding: 24, color: 'var(--muted)', textAlign: 'center' }}>
+                    No sample postings matched skill #{drillSkill.skill_key} in this snapshot.
+                  </div>
+                )}
+              </div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -317,7 +369,7 @@ export function AnalyzerView({ data, onSendSkillsToSimulator }) {
   const [title, setTitle] = useState(sampleJds[0]?.title || 'Staff Data Engineer (SaaS)');
   const [description, setDescription] = useState(
     sampleJds[0]?.description ||
-      'Looking for Python, SQL, Apache Spark, Snowflake, dbt, Airflow, Docker, Kubernetes, and AWS.'
+    'Looking for Python, SQL, Apache Spark, Snowflake, dbt, Airflow, Docker, Kubernetes, and AWS.'
   );
   const [nlpOut, setNlpOut] = useState(null);
   const [loadingNlp, setLoadingNlp] = useState(false);
@@ -569,7 +621,11 @@ export function WarehouseView({ data }) {
 
       <EditorialPanel
         title="Live MySQL 8.0 Schema Verification, SCD Type 1/2 & EXPLAIN ANALYZE Benchmarks"
-        subtitle="skillscope_dw @ 127.0.0.1:3306"
+        subtitle={
+          data.data_source?.engine === 'MySQL 8.0'
+            ? `Active Source: Live SQL (${data.data_source.database} @ ${data.data_source.host})`
+            : `Fallback Source: Gold Parquet (${data.data_source?.reason || 'MySQL offline'})`
+        }
       >
         <div className="nlp-highlighted-text mono" style={{ maxHeight: 360, fontSize: '0.75rem', whiteSpace: 'pre-wrap' }}>
           {bm.composite_btree_used

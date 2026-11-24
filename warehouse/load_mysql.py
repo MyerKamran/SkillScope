@@ -261,6 +261,32 @@ def load_warehouse(user=None, password=None):
         upsert_table(conn, tbl, cols, pks, df, batch_size=5000)
         print(f"  -> Loaded fact table `{tbl}` ({len(df):,} rows)")
 
+    # 3b. Load Gold Analytical Summary Tables (shared directly by Website SQL & Power BI)
+    gold_summary_specs = [
+        ("gold_monthly_skill_demand", ["year_month", "year_num", "month_num", "skill_key", "skill_name", "posting_mentions", "avg_salary_usd", "month_total_postings", "demand_share_pct", "record_type", "ci_lower", "ci_upper"]),
+        ("gold_skill_cooccurrence", ["skill_key_a", "skill_name_a", "skill_key_b", "skill_name_b", "co_posting_count", "jaccard_index", "conditional_prob", "cooccurrence_strength"]),
+        ("gold_role_skill_profiles", ["role_key", "skill_key", "skill_name", "posting_count", "role_total_postings", "demand_pct", "salary_sample_count", "median_skill_salary_usd", "role_base_salary_usd", "salary_premium_pct", "role_lift", "is_core_skill", "is_differentiating"]),
+        ("gold_survey_vs_market", ["skill_key", "skill_name", "category_key", "market_posting_count", "market_demand_pct", "survey_respondent_count", "survey_usage_pct", "supply_demand_gap_pct", "market_median_salary_usd", "survey_median_salary_usd"]),
+        ("gold_skill_yoy_growth", ["skill_key", "skill_name", "mentions_2023", "mentions_2024", "total_mentions", "wave1_share_pct", "wave2_share_pct", "share_change_pp", "yoy_growth_pct", "category_key", "is_emerging", "category_name", "parent_category"]),
+        ("gold_salary_key_influencers", ["factor_name", "importance_pct", "median_salary_impact_usd"]),
+        ("gold_historical_skill_forecast", ["year_num", "skill_key", "skill_name", "category_name", "adoption_pct", "respondent_count", "median_salary_usd", "record_type", "ci_lower_pct", "ci_upper_pct"]),
+        ("gold_historical_skill_growth", ["skill_key", "skill_name", "category_name", "parent_category", "baseline_year", "adoption_2020_pct", "adoption_2025_pct", "peak_adoption_pct", "delta_pp", "relative_change_pct", "cagr_pct", "comparable_2020_2025", "respondents_2025", "median_salary_2025_usd"]),
+        ("gold_historical_salary_trends", ["segment_type", "segment_value", "year_num", "record_count", "median_salary_usd", "mean_salary_usd", "p25_salary_usd", "p75_salary_usd", "remote_share_pct"]),
+    ]
+    for tbl, cols in gold_summary_specs:
+        pq_path = os.path.join(GOLD_DIR, f"{tbl}.parquet")
+        if not os.path.exists(pq_path):
+            continue
+        df_g = pd.read_parquet(pq_path)
+        with conn.cursor() as cur:
+            cur.execute(f"TRUNCATE TABLE `{tbl}`")
+        conn.commit()
+        col_list = ", ".join([f"`{c}`" for c in cols])
+        placeholders = ", ".join(["%s"] * len(cols))
+        sql_ins = f"INSERT INTO `{tbl}` ({col_list}) VALUES ({placeholders})"
+        batch_insert(conn, sql_ins, clean_nan(df_g[cols]), batch_size=5000)
+        print(f"  -> Loaded Gold summary table `{tbl}` ({len(df_g):,} rows)")
+
     # 4. SCD Type 1 & Type 2 Demonstration
     scd_info = demonstrate_scd_type1_and_type2(conn)
 

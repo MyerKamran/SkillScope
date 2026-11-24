@@ -2154,3 +2154,52 @@ mark.skill-hl {
     font-size: 0.78rem;
   }
 }
+
+/* --- Centered Drill-Through Modal Overlay --- */
+.drill-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  background: rgba(11, 10, 36, 0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.drill-modal {
+  width: min(960px, 95vw);
+  max-height: 84vh;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: var(--surface-grad);
+  border: 1px solid var(--gold-hairline);
+  border-radius: 22px;
+  padding: 26px 28px;
+  box-shadow: var(--shadow-hover);
+}
+
+.drill-modal-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.drill-modal-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.32rem;
+  color: var(--text);
+}
+
+@media (forced-colors: active) {
+  .drill-modal {
+    border: 2px solid CanvasText !important;
+  }
+}
